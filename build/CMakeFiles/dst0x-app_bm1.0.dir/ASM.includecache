@@ -6,5 +6,47 @@
 
 #IncludeRegexTransform: 
 
+/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/include/tx_user.h
+
+/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_misra.S
+tx_user.h
+/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_user.h
+
+/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.S
+tx_user.h
+/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_user.h
+
+/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.S
+tx_user.h
+/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_user.h
+
+/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S
+tx_user.h
+/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_user.h
+
+/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_disable.S
+tx_user.h
+/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_user.h
+
+/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_restore.S
+tx_user.h
+/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_user.h
+
+/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.S
+tx_user.h
+/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_user.h
+
+/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.S
+tx_user.h
+/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_user.h
+
+/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.S
+tx_user.h
+/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_user.h
+
+/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.S
+tx_user.h
+/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_user.h
+
 /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/startup/startup_stm32f412retx.s
 

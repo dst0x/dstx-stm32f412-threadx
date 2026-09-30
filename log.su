@@ -1,0 +1,2 @@
+middleware/log/log.c:11:6:Log_Init	16	static
+middleware/log/log.c:19:6:Log_Put	148	static

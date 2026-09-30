@@ -177,6 +177,54 @@ bsp/src/bsp.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp.c.s
 .PHONY : bsp/src/bsp.c.s
 
+bsp/src/bsp_gpio.obj: bsp/src/bsp_gpio.c.obj
+.PHONY : bsp/src/bsp_gpio.obj
+
+# target to build an object file
+bsp/src/bsp_gpio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_gpio.c.obj
+.PHONY : bsp/src/bsp_gpio.c.obj
+
+bsp/src/bsp_gpio.i: bsp/src/bsp_gpio.c.i
+.PHONY : bsp/src/bsp_gpio.i
+
+# target to preprocess a source file
+bsp/src/bsp_gpio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_gpio.c.i
+.PHONY : bsp/src/bsp_gpio.c.i
+
+bsp/src/bsp_gpio.s: bsp/src/bsp_gpio.c.s
+.PHONY : bsp/src/bsp_gpio.s
+
+# target to generate assembly for a file
+bsp/src/bsp_gpio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_gpio.c.s
+.PHONY : bsp/src/bsp_gpio.c.s
+
+bsp/src/bsp_usart.obj: bsp/src/bsp_usart.c.obj
+.PHONY : bsp/src/bsp_usart.obj
+
+# target to build an object file
+bsp/src/bsp_usart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_usart.c.obj
+.PHONY : bsp/src/bsp_usart.c.obj
+
+bsp/src/bsp_usart.i: bsp/src/bsp_usart.c.i
+.PHONY : bsp/src/bsp_usart.i
+
+# target to preprocess a source file
+bsp/src/bsp_usart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_usart.c.i
+.PHONY : bsp/src/bsp_usart.c.i
+
+bsp/src/bsp_usart.s: bsp/src/bsp_usart.c.s
+.PHONY : bsp/src/bsp_usart.s
+
+# target to generate assembly for a file
+bsp/src/bsp_usart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_usart.c.s
+.PHONY : bsp/src/bsp_usart.c.s
+
 bsp/src/system_stm32f4xx.obj: bsp/src/system_stm32f4xx.c.obj
 .PHONY : bsp/src/system_stm32f4xx.obj
 
@@ -201,6 +249,30 @@ bsp/src/system_stm32f4xx.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/system_stm32f4xx.c.s
 .PHONY : bsp/src/system_stm32f4xx.c.s
 
+bsp/src/tx_initialize_low_level.obj: bsp/src/tx_initialize_low_level.c.obj
+.PHONY : bsp/src/tx_initialize_low_level.obj
+
+# target to build an object file
+bsp/src/tx_initialize_low_level.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/tx_initialize_low_level.c.obj
+.PHONY : bsp/src/tx_initialize_low_level.c.obj
+
+bsp/src/tx_initialize_low_level.i: bsp/src/tx_initialize_low_level.c.i
+.PHONY : bsp/src/tx_initialize_low_level.i
+
+# target to preprocess a source file
+bsp/src/tx_initialize_low_level.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/tx_initialize_low_level.c.i
+.PHONY : bsp/src/tx_initialize_low_level.c.i
+
+bsp/src/tx_initialize_low_level.s: bsp/src/tx_initialize_low_level.c.s
+.PHONY : bsp/src/tx_initialize_low_level.s
+
+# target to generate assembly for a file
+bsp/src/tx_initialize_low_level.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/tx_initialize_low_level.c.s
+.PHONY : bsp/src/tx_initialize_low_level.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -224,6 +296,30 @@ main.s: main.c.s
 main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/main.c.s
 .PHONY : main.c.s
+
+middleware/log/log.obj: middleware/log/log.c.obj
+.PHONY : middleware/log/log.obj
+
+# target to build an object file
+middleware/log/log.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/log/log.c.obj
+.PHONY : middleware/log/log.c.obj
+
+middleware/log/log.i: middleware/log/log.c.i
+.PHONY : middleware/log/log.i
+
+# target to preprocess a source file
+middleware/log/log.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/log/log.c.i
+.PHONY : middleware/log/log.c.i
+
+middleware/log/log.s: middleware/log/log.c.s
+.PHONY : middleware/log/log.s
+
+# target to generate assembly for a file
+middleware/log/log.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/log/log.c.s
+.PHONY : middleware/log/log.c.s
 
 middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal.obj: middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal.c.obj
 .PHONY : middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal.obj
@@ -585,6 +681,4526 @@ middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_uart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_uart.c.s
 .PHONY : middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_uart.c.s
 
+middleware/threadx/common/src/tx_block_allocate.obj: middleware/threadx/common/src/tx_block_allocate.c.obj
+.PHONY : middleware/threadx/common/src/tx_block_allocate.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_block_allocate.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_allocate.c.obj
+.PHONY : middleware/threadx/common/src/tx_block_allocate.c.obj
+
+middleware/threadx/common/src/tx_block_allocate.i: middleware/threadx/common/src/tx_block_allocate.c.i
+.PHONY : middleware/threadx/common/src/tx_block_allocate.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_block_allocate.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_allocate.c.i
+.PHONY : middleware/threadx/common/src/tx_block_allocate.c.i
+
+middleware/threadx/common/src/tx_block_allocate.s: middleware/threadx/common/src/tx_block_allocate.c.s
+.PHONY : middleware/threadx/common/src/tx_block_allocate.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_block_allocate.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_allocate.c.s
+.PHONY : middleware/threadx/common/src/tx_block_allocate.c.s
+
+middleware/threadx/common/src/tx_block_pool_cleanup.obj: middleware/threadx/common/src/tx_block_pool_cleanup.c.obj
+.PHONY : middleware/threadx/common/src/tx_block_pool_cleanup.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_block_pool_cleanup.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_cleanup.c.obj
+.PHONY : middleware/threadx/common/src/tx_block_pool_cleanup.c.obj
+
+middleware/threadx/common/src/tx_block_pool_cleanup.i: middleware/threadx/common/src/tx_block_pool_cleanup.c.i
+.PHONY : middleware/threadx/common/src/tx_block_pool_cleanup.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_block_pool_cleanup.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_cleanup.c.i
+.PHONY : middleware/threadx/common/src/tx_block_pool_cleanup.c.i
+
+middleware/threadx/common/src/tx_block_pool_cleanup.s: middleware/threadx/common/src/tx_block_pool_cleanup.c.s
+.PHONY : middleware/threadx/common/src/tx_block_pool_cleanup.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_block_pool_cleanup.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_cleanup.c.s
+.PHONY : middleware/threadx/common/src/tx_block_pool_cleanup.c.s
+
+middleware/threadx/common/src/tx_block_pool_create.obj: middleware/threadx/common/src/tx_block_pool_create.c.obj
+.PHONY : middleware/threadx/common/src/tx_block_pool_create.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_block_pool_create.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_create.c.obj
+.PHONY : middleware/threadx/common/src/tx_block_pool_create.c.obj
+
+middleware/threadx/common/src/tx_block_pool_create.i: middleware/threadx/common/src/tx_block_pool_create.c.i
+.PHONY : middleware/threadx/common/src/tx_block_pool_create.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_block_pool_create.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_create.c.i
+.PHONY : middleware/threadx/common/src/tx_block_pool_create.c.i
+
+middleware/threadx/common/src/tx_block_pool_create.s: middleware/threadx/common/src/tx_block_pool_create.c.s
+.PHONY : middleware/threadx/common/src/tx_block_pool_create.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_block_pool_create.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_create.c.s
+.PHONY : middleware/threadx/common/src/tx_block_pool_create.c.s
+
+middleware/threadx/common/src/tx_block_pool_delete.obj: middleware/threadx/common/src/tx_block_pool_delete.c.obj
+.PHONY : middleware/threadx/common/src/tx_block_pool_delete.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_block_pool_delete.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_delete.c.obj
+.PHONY : middleware/threadx/common/src/tx_block_pool_delete.c.obj
+
+middleware/threadx/common/src/tx_block_pool_delete.i: middleware/threadx/common/src/tx_block_pool_delete.c.i
+.PHONY : middleware/threadx/common/src/tx_block_pool_delete.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_block_pool_delete.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_delete.c.i
+.PHONY : middleware/threadx/common/src/tx_block_pool_delete.c.i
+
+middleware/threadx/common/src/tx_block_pool_delete.s: middleware/threadx/common/src/tx_block_pool_delete.c.s
+.PHONY : middleware/threadx/common/src/tx_block_pool_delete.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_block_pool_delete.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_delete.c.s
+.PHONY : middleware/threadx/common/src/tx_block_pool_delete.c.s
+
+middleware/threadx/common/src/tx_block_pool_info_get.obj: middleware/threadx/common/src/tx_block_pool_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_block_pool_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_block_pool_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_block_pool_info_get.c.obj
+
+middleware/threadx/common/src/tx_block_pool_info_get.i: middleware/threadx/common/src/tx_block_pool_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_block_pool_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_block_pool_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_block_pool_info_get.c.i
+
+middleware/threadx/common/src/tx_block_pool_info_get.s: middleware/threadx/common/src/tx_block_pool_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_block_pool_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_block_pool_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_block_pool_info_get.c.s
+
+middleware/threadx/common/src/tx_block_pool_initialize.obj: middleware/threadx/common/src/tx_block_pool_initialize.c.obj
+.PHONY : middleware/threadx/common/src/tx_block_pool_initialize.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_block_pool_initialize.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_initialize.c.obj
+.PHONY : middleware/threadx/common/src/tx_block_pool_initialize.c.obj
+
+middleware/threadx/common/src/tx_block_pool_initialize.i: middleware/threadx/common/src/tx_block_pool_initialize.c.i
+.PHONY : middleware/threadx/common/src/tx_block_pool_initialize.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_block_pool_initialize.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_initialize.c.i
+.PHONY : middleware/threadx/common/src/tx_block_pool_initialize.c.i
+
+middleware/threadx/common/src/tx_block_pool_initialize.s: middleware/threadx/common/src/tx_block_pool_initialize.c.s
+.PHONY : middleware/threadx/common/src/tx_block_pool_initialize.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_block_pool_initialize.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_initialize.c.s
+.PHONY : middleware/threadx/common/src/tx_block_pool_initialize.c.s
+
+middleware/threadx/common/src/tx_block_pool_performance_info_get.obj: middleware/threadx/common/src/tx_block_pool_performance_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_block_pool_performance_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_block_pool_performance_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_block_pool_performance_info_get.c.obj
+
+middleware/threadx/common/src/tx_block_pool_performance_info_get.i: middleware/threadx/common/src/tx_block_pool_performance_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_block_pool_performance_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_block_pool_performance_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_block_pool_performance_info_get.c.i
+
+middleware/threadx/common/src/tx_block_pool_performance_info_get.s: middleware/threadx/common/src/tx_block_pool_performance_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_block_pool_performance_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_block_pool_performance_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_block_pool_performance_info_get.c.s
+
+middleware/threadx/common/src/tx_block_pool_performance_system_info_get.obj: middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_block_pool_performance_system_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c.obj
+
+middleware/threadx/common/src/tx_block_pool_performance_system_info_get.i: middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_block_pool_performance_system_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c.i
+
+middleware/threadx/common/src/tx_block_pool_performance_system_info_get.s: middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_block_pool_performance_system_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c.s
+
+middleware/threadx/common/src/tx_block_pool_prioritize.obj: middleware/threadx/common/src/tx_block_pool_prioritize.c.obj
+.PHONY : middleware/threadx/common/src/tx_block_pool_prioritize.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_block_pool_prioritize.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_prioritize.c.obj
+.PHONY : middleware/threadx/common/src/tx_block_pool_prioritize.c.obj
+
+middleware/threadx/common/src/tx_block_pool_prioritize.i: middleware/threadx/common/src/tx_block_pool_prioritize.c.i
+.PHONY : middleware/threadx/common/src/tx_block_pool_prioritize.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_block_pool_prioritize.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_prioritize.c.i
+.PHONY : middleware/threadx/common/src/tx_block_pool_prioritize.c.i
+
+middleware/threadx/common/src/tx_block_pool_prioritize.s: middleware/threadx/common/src/tx_block_pool_prioritize.c.s
+.PHONY : middleware/threadx/common/src/tx_block_pool_prioritize.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_block_pool_prioritize.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_prioritize.c.s
+.PHONY : middleware/threadx/common/src/tx_block_pool_prioritize.c.s
+
+middleware/threadx/common/src/tx_block_release.obj: middleware/threadx/common/src/tx_block_release.c.obj
+.PHONY : middleware/threadx/common/src/tx_block_release.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_block_release.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_release.c.obj
+.PHONY : middleware/threadx/common/src/tx_block_release.c.obj
+
+middleware/threadx/common/src/tx_block_release.i: middleware/threadx/common/src/tx_block_release.c.i
+.PHONY : middleware/threadx/common/src/tx_block_release.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_block_release.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_release.c.i
+.PHONY : middleware/threadx/common/src/tx_block_release.c.i
+
+middleware/threadx/common/src/tx_block_release.s: middleware/threadx/common/src/tx_block_release.c.s
+.PHONY : middleware/threadx/common/src/tx_block_release.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_block_release.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_release.c.s
+.PHONY : middleware/threadx/common/src/tx_block_release.c.s
+
+middleware/threadx/common/src/tx_byte_allocate.obj: middleware/threadx/common/src/tx_byte_allocate.c.obj
+.PHONY : middleware/threadx/common/src/tx_byte_allocate.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_byte_allocate.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_allocate.c.obj
+.PHONY : middleware/threadx/common/src/tx_byte_allocate.c.obj
+
+middleware/threadx/common/src/tx_byte_allocate.i: middleware/threadx/common/src/tx_byte_allocate.c.i
+.PHONY : middleware/threadx/common/src/tx_byte_allocate.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_byte_allocate.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_allocate.c.i
+.PHONY : middleware/threadx/common/src/tx_byte_allocate.c.i
+
+middleware/threadx/common/src/tx_byte_allocate.s: middleware/threadx/common/src/tx_byte_allocate.c.s
+.PHONY : middleware/threadx/common/src/tx_byte_allocate.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_byte_allocate.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_allocate.c.s
+.PHONY : middleware/threadx/common/src/tx_byte_allocate.c.s
+
+middleware/threadx/common/src/tx_byte_pool_cleanup.obj: middleware/threadx/common/src/tx_byte_pool_cleanup.c.obj
+.PHONY : middleware/threadx/common/src/tx_byte_pool_cleanup.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_byte_pool_cleanup.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_cleanup.c.obj
+.PHONY : middleware/threadx/common/src/tx_byte_pool_cleanup.c.obj
+
+middleware/threadx/common/src/tx_byte_pool_cleanup.i: middleware/threadx/common/src/tx_byte_pool_cleanup.c.i
+.PHONY : middleware/threadx/common/src/tx_byte_pool_cleanup.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_byte_pool_cleanup.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_cleanup.c.i
+.PHONY : middleware/threadx/common/src/tx_byte_pool_cleanup.c.i
+
+middleware/threadx/common/src/tx_byte_pool_cleanup.s: middleware/threadx/common/src/tx_byte_pool_cleanup.c.s
+.PHONY : middleware/threadx/common/src/tx_byte_pool_cleanup.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_byte_pool_cleanup.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_cleanup.c.s
+.PHONY : middleware/threadx/common/src/tx_byte_pool_cleanup.c.s
+
+middleware/threadx/common/src/tx_byte_pool_create.obj: middleware/threadx/common/src/tx_byte_pool_create.c.obj
+.PHONY : middleware/threadx/common/src/tx_byte_pool_create.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_byte_pool_create.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_create.c.obj
+.PHONY : middleware/threadx/common/src/tx_byte_pool_create.c.obj
+
+middleware/threadx/common/src/tx_byte_pool_create.i: middleware/threadx/common/src/tx_byte_pool_create.c.i
+.PHONY : middleware/threadx/common/src/tx_byte_pool_create.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_byte_pool_create.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_create.c.i
+.PHONY : middleware/threadx/common/src/tx_byte_pool_create.c.i
+
+middleware/threadx/common/src/tx_byte_pool_create.s: middleware/threadx/common/src/tx_byte_pool_create.c.s
+.PHONY : middleware/threadx/common/src/tx_byte_pool_create.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_byte_pool_create.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_create.c.s
+.PHONY : middleware/threadx/common/src/tx_byte_pool_create.c.s
+
+middleware/threadx/common/src/tx_byte_pool_delete.obj: middleware/threadx/common/src/tx_byte_pool_delete.c.obj
+.PHONY : middleware/threadx/common/src/tx_byte_pool_delete.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_byte_pool_delete.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_delete.c.obj
+.PHONY : middleware/threadx/common/src/tx_byte_pool_delete.c.obj
+
+middleware/threadx/common/src/tx_byte_pool_delete.i: middleware/threadx/common/src/tx_byte_pool_delete.c.i
+.PHONY : middleware/threadx/common/src/tx_byte_pool_delete.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_byte_pool_delete.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_delete.c.i
+.PHONY : middleware/threadx/common/src/tx_byte_pool_delete.c.i
+
+middleware/threadx/common/src/tx_byte_pool_delete.s: middleware/threadx/common/src/tx_byte_pool_delete.c.s
+.PHONY : middleware/threadx/common/src/tx_byte_pool_delete.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_byte_pool_delete.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_delete.c.s
+.PHONY : middleware/threadx/common/src/tx_byte_pool_delete.c.s
+
+middleware/threadx/common/src/tx_byte_pool_info_get.obj: middleware/threadx/common/src/tx_byte_pool_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_byte_pool_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_byte_pool_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_byte_pool_info_get.c.obj
+
+middleware/threadx/common/src/tx_byte_pool_info_get.i: middleware/threadx/common/src/tx_byte_pool_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_byte_pool_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_byte_pool_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_byte_pool_info_get.c.i
+
+middleware/threadx/common/src/tx_byte_pool_info_get.s: middleware/threadx/common/src/tx_byte_pool_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_byte_pool_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_byte_pool_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_byte_pool_info_get.c.s
+
+middleware/threadx/common/src/tx_byte_pool_initialize.obj: middleware/threadx/common/src/tx_byte_pool_initialize.c.obj
+.PHONY : middleware/threadx/common/src/tx_byte_pool_initialize.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_byte_pool_initialize.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_initialize.c.obj
+.PHONY : middleware/threadx/common/src/tx_byte_pool_initialize.c.obj
+
+middleware/threadx/common/src/tx_byte_pool_initialize.i: middleware/threadx/common/src/tx_byte_pool_initialize.c.i
+.PHONY : middleware/threadx/common/src/tx_byte_pool_initialize.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_byte_pool_initialize.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_initialize.c.i
+.PHONY : middleware/threadx/common/src/tx_byte_pool_initialize.c.i
+
+middleware/threadx/common/src/tx_byte_pool_initialize.s: middleware/threadx/common/src/tx_byte_pool_initialize.c.s
+.PHONY : middleware/threadx/common/src/tx_byte_pool_initialize.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_byte_pool_initialize.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_initialize.c.s
+.PHONY : middleware/threadx/common/src/tx_byte_pool_initialize.c.s
+
+middleware/threadx/common/src/tx_byte_pool_performance_info_get.obj: middleware/threadx/common/src/tx_byte_pool_performance_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_byte_pool_performance_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_byte_pool_performance_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_byte_pool_performance_info_get.c.obj
+
+middleware/threadx/common/src/tx_byte_pool_performance_info_get.i: middleware/threadx/common/src/tx_byte_pool_performance_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_byte_pool_performance_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_byte_pool_performance_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_byte_pool_performance_info_get.c.i
+
+middleware/threadx/common/src/tx_byte_pool_performance_info_get.s: middleware/threadx/common/src/tx_byte_pool_performance_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_byte_pool_performance_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_byte_pool_performance_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_byte_pool_performance_info_get.c.s
+
+middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.obj: middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c.obj
+
+middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.i: middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c.i
+
+middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.s: middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c.s
+
+middleware/threadx/common/src/tx_byte_pool_prioritize.obj: middleware/threadx/common/src/tx_byte_pool_prioritize.c.obj
+.PHONY : middleware/threadx/common/src/tx_byte_pool_prioritize.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_byte_pool_prioritize.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_prioritize.c.obj
+.PHONY : middleware/threadx/common/src/tx_byte_pool_prioritize.c.obj
+
+middleware/threadx/common/src/tx_byte_pool_prioritize.i: middleware/threadx/common/src/tx_byte_pool_prioritize.c.i
+.PHONY : middleware/threadx/common/src/tx_byte_pool_prioritize.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_byte_pool_prioritize.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_prioritize.c.i
+.PHONY : middleware/threadx/common/src/tx_byte_pool_prioritize.c.i
+
+middleware/threadx/common/src/tx_byte_pool_prioritize.s: middleware/threadx/common/src/tx_byte_pool_prioritize.c.s
+.PHONY : middleware/threadx/common/src/tx_byte_pool_prioritize.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_byte_pool_prioritize.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_prioritize.c.s
+.PHONY : middleware/threadx/common/src/tx_byte_pool_prioritize.c.s
+
+middleware/threadx/common/src/tx_byte_pool_search.obj: middleware/threadx/common/src/tx_byte_pool_search.c.obj
+.PHONY : middleware/threadx/common/src/tx_byte_pool_search.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_byte_pool_search.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_search.c.obj
+.PHONY : middleware/threadx/common/src/tx_byte_pool_search.c.obj
+
+middleware/threadx/common/src/tx_byte_pool_search.i: middleware/threadx/common/src/tx_byte_pool_search.c.i
+.PHONY : middleware/threadx/common/src/tx_byte_pool_search.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_byte_pool_search.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_search.c.i
+.PHONY : middleware/threadx/common/src/tx_byte_pool_search.c.i
+
+middleware/threadx/common/src/tx_byte_pool_search.s: middleware/threadx/common/src/tx_byte_pool_search.c.s
+.PHONY : middleware/threadx/common/src/tx_byte_pool_search.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_byte_pool_search.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_search.c.s
+.PHONY : middleware/threadx/common/src/tx_byte_pool_search.c.s
+
+middleware/threadx/common/src/tx_byte_release.obj: middleware/threadx/common/src/tx_byte_release.c.obj
+.PHONY : middleware/threadx/common/src/tx_byte_release.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_byte_release.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_release.c.obj
+.PHONY : middleware/threadx/common/src/tx_byte_release.c.obj
+
+middleware/threadx/common/src/tx_byte_release.i: middleware/threadx/common/src/tx_byte_release.c.i
+.PHONY : middleware/threadx/common/src/tx_byte_release.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_byte_release.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_release.c.i
+.PHONY : middleware/threadx/common/src/tx_byte_release.c.i
+
+middleware/threadx/common/src/tx_byte_release.s: middleware/threadx/common/src/tx_byte_release.c.s
+.PHONY : middleware/threadx/common/src/tx_byte_release.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_byte_release.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_release.c.s
+.PHONY : middleware/threadx/common/src/tx_byte_release.c.s
+
+middleware/threadx/common/src/tx_event_flags_cleanup.obj: middleware/threadx/common/src/tx_event_flags_cleanup.c.obj
+.PHONY : middleware/threadx/common/src/tx_event_flags_cleanup.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_event_flags_cleanup.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_cleanup.c.obj
+.PHONY : middleware/threadx/common/src/tx_event_flags_cleanup.c.obj
+
+middleware/threadx/common/src/tx_event_flags_cleanup.i: middleware/threadx/common/src/tx_event_flags_cleanup.c.i
+.PHONY : middleware/threadx/common/src/tx_event_flags_cleanup.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_event_flags_cleanup.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_cleanup.c.i
+.PHONY : middleware/threadx/common/src/tx_event_flags_cleanup.c.i
+
+middleware/threadx/common/src/tx_event_flags_cleanup.s: middleware/threadx/common/src/tx_event_flags_cleanup.c.s
+.PHONY : middleware/threadx/common/src/tx_event_flags_cleanup.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_event_flags_cleanup.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_cleanup.c.s
+.PHONY : middleware/threadx/common/src/tx_event_flags_cleanup.c.s
+
+middleware/threadx/common/src/tx_event_flags_create.obj: middleware/threadx/common/src/tx_event_flags_create.c.obj
+.PHONY : middleware/threadx/common/src/tx_event_flags_create.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_event_flags_create.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_create.c.obj
+.PHONY : middleware/threadx/common/src/tx_event_flags_create.c.obj
+
+middleware/threadx/common/src/tx_event_flags_create.i: middleware/threadx/common/src/tx_event_flags_create.c.i
+.PHONY : middleware/threadx/common/src/tx_event_flags_create.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_event_flags_create.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_create.c.i
+.PHONY : middleware/threadx/common/src/tx_event_flags_create.c.i
+
+middleware/threadx/common/src/tx_event_flags_create.s: middleware/threadx/common/src/tx_event_flags_create.c.s
+.PHONY : middleware/threadx/common/src/tx_event_flags_create.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_event_flags_create.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_create.c.s
+.PHONY : middleware/threadx/common/src/tx_event_flags_create.c.s
+
+middleware/threadx/common/src/tx_event_flags_delete.obj: middleware/threadx/common/src/tx_event_flags_delete.c.obj
+.PHONY : middleware/threadx/common/src/tx_event_flags_delete.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_event_flags_delete.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_delete.c.obj
+.PHONY : middleware/threadx/common/src/tx_event_flags_delete.c.obj
+
+middleware/threadx/common/src/tx_event_flags_delete.i: middleware/threadx/common/src/tx_event_flags_delete.c.i
+.PHONY : middleware/threadx/common/src/tx_event_flags_delete.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_event_flags_delete.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_delete.c.i
+.PHONY : middleware/threadx/common/src/tx_event_flags_delete.c.i
+
+middleware/threadx/common/src/tx_event_flags_delete.s: middleware/threadx/common/src/tx_event_flags_delete.c.s
+.PHONY : middleware/threadx/common/src/tx_event_flags_delete.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_event_flags_delete.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_delete.c.s
+.PHONY : middleware/threadx/common/src/tx_event_flags_delete.c.s
+
+middleware/threadx/common/src/tx_event_flags_get.obj: middleware/threadx/common/src/tx_event_flags_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_event_flags_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_event_flags_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_event_flags_get.c.obj
+
+middleware/threadx/common/src/tx_event_flags_get.i: middleware/threadx/common/src/tx_event_flags_get.c.i
+.PHONY : middleware/threadx/common/src/tx_event_flags_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_event_flags_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_get.c.i
+.PHONY : middleware/threadx/common/src/tx_event_flags_get.c.i
+
+middleware/threadx/common/src/tx_event_flags_get.s: middleware/threadx/common/src/tx_event_flags_get.c.s
+.PHONY : middleware/threadx/common/src/tx_event_flags_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_event_flags_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_get.c.s
+.PHONY : middleware/threadx/common/src/tx_event_flags_get.c.s
+
+middleware/threadx/common/src/tx_event_flags_info_get.obj: middleware/threadx/common/src/tx_event_flags_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_event_flags_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_event_flags_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_event_flags_info_get.c.obj
+
+middleware/threadx/common/src/tx_event_flags_info_get.i: middleware/threadx/common/src/tx_event_flags_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_event_flags_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_event_flags_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_event_flags_info_get.c.i
+
+middleware/threadx/common/src/tx_event_flags_info_get.s: middleware/threadx/common/src/tx_event_flags_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_event_flags_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_event_flags_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_event_flags_info_get.c.s
+
+middleware/threadx/common/src/tx_event_flags_initialize.obj: middleware/threadx/common/src/tx_event_flags_initialize.c.obj
+.PHONY : middleware/threadx/common/src/tx_event_flags_initialize.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_event_flags_initialize.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_initialize.c.obj
+.PHONY : middleware/threadx/common/src/tx_event_flags_initialize.c.obj
+
+middleware/threadx/common/src/tx_event_flags_initialize.i: middleware/threadx/common/src/tx_event_flags_initialize.c.i
+.PHONY : middleware/threadx/common/src/tx_event_flags_initialize.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_event_flags_initialize.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_initialize.c.i
+.PHONY : middleware/threadx/common/src/tx_event_flags_initialize.c.i
+
+middleware/threadx/common/src/tx_event_flags_initialize.s: middleware/threadx/common/src/tx_event_flags_initialize.c.s
+.PHONY : middleware/threadx/common/src/tx_event_flags_initialize.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_event_flags_initialize.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_initialize.c.s
+.PHONY : middleware/threadx/common/src/tx_event_flags_initialize.c.s
+
+middleware/threadx/common/src/tx_event_flags_performance_info_get.obj: middleware/threadx/common/src/tx_event_flags_performance_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_event_flags_performance_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_event_flags_performance_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_event_flags_performance_info_get.c.obj
+
+middleware/threadx/common/src/tx_event_flags_performance_info_get.i: middleware/threadx/common/src/tx_event_flags_performance_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_event_flags_performance_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_event_flags_performance_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_event_flags_performance_info_get.c.i
+
+middleware/threadx/common/src/tx_event_flags_performance_info_get.s: middleware/threadx/common/src/tx_event_flags_performance_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_event_flags_performance_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_event_flags_performance_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_event_flags_performance_info_get.c.s
+
+middleware/threadx/common/src/tx_event_flags_performance_system_info_get.obj: middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_event_flags_performance_system_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c.obj
+
+middleware/threadx/common/src/tx_event_flags_performance_system_info_get.i: middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_event_flags_performance_system_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c.i
+
+middleware/threadx/common/src/tx_event_flags_performance_system_info_get.s: middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_event_flags_performance_system_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c.s
+
+middleware/threadx/common/src/tx_event_flags_set.obj: middleware/threadx/common/src/tx_event_flags_set.c.obj
+.PHONY : middleware/threadx/common/src/tx_event_flags_set.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_event_flags_set.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set.c.obj
+.PHONY : middleware/threadx/common/src/tx_event_flags_set.c.obj
+
+middleware/threadx/common/src/tx_event_flags_set.i: middleware/threadx/common/src/tx_event_flags_set.c.i
+.PHONY : middleware/threadx/common/src/tx_event_flags_set.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_event_flags_set.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set.c.i
+.PHONY : middleware/threadx/common/src/tx_event_flags_set.c.i
+
+middleware/threadx/common/src/tx_event_flags_set.s: middleware/threadx/common/src/tx_event_flags_set.c.s
+.PHONY : middleware/threadx/common/src/tx_event_flags_set.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_event_flags_set.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set.c.s
+.PHONY : middleware/threadx/common/src/tx_event_flags_set.c.s
+
+middleware/threadx/common/src/tx_event_flags_set_notify.obj: middleware/threadx/common/src/tx_event_flags_set_notify.c.obj
+.PHONY : middleware/threadx/common/src/tx_event_flags_set_notify.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_event_flags_set_notify.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set_notify.c.obj
+.PHONY : middleware/threadx/common/src/tx_event_flags_set_notify.c.obj
+
+middleware/threadx/common/src/tx_event_flags_set_notify.i: middleware/threadx/common/src/tx_event_flags_set_notify.c.i
+.PHONY : middleware/threadx/common/src/tx_event_flags_set_notify.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_event_flags_set_notify.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set_notify.c.i
+.PHONY : middleware/threadx/common/src/tx_event_flags_set_notify.c.i
+
+middleware/threadx/common/src/tx_event_flags_set_notify.s: middleware/threadx/common/src/tx_event_flags_set_notify.c.s
+.PHONY : middleware/threadx/common/src/tx_event_flags_set_notify.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_event_flags_set_notify.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set_notify.c.s
+.PHONY : middleware/threadx/common/src/tx_event_flags_set_notify.c.s
+
+middleware/threadx/common/src/tx_initialize_high_level.obj: middleware/threadx/common/src/tx_initialize_high_level.c.obj
+.PHONY : middleware/threadx/common/src/tx_initialize_high_level.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_initialize_high_level.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_high_level.c.obj
+.PHONY : middleware/threadx/common/src/tx_initialize_high_level.c.obj
+
+middleware/threadx/common/src/tx_initialize_high_level.i: middleware/threadx/common/src/tx_initialize_high_level.c.i
+.PHONY : middleware/threadx/common/src/tx_initialize_high_level.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_initialize_high_level.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_high_level.c.i
+.PHONY : middleware/threadx/common/src/tx_initialize_high_level.c.i
+
+middleware/threadx/common/src/tx_initialize_high_level.s: middleware/threadx/common/src/tx_initialize_high_level.c.s
+.PHONY : middleware/threadx/common/src/tx_initialize_high_level.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_initialize_high_level.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_high_level.c.s
+.PHONY : middleware/threadx/common/src/tx_initialize_high_level.c.s
+
+middleware/threadx/common/src/tx_initialize_kernel_enter.obj: middleware/threadx/common/src/tx_initialize_kernel_enter.c.obj
+.PHONY : middleware/threadx/common/src/tx_initialize_kernel_enter.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_initialize_kernel_enter.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_enter.c.obj
+.PHONY : middleware/threadx/common/src/tx_initialize_kernel_enter.c.obj
+
+middleware/threadx/common/src/tx_initialize_kernel_enter.i: middleware/threadx/common/src/tx_initialize_kernel_enter.c.i
+.PHONY : middleware/threadx/common/src/tx_initialize_kernel_enter.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_initialize_kernel_enter.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_enter.c.i
+.PHONY : middleware/threadx/common/src/tx_initialize_kernel_enter.c.i
+
+middleware/threadx/common/src/tx_initialize_kernel_enter.s: middleware/threadx/common/src/tx_initialize_kernel_enter.c.s
+.PHONY : middleware/threadx/common/src/tx_initialize_kernel_enter.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_initialize_kernel_enter.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_enter.c.s
+.PHONY : middleware/threadx/common/src/tx_initialize_kernel_enter.c.s
+
+middleware/threadx/common/src/tx_initialize_kernel_setup.obj: middleware/threadx/common/src/tx_initialize_kernel_setup.c.obj
+.PHONY : middleware/threadx/common/src/tx_initialize_kernel_setup.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_initialize_kernel_setup.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_setup.c.obj
+.PHONY : middleware/threadx/common/src/tx_initialize_kernel_setup.c.obj
+
+middleware/threadx/common/src/tx_initialize_kernel_setup.i: middleware/threadx/common/src/tx_initialize_kernel_setup.c.i
+.PHONY : middleware/threadx/common/src/tx_initialize_kernel_setup.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_initialize_kernel_setup.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_setup.c.i
+.PHONY : middleware/threadx/common/src/tx_initialize_kernel_setup.c.i
+
+middleware/threadx/common/src/tx_initialize_kernel_setup.s: middleware/threadx/common/src/tx_initialize_kernel_setup.c.s
+.PHONY : middleware/threadx/common/src/tx_initialize_kernel_setup.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_initialize_kernel_setup.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_setup.c.s
+.PHONY : middleware/threadx/common/src/tx_initialize_kernel_setup.c.s
+
+middleware/threadx/common/src/tx_misra.obj: middleware/threadx/common/src/tx_misra.c.obj
+.PHONY : middleware/threadx/common/src/tx_misra.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_misra.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_misra.c.obj
+.PHONY : middleware/threadx/common/src/tx_misra.c.obj
+
+middleware/threadx/common/src/tx_misra.i: middleware/threadx/common/src/tx_misra.c.i
+.PHONY : middleware/threadx/common/src/tx_misra.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_misra.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_misra.c.i
+.PHONY : middleware/threadx/common/src/tx_misra.c.i
+
+middleware/threadx/common/src/tx_misra.s: middleware/threadx/common/src/tx_misra.c.s
+.PHONY : middleware/threadx/common/src/tx_misra.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_misra.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_misra.c.s
+.PHONY : middleware/threadx/common/src/tx_misra.c.s
+
+middleware/threadx/common/src/tx_mutex_cleanup.obj: middleware/threadx/common/src/tx_mutex_cleanup.c.obj
+.PHONY : middleware/threadx/common/src/tx_mutex_cleanup.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_mutex_cleanup.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_cleanup.c.obj
+.PHONY : middleware/threadx/common/src/tx_mutex_cleanup.c.obj
+
+middleware/threadx/common/src/tx_mutex_cleanup.i: middleware/threadx/common/src/tx_mutex_cleanup.c.i
+.PHONY : middleware/threadx/common/src/tx_mutex_cleanup.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_mutex_cleanup.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_cleanup.c.i
+.PHONY : middleware/threadx/common/src/tx_mutex_cleanup.c.i
+
+middleware/threadx/common/src/tx_mutex_cleanup.s: middleware/threadx/common/src/tx_mutex_cleanup.c.s
+.PHONY : middleware/threadx/common/src/tx_mutex_cleanup.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_mutex_cleanup.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_cleanup.c.s
+.PHONY : middleware/threadx/common/src/tx_mutex_cleanup.c.s
+
+middleware/threadx/common/src/tx_mutex_create.obj: middleware/threadx/common/src/tx_mutex_create.c.obj
+.PHONY : middleware/threadx/common/src/tx_mutex_create.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_mutex_create.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_create.c.obj
+.PHONY : middleware/threadx/common/src/tx_mutex_create.c.obj
+
+middleware/threadx/common/src/tx_mutex_create.i: middleware/threadx/common/src/tx_mutex_create.c.i
+.PHONY : middleware/threadx/common/src/tx_mutex_create.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_mutex_create.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_create.c.i
+.PHONY : middleware/threadx/common/src/tx_mutex_create.c.i
+
+middleware/threadx/common/src/tx_mutex_create.s: middleware/threadx/common/src/tx_mutex_create.c.s
+.PHONY : middleware/threadx/common/src/tx_mutex_create.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_mutex_create.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_create.c.s
+.PHONY : middleware/threadx/common/src/tx_mutex_create.c.s
+
+middleware/threadx/common/src/tx_mutex_delete.obj: middleware/threadx/common/src/tx_mutex_delete.c.obj
+.PHONY : middleware/threadx/common/src/tx_mutex_delete.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_mutex_delete.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_delete.c.obj
+.PHONY : middleware/threadx/common/src/tx_mutex_delete.c.obj
+
+middleware/threadx/common/src/tx_mutex_delete.i: middleware/threadx/common/src/tx_mutex_delete.c.i
+.PHONY : middleware/threadx/common/src/tx_mutex_delete.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_mutex_delete.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_delete.c.i
+.PHONY : middleware/threadx/common/src/tx_mutex_delete.c.i
+
+middleware/threadx/common/src/tx_mutex_delete.s: middleware/threadx/common/src/tx_mutex_delete.c.s
+.PHONY : middleware/threadx/common/src/tx_mutex_delete.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_mutex_delete.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_delete.c.s
+.PHONY : middleware/threadx/common/src/tx_mutex_delete.c.s
+
+middleware/threadx/common/src/tx_mutex_get.obj: middleware/threadx/common/src/tx_mutex_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_mutex_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_mutex_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_mutex_get.c.obj
+
+middleware/threadx/common/src/tx_mutex_get.i: middleware/threadx/common/src/tx_mutex_get.c.i
+.PHONY : middleware/threadx/common/src/tx_mutex_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_mutex_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_get.c.i
+.PHONY : middleware/threadx/common/src/tx_mutex_get.c.i
+
+middleware/threadx/common/src/tx_mutex_get.s: middleware/threadx/common/src/tx_mutex_get.c.s
+.PHONY : middleware/threadx/common/src/tx_mutex_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_mutex_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_get.c.s
+.PHONY : middleware/threadx/common/src/tx_mutex_get.c.s
+
+middleware/threadx/common/src/tx_mutex_info_get.obj: middleware/threadx/common/src/tx_mutex_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_mutex_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_mutex_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_mutex_info_get.c.obj
+
+middleware/threadx/common/src/tx_mutex_info_get.i: middleware/threadx/common/src/tx_mutex_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_mutex_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_mutex_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_mutex_info_get.c.i
+
+middleware/threadx/common/src/tx_mutex_info_get.s: middleware/threadx/common/src/tx_mutex_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_mutex_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_mutex_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_mutex_info_get.c.s
+
+middleware/threadx/common/src/tx_mutex_initialize.obj: middleware/threadx/common/src/tx_mutex_initialize.c.obj
+.PHONY : middleware/threadx/common/src/tx_mutex_initialize.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_mutex_initialize.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_initialize.c.obj
+.PHONY : middleware/threadx/common/src/tx_mutex_initialize.c.obj
+
+middleware/threadx/common/src/tx_mutex_initialize.i: middleware/threadx/common/src/tx_mutex_initialize.c.i
+.PHONY : middleware/threadx/common/src/tx_mutex_initialize.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_mutex_initialize.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_initialize.c.i
+.PHONY : middleware/threadx/common/src/tx_mutex_initialize.c.i
+
+middleware/threadx/common/src/tx_mutex_initialize.s: middleware/threadx/common/src/tx_mutex_initialize.c.s
+.PHONY : middleware/threadx/common/src/tx_mutex_initialize.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_mutex_initialize.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_initialize.c.s
+.PHONY : middleware/threadx/common/src/tx_mutex_initialize.c.s
+
+middleware/threadx/common/src/tx_mutex_performance_info_get.obj: middleware/threadx/common/src/tx_mutex_performance_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_mutex_performance_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_mutex_performance_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_mutex_performance_info_get.c.obj
+
+middleware/threadx/common/src/tx_mutex_performance_info_get.i: middleware/threadx/common/src/tx_mutex_performance_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_mutex_performance_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_mutex_performance_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_mutex_performance_info_get.c.i
+
+middleware/threadx/common/src/tx_mutex_performance_info_get.s: middleware/threadx/common/src/tx_mutex_performance_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_mutex_performance_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_mutex_performance_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_mutex_performance_info_get.c.s
+
+middleware/threadx/common/src/tx_mutex_performance_system_info_get.obj: middleware/threadx/common/src/tx_mutex_performance_system_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_mutex_performance_system_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_mutex_performance_system_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_system_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_mutex_performance_system_info_get.c.obj
+
+middleware/threadx/common/src/tx_mutex_performance_system_info_get.i: middleware/threadx/common/src/tx_mutex_performance_system_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_mutex_performance_system_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_mutex_performance_system_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_system_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_mutex_performance_system_info_get.c.i
+
+middleware/threadx/common/src/tx_mutex_performance_system_info_get.s: middleware/threadx/common/src/tx_mutex_performance_system_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_mutex_performance_system_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_mutex_performance_system_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_system_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_mutex_performance_system_info_get.c.s
+
+middleware/threadx/common/src/tx_mutex_prioritize.obj: middleware/threadx/common/src/tx_mutex_prioritize.c.obj
+.PHONY : middleware/threadx/common/src/tx_mutex_prioritize.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_mutex_prioritize.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_prioritize.c.obj
+.PHONY : middleware/threadx/common/src/tx_mutex_prioritize.c.obj
+
+middleware/threadx/common/src/tx_mutex_prioritize.i: middleware/threadx/common/src/tx_mutex_prioritize.c.i
+.PHONY : middleware/threadx/common/src/tx_mutex_prioritize.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_mutex_prioritize.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_prioritize.c.i
+.PHONY : middleware/threadx/common/src/tx_mutex_prioritize.c.i
+
+middleware/threadx/common/src/tx_mutex_prioritize.s: middleware/threadx/common/src/tx_mutex_prioritize.c.s
+.PHONY : middleware/threadx/common/src/tx_mutex_prioritize.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_mutex_prioritize.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_prioritize.c.s
+.PHONY : middleware/threadx/common/src/tx_mutex_prioritize.c.s
+
+middleware/threadx/common/src/tx_mutex_priority_change.obj: middleware/threadx/common/src/tx_mutex_priority_change.c.obj
+.PHONY : middleware/threadx/common/src/tx_mutex_priority_change.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_mutex_priority_change.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_priority_change.c.obj
+.PHONY : middleware/threadx/common/src/tx_mutex_priority_change.c.obj
+
+middleware/threadx/common/src/tx_mutex_priority_change.i: middleware/threadx/common/src/tx_mutex_priority_change.c.i
+.PHONY : middleware/threadx/common/src/tx_mutex_priority_change.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_mutex_priority_change.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_priority_change.c.i
+.PHONY : middleware/threadx/common/src/tx_mutex_priority_change.c.i
+
+middleware/threadx/common/src/tx_mutex_priority_change.s: middleware/threadx/common/src/tx_mutex_priority_change.c.s
+.PHONY : middleware/threadx/common/src/tx_mutex_priority_change.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_mutex_priority_change.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_priority_change.c.s
+.PHONY : middleware/threadx/common/src/tx_mutex_priority_change.c.s
+
+middleware/threadx/common/src/tx_mutex_put.obj: middleware/threadx/common/src/tx_mutex_put.c.obj
+.PHONY : middleware/threadx/common/src/tx_mutex_put.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_mutex_put.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_put.c.obj
+.PHONY : middleware/threadx/common/src/tx_mutex_put.c.obj
+
+middleware/threadx/common/src/tx_mutex_put.i: middleware/threadx/common/src/tx_mutex_put.c.i
+.PHONY : middleware/threadx/common/src/tx_mutex_put.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_mutex_put.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_put.c.i
+.PHONY : middleware/threadx/common/src/tx_mutex_put.c.i
+
+middleware/threadx/common/src/tx_mutex_put.s: middleware/threadx/common/src/tx_mutex_put.c.s
+.PHONY : middleware/threadx/common/src/tx_mutex_put.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_mutex_put.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_put.c.s
+.PHONY : middleware/threadx/common/src/tx_mutex_put.c.s
+
+middleware/threadx/common/src/tx_queue_cleanup.obj: middleware/threadx/common/src/tx_queue_cleanup.c.obj
+.PHONY : middleware/threadx/common/src/tx_queue_cleanup.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_queue_cleanup.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_cleanup.c.obj
+.PHONY : middleware/threadx/common/src/tx_queue_cleanup.c.obj
+
+middleware/threadx/common/src/tx_queue_cleanup.i: middleware/threadx/common/src/tx_queue_cleanup.c.i
+.PHONY : middleware/threadx/common/src/tx_queue_cleanup.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_queue_cleanup.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_cleanup.c.i
+.PHONY : middleware/threadx/common/src/tx_queue_cleanup.c.i
+
+middleware/threadx/common/src/tx_queue_cleanup.s: middleware/threadx/common/src/tx_queue_cleanup.c.s
+.PHONY : middleware/threadx/common/src/tx_queue_cleanup.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_queue_cleanup.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_cleanup.c.s
+.PHONY : middleware/threadx/common/src/tx_queue_cleanup.c.s
+
+middleware/threadx/common/src/tx_queue_create.obj: middleware/threadx/common/src/tx_queue_create.c.obj
+.PHONY : middleware/threadx/common/src/tx_queue_create.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_queue_create.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_create.c.obj
+.PHONY : middleware/threadx/common/src/tx_queue_create.c.obj
+
+middleware/threadx/common/src/tx_queue_create.i: middleware/threadx/common/src/tx_queue_create.c.i
+.PHONY : middleware/threadx/common/src/tx_queue_create.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_queue_create.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_create.c.i
+.PHONY : middleware/threadx/common/src/tx_queue_create.c.i
+
+middleware/threadx/common/src/tx_queue_create.s: middleware/threadx/common/src/tx_queue_create.c.s
+.PHONY : middleware/threadx/common/src/tx_queue_create.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_queue_create.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_create.c.s
+.PHONY : middleware/threadx/common/src/tx_queue_create.c.s
+
+middleware/threadx/common/src/tx_queue_delete.obj: middleware/threadx/common/src/tx_queue_delete.c.obj
+.PHONY : middleware/threadx/common/src/tx_queue_delete.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_queue_delete.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_delete.c.obj
+.PHONY : middleware/threadx/common/src/tx_queue_delete.c.obj
+
+middleware/threadx/common/src/tx_queue_delete.i: middleware/threadx/common/src/tx_queue_delete.c.i
+.PHONY : middleware/threadx/common/src/tx_queue_delete.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_queue_delete.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_delete.c.i
+.PHONY : middleware/threadx/common/src/tx_queue_delete.c.i
+
+middleware/threadx/common/src/tx_queue_delete.s: middleware/threadx/common/src/tx_queue_delete.c.s
+.PHONY : middleware/threadx/common/src/tx_queue_delete.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_queue_delete.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_delete.c.s
+.PHONY : middleware/threadx/common/src/tx_queue_delete.c.s
+
+middleware/threadx/common/src/tx_queue_flush.obj: middleware/threadx/common/src/tx_queue_flush.c.obj
+.PHONY : middleware/threadx/common/src/tx_queue_flush.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_queue_flush.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_flush.c.obj
+.PHONY : middleware/threadx/common/src/tx_queue_flush.c.obj
+
+middleware/threadx/common/src/tx_queue_flush.i: middleware/threadx/common/src/tx_queue_flush.c.i
+.PHONY : middleware/threadx/common/src/tx_queue_flush.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_queue_flush.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_flush.c.i
+.PHONY : middleware/threadx/common/src/tx_queue_flush.c.i
+
+middleware/threadx/common/src/tx_queue_flush.s: middleware/threadx/common/src/tx_queue_flush.c.s
+.PHONY : middleware/threadx/common/src/tx_queue_flush.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_queue_flush.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_flush.c.s
+.PHONY : middleware/threadx/common/src/tx_queue_flush.c.s
+
+middleware/threadx/common/src/tx_queue_front_send.obj: middleware/threadx/common/src/tx_queue_front_send.c.obj
+.PHONY : middleware/threadx/common/src/tx_queue_front_send.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_queue_front_send.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_front_send.c.obj
+.PHONY : middleware/threadx/common/src/tx_queue_front_send.c.obj
+
+middleware/threadx/common/src/tx_queue_front_send.i: middleware/threadx/common/src/tx_queue_front_send.c.i
+.PHONY : middleware/threadx/common/src/tx_queue_front_send.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_queue_front_send.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_front_send.c.i
+.PHONY : middleware/threadx/common/src/tx_queue_front_send.c.i
+
+middleware/threadx/common/src/tx_queue_front_send.s: middleware/threadx/common/src/tx_queue_front_send.c.s
+.PHONY : middleware/threadx/common/src/tx_queue_front_send.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_queue_front_send.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_front_send.c.s
+.PHONY : middleware/threadx/common/src/tx_queue_front_send.c.s
+
+middleware/threadx/common/src/tx_queue_info_get.obj: middleware/threadx/common/src/tx_queue_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_queue_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_queue_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_queue_info_get.c.obj
+
+middleware/threadx/common/src/tx_queue_info_get.i: middleware/threadx/common/src/tx_queue_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_queue_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_queue_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_queue_info_get.c.i
+
+middleware/threadx/common/src/tx_queue_info_get.s: middleware/threadx/common/src/tx_queue_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_queue_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_queue_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_queue_info_get.c.s
+
+middleware/threadx/common/src/tx_queue_initialize.obj: middleware/threadx/common/src/tx_queue_initialize.c.obj
+.PHONY : middleware/threadx/common/src/tx_queue_initialize.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_queue_initialize.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_initialize.c.obj
+.PHONY : middleware/threadx/common/src/tx_queue_initialize.c.obj
+
+middleware/threadx/common/src/tx_queue_initialize.i: middleware/threadx/common/src/tx_queue_initialize.c.i
+.PHONY : middleware/threadx/common/src/tx_queue_initialize.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_queue_initialize.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_initialize.c.i
+.PHONY : middleware/threadx/common/src/tx_queue_initialize.c.i
+
+middleware/threadx/common/src/tx_queue_initialize.s: middleware/threadx/common/src/tx_queue_initialize.c.s
+.PHONY : middleware/threadx/common/src/tx_queue_initialize.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_queue_initialize.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_initialize.c.s
+.PHONY : middleware/threadx/common/src/tx_queue_initialize.c.s
+
+middleware/threadx/common/src/tx_queue_performance_info_get.obj: middleware/threadx/common/src/tx_queue_performance_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_queue_performance_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_queue_performance_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_queue_performance_info_get.c.obj
+
+middleware/threadx/common/src/tx_queue_performance_info_get.i: middleware/threadx/common/src/tx_queue_performance_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_queue_performance_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_queue_performance_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_queue_performance_info_get.c.i
+
+middleware/threadx/common/src/tx_queue_performance_info_get.s: middleware/threadx/common/src/tx_queue_performance_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_queue_performance_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_queue_performance_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_queue_performance_info_get.c.s
+
+middleware/threadx/common/src/tx_queue_performance_system_info_get.obj: middleware/threadx/common/src/tx_queue_performance_system_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_queue_performance_system_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_queue_performance_system_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_system_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_queue_performance_system_info_get.c.obj
+
+middleware/threadx/common/src/tx_queue_performance_system_info_get.i: middleware/threadx/common/src/tx_queue_performance_system_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_queue_performance_system_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_queue_performance_system_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_system_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_queue_performance_system_info_get.c.i
+
+middleware/threadx/common/src/tx_queue_performance_system_info_get.s: middleware/threadx/common/src/tx_queue_performance_system_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_queue_performance_system_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_queue_performance_system_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_system_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_queue_performance_system_info_get.c.s
+
+middleware/threadx/common/src/tx_queue_prioritize.obj: middleware/threadx/common/src/tx_queue_prioritize.c.obj
+.PHONY : middleware/threadx/common/src/tx_queue_prioritize.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_queue_prioritize.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_prioritize.c.obj
+.PHONY : middleware/threadx/common/src/tx_queue_prioritize.c.obj
+
+middleware/threadx/common/src/tx_queue_prioritize.i: middleware/threadx/common/src/tx_queue_prioritize.c.i
+.PHONY : middleware/threadx/common/src/tx_queue_prioritize.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_queue_prioritize.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_prioritize.c.i
+.PHONY : middleware/threadx/common/src/tx_queue_prioritize.c.i
+
+middleware/threadx/common/src/tx_queue_prioritize.s: middleware/threadx/common/src/tx_queue_prioritize.c.s
+.PHONY : middleware/threadx/common/src/tx_queue_prioritize.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_queue_prioritize.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_prioritize.c.s
+.PHONY : middleware/threadx/common/src/tx_queue_prioritize.c.s
+
+middleware/threadx/common/src/tx_queue_receive.obj: middleware/threadx/common/src/tx_queue_receive.c.obj
+.PHONY : middleware/threadx/common/src/tx_queue_receive.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_queue_receive.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_receive.c.obj
+.PHONY : middleware/threadx/common/src/tx_queue_receive.c.obj
+
+middleware/threadx/common/src/tx_queue_receive.i: middleware/threadx/common/src/tx_queue_receive.c.i
+.PHONY : middleware/threadx/common/src/tx_queue_receive.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_queue_receive.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_receive.c.i
+.PHONY : middleware/threadx/common/src/tx_queue_receive.c.i
+
+middleware/threadx/common/src/tx_queue_receive.s: middleware/threadx/common/src/tx_queue_receive.c.s
+.PHONY : middleware/threadx/common/src/tx_queue_receive.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_queue_receive.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_receive.c.s
+.PHONY : middleware/threadx/common/src/tx_queue_receive.c.s
+
+middleware/threadx/common/src/tx_queue_send.obj: middleware/threadx/common/src/tx_queue_send.c.obj
+.PHONY : middleware/threadx/common/src/tx_queue_send.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_queue_send.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send.c.obj
+.PHONY : middleware/threadx/common/src/tx_queue_send.c.obj
+
+middleware/threadx/common/src/tx_queue_send.i: middleware/threadx/common/src/tx_queue_send.c.i
+.PHONY : middleware/threadx/common/src/tx_queue_send.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_queue_send.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send.c.i
+.PHONY : middleware/threadx/common/src/tx_queue_send.c.i
+
+middleware/threadx/common/src/tx_queue_send.s: middleware/threadx/common/src/tx_queue_send.c.s
+.PHONY : middleware/threadx/common/src/tx_queue_send.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_queue_send.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send.c.s
+.PHONY : middleware/threadx/common/src/tx_queue_send.c.s
+
+middleware/threadx/common/src/tx_queue_send_notify.obj: middleware/threadx/common/src/tx_queue_send_notify.c.obj
+.PHONY : middleware/threadx/common/src/tx_queue_send_notify.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_queue_send_notify.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send_notify.c.obj
+.PHONY : middleware/threadx/common/src/tx_queue_send_notify.c.obj
+
+middleware/threadx/common/src/tx_queue_send_notify.i: middleware/threadx/common/src/tx_queue_send_notify.c.i
+.PHONY : middleware/threadx/common/src/tx_queue_send_notify.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_queue_send_notify.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send_notify.c.i
+.PHONY : middleware/threadx/common/src/tx_queue_send_notify.c.i
+
+middleware/threadx/common/src/tx_queue_send_notify.s: middleware/threadx/common/src/tx_queue_send_notify.c.s
+.PHONY : middleware/threadx/common/src/tx_queue_send_notify.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_queue_send_notify.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send_notify.c.s
+.PHONY : middleware/threadx/common/src/tx_queue_send_notify.c.s
+
+middleware/threadx/common/src/tx_semaphore_ceiling_put.obj: middleware/threadx/common/src/tx_semaphore_ceiling_put.c.obj
+.PHONY : middleware/threadx/common/src/tx_semaphore_ceiling_put.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_semaphore_ceiling_put.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_ceiling_put.c.obj
+.PHONY : middleware/threadx/common/src/tx_semaphore_ceiling_put.c.obj
+
+middleware/threadx/common/src/tx_semaphore_ceiling_put.i: middleware/threadx/common/src/tx_semaphore_ceiling_put.c.i
+.PHONY : middleware/threadx/common/src/tx_semaphore_ceiling_put.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_semaphore_ceiling_put.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_ceiling_put.c.i
+.PHONY : middleware/threadx/common/src/tx_semaphore_ceiling_put.c.i
+
+middleware/threadx/common/src/tx_semaphore_ceiling_put.s: middleware/threadx/common/src/tx_semaphore_ceiling_put.c.s
+.PHONY : middleware/threadx/common/src/tx_semaphore_ceiling_put.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_semaphore_ceiling_put.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_ceiling_put.c.s
+.PHONY : middleware/threadx/common/src/tx_semaphore_ceiling_put.c.s
+
+middleware/threadx/common/src/tx_semaphore_cleanup.obj: middleware/threadx/common/src/tx_semaphore_cleanup.c.obj
+.PHONY : middleware/threadx/common/src/tx_semaphore_cleanup.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_semaphore_cleanup.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_cleanup.c.obj
+.PHONY : middleware/threadx/common/src/tx_semaphore_cleanup.c.obj
+
+middleware/threadx/common/src/tx_semaphore_cleanup.i: middleware/threadx/common/src/tx_semaphore_cleanup.c.i
+.PHONY : middleware/threadx/common/src/tx_semaphore_cleanup.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_semaphore_cleanup.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_cleanup.c.i
+.PHONY : middleware/threadx/common/src/tx_semaphore_cleanup.c.i
+
+middleware/threadx/common/src/tx_semaphore_cleanup.s: middleware/threadx/common/src/tx_semaphore_cleanup.c.s
+.PHONY : middleware/threadx/common/src/tx_semaphore_cleanup.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_semaphore_cleanup.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_cleanup.c.s
+.PHONY : middleware/threadx/common/src/tx_semaphore_cleanup.c.s
+
+middleware/threadx/common/src/tx_semaphore_create.obj: middleware/threadx/common/src/tx_semaphore_create.c.obj
+.PHONY : middleware/threadx/common/src/tx_semaphore_create.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_semaphore_create.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_create.c.obj
+.PHONY : middleware/threadx/common/src/tx_semaphore_create.c.obj
+
+middleware/threadx/common/src/tx_semaphore_create.i: middleware/threadx/common/src/tx_semaphore_create.c.i
+.PHONY : middleware/threadx/common/src/tx_semaphore_create.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_semaphore_create.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_create.c.i
+.PHONY : middleware/threadx/common/src/tx_semaphore_create.c.i
+
+middleware/threadx/common/src/tx_semaphore_create.s: middleware/threadx/common/src/tx_semaphore_create.c.s
+.PHONY : middleware/threadx/common/src/tx_semaphore_create.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_semaphore_create.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_create.c.s
+.PHONY : middleware/threadx/common/src/tx_semaphore_create.c.s
+
+middleware/threadx/common/src/tx_semaphore_delete.obj: middleware/threadx/common/src/tx_semaphore_delete.c.obj
+.PHONY : middleware/threadx/common/src/tx_semaphore_delete.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_semaphore_delete.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_delete.c.obj
+.PHONY : middleware/threadx/common/src/tx_semaphore_delete.c.obj
+
+middleware/threadx/common/src/tx_semaphore_delete.i: middleware/threadx/common/src/tx_semaphore_delete.c.i
+.PHONY : middleware/threadx/common/src/tx_semaphore_delete.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_semaphore_delete.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_delete.c.i
+.PHONY : middleware/threadx/common/src/tx_semaphore_delete.c.i
+
+middleware/threadx/common/src/tx_semaphore_delete.s: middleware/threadx/common/src/tx_semaphore_delete.c.s
+.PHONY : middleware/threadx/common/src/tx_semaphore_delete.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_semaphore_delete.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_delete.c.s
+.PHONY : middleware/threadx/common/src/tx_semaphore_delete.c.s
+
+middleware/threadx/common/src/tx_semaphore_get.obj: middleware/threadx/common/src/tx_semaphore_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_semaphore_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_semaphore_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_semaphore_get.c.obj
+
+middleware/threadx/common/src/tx_semaphore_get.i: middleware/threadx/common/src/tx_semaphore_get.c.i
+.PHONY : middleware/threadx/common/src/tx_semaphore_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_semaphore_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_get.c.i
+.PHONY : middleware/threadx/common/src/tx_semaphore_get.c.i
+
+middleware/threadx/common/src/tx_semaphore_get.s: middleware/threadx/common/src/tx_semaphore_get.c.s
+.PHONY : middleware/threadx/common/src/tx_semaphore_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_semaphore_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_get.c.s
+.PHONY : middleware/threadx/common/src/tx_semaphore_get.c.s
+
+middleware/threadx/common/src/tx_semaphore_info_get.obj: middleware/threadx/common/src/tx_semaphore_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_semaphore_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_semaphore_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_semaphore_info_get.c.obj
+
+middleware/threadx/common/src/tx_semaphore_info_get.i: middleware/threadx/common/src/tx_semaphore_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_semaphore_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_semaphore_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_semaphore_info_get.c.i
+
+middleware/threadx/common/src/tx_semaphore_info_get.s: middleware/threadx/common/src/tx_semaphore_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_semaphore_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_semaphore_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_semaphore_info_get.c.s
+
+middleware/threadx/common/src/tx_semaphore_initialize.obj: middleware/threadx/common/src/tx_semaphore_initialize.c.obj
+.PHONY : middleware/threadx/common/src/tx_semaphore_initialize.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_semaphore_initialize.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_initialize.c.obj
+.PHONY : middleware/threadx/common/src/tx_semaphore_initialize.c.obj
+
+middleware/threadx/common/src/tx_semaphore_initialize.i: middleware/threadx/common/src/tx_semaphore_initialize.c.i
+.PHONY : middleware/threadx/common/src/tx_semaphore_initialize.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_semaphore_initialize.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_initialize.c.i
+.PHONY : middleware/threadx/common/src/tx_semaphore_initialize.c.i
+
+middleware/threadx/common/src/tx_semaphore_initialize.s: middleware/threadx/common/src/tx_semaphore_initialize.c.s
+.PHONY : middleware/threadx/common/src/tx_semaphore_initialize.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_semaphore_initialize.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_initialize.c.s
+.PHONY : middleware/threadx/common/src/tx_semaphore_initialize.c.s
+
+middleware/threadx/common/src/tx_semaphore_performance_info_get.obj: middleware/threadx/common/src/tx_semaphore_performance_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_semaphore_performance_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_semaphore_performance_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_semaphore_performance_info_get.c.obj
+
+middleware/threadx/common/src/tx_semaphore_performance_info_get.i: middleware/threadx/common/src/tx_semaphore_performance_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_semaphore_performance_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_semaphore_performance_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_semaphore_performance_info_get.c.i
+
+middleware/threadx/common/src/tx_semaphore_performance_info_get.s: middleware/threadx/common/src/tx_semaphore_performance_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_semaphore_performance_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_semaphore_performance_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_semaphore_performance_info_get.c.s
+
+middleware/threadx/common/src/tx_semaphore_performance_system_info_get.obj: middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_semaphore_performance_system_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c.obj
+
+middleware/threadx/common/src/tx_semaphore_performance_system_info_get.i: middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_semaphore_performance_system_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c.i
+
+middleware/threadx/common/src/tx_semaphore_performance_system_info_get.s: middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_semaphore_performance_system_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c.s
+
+middleware/threadx/common/src/tx_semaphore_prioritize.obj: middleware/threadx/common/src/tx_semaphore_prioritize.c.obj
+.PHONY : middleware/threadx/common/src/tx_semaphore_prioritize.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_semaphore_prioritize.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_prioritize.c.obj
+.PHONY : middleware/threadx/common/src/tx_semaphore_prioritize.c.obj
+
+middleware/threadx/common/src/tx_semaphore_prioritize.i: middleware/threadx/common/src/tx_semaphore_prioritize.c.i
+.PHONY : middleware/threadx/common/src/tx_semaphore_prioritize.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_semaphore_prioritize.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_prioritize.c.i
+.PHONY : middleware/threadx/common/src/tx_semaphore_prioritize.c.i
+
+middleware/threadx/common/src/tx_semaphore_prioritize.s: middleware/threadx/common/src/tx_semaphore_prioritize.c.s
+.PHONY : middleware/threadx/common/src/tx_semaphore_prioritize.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_semaphore_prioritize.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_prioritize.c.s
+.PHONY : middleware/threadx/common/src/tx_semaphore_prioritize.c.s
+
+middleware/threadx/common/src/tx_semaphore_put.obj: middleware/threadx/common/src/tx_semaphore_put.c.obj
+.PHONY : middleware/threadx/common/src/tx_semaphore_put.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_semaphore_put.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put.c.obj
+.PHONY : middleware/threadx/common/src/tx_semaphore_put.c.obj
+
+middleware/threadx/common/src/tx_semaphore_put.i: middleware/threadx/common/src/tx_semaphore_put.c.i
+.PHONY : middleware/threadx/common/src/tx_semaphore_put.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_semaphore_put.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put.c.i
+.PHONY : middleware/threadx/common/src/tx_semaphore_put.c.i
+
+middleware/threadx/common/src/tx_semaphore_put.s: middleware/threadx/common/src/tx_semaphore_put.c.s
+.PHONY : middleware/threadx/common/src/tx_semaphore_put.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_semaphore_put.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put.c.s
+.PHONY : middleware/threadx/common/src/tx_semaphore_put.c.s
+
+middleware/threadx/common/src/tx_semaphore_put_notify.obj: middleware/threadx/common/src/tx_semaphore_put_notify.c.obj
+.PHONY : middleware/threadx/common/src/tx_semaphore_put_notify.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_semaphore_put_notify.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put_notify.c.obj
+.PHONY : middleware/threadx/common/src/tx_semaphore_put_notify.c.obj
+
+middleware/threadx/common/src/tx_semaphore_put_notify.i: middleware/threadx/common/src/tx_semaphore_put_notify.c.i
+.PHONY : middleware/threadx/common/src/tx_semaphore_put_notify.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_semaphore_put_notify.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put_notify.c.i
+.PHONY : middleware/threadx/common/src/tx_semaphore_put_notify.c.i
+
+middleware/threadx/common/src/tx_semaphore_put_notify.s: middleware/threadx/common/src/tx_semaphore_put_notify.c.s
+.PHONY : middleware/threadx/common/src/tx_semaphore_put_notify.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_semaphore_put_notify.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put_notify.c.s
+.PHONY : middleware/threadx/common/src/tx_semaphore_put_notify.c.s
+
+middleware/threadx/common/src/tx_thread_create.obj: middleware/threadx/common/src/tx_thread_create.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_create.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_thread_create.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_create.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_create.c.obj
+
+middleware/threadx/common/src/tx_thread_create.i: middleware/threadx/common/src/tx_thread_create.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_create.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_thread_create.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_create.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_create.c.i
+
+middleware/threadx/common/src/tx_thread_create.s: middleware/threadx/common/src/tx_thread_create.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_create.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_thread_create.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_create.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_create.c.s
+
+middleware/threadx/common/src/tx_thread_delete.obj: middleware/threadx/common/src/tx_thread_delete.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_delete.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_thread_delete.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_delete.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_delete.c.obj
+
+middleware/threadx/common/src/tx_thread_delete.i: middleware/threadx/common/src/tx_thread_delete.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_delete.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_thread_delete.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_delete.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_delete.c.i
+
+middleware/threadx/common/src/tx_thread_delete.s: middleware/threadx/common/src/tx_thread_delete.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_delete.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_thread_delete.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_delete.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_delete.c.s
+
+middleware/threadx/common/src/tx_thread_entry_exit_notify.obj: middleware/threadx/common/src/tx_thread_entry_exit_notify.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_entry_exit_notify.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_thread_entry_exit_notify.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_entry_exit_notify.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_entry_exit_notify.c.obj
+
+middleware/threadx/common/src/tx_thread_entry_exit_notify.i: middleware/threadx/common/src/tx_thread_entry_exit_notify.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_entry_exit_notify.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_thread_entry_exit_notify.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_entry_exit_notify.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_entry_exit_notify.c.i
+
+middleware/threadx/common/src/tx_thread_entry_exit_notify.s: middleware/threadx/common/src/tx_thread_entry_exit_notify.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_entry_exit_notify.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_thread_entry_exit_notify.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_entry_exit_notify.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_entry_exit_notify.c.s
+
+middleware/threadx/common/src/tx_thread_identify.obj: middleware/threadx/common/src/tx_thread_identify.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_identify.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_thread_identify.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_identify.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_identify.c.obj
+
+middleware/threadx/common/src/tx_thread_identify.i: middleware/threadx/common/src/tx_thread_identify.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_identify.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_thread_identify.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_identify.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_identify.c.i
+
+middleware/threadx/common/src/tx_thread_identify.s: middleware/threadx/common/src/tx_thread_identify.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_identify.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_thread_identify.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_identify.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_identify.c.s
+
+middleware/threadx/common/src/tx_thread_info_get.obj: middleware/threadx/common/src/tx_thread_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_thread_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_info_get.c.obj
+
+middleware/threadx/common/src/tx_thread_info_get.i: middleware/threadx/common/src/tx_thread_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_thread_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_info_get.c.i
+
+middleware/threadx/common/src/tx_thread_info_get.s: middleware/threadx/common/src/tx_thread_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_thread_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_info_get.c.s
+
+middleware/threadx/common/src/tx_thread_initialize.obj: middleware/threadx/common/src/tx_thread_initialize.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_initialize.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_thread_initialize.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_initialize.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_initialize.c.obj
+
+middleware/threadx/common/src/tx_thread_initialize.i: middleware/threadx/common/src/tx_thread_initialize.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_initialize.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_thread_initialize.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_initialize.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_initialize.c.i
+
+middleware/threadx/common/src/tx_thread_initialize.s: middleware/threadx/common/src/tx_thread_initialize.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_initialize.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_thread_initialize.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_initialize.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_initialize.c.s
+
+middleware/threadx/common/src/tx_thread_performance_info_get.obj: middleware/threadx/common/src/tx_thread_performance_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_performance_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_thread_performance_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_performance_info_get.c.obj
+
+middleware/threadx/common/src/tx_thread_performance_info_get.i: middleware/threadx/common/src/tx_thread_performance_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_performance_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_thread_performance_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_performance_info_get.c.i
+
+middleware/threadx/common/src/tx_thread_performance_info_get.s: middleware/threadx/common/src/tx_thread_performance_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_performance_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_thread_performance_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_performance_info_get.c.s
+
+middleware/threadx/common/src/tx_thread_performance_system_info_get.obj: middleware/threadx/common/src/tx_thread_performance_system_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_performance_system_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_thread_performance_system_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_system_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_performance_system_info_get.c.obj
+
+middleware/threadx/common/src/tx_thread_performance_system_info_get.i: middleware/threadx/common/src/tx_thread_performance_system_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_performance_system_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_thread_performance_system_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_system_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_performance_system_info_get.c.i
+
+middleware/threadx/common/src/tx_thread_performance_system_info_get.s: middleware/threadx/common/src/tx_thread_performance_system_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_performance_system_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_thread_performance_system_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_system_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_performance_system_info_get.c.s
+
+middleware/threadx/common/src/tx_thread_preemption_change.obj: middleware/threadx/common/src/tx_thread_preemption_change.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_preemption_change.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_thread_preemption_change.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_preemption_change.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_preemption_change.c.obj
+
+middleware/threadx/common/src/tx_thread_preemption_change.i: middleware/threadx/common/src/tx_thread_preemption_change.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_preemption_change.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_thread_preemption_change.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_preemption_change.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_preemption_change.c.i
+
+middleware/threadx/common/src/tx_thread_preemption_change.s: middleware/threadx/common/src/tx_thread_preemption_change.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_preemption_change.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_thread_preemption_change.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_preemption_change.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_preemption_change.c.s
+
+middleware/threadx/common/src/tx_thread_priority_change.obj: middleware/threadx/common/src/tx_thread_priority_change.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_priority_change.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_thread_priority_change.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_priority_change.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_priority_change.c.obj
+
+middleware/threadx/common/src/tx_thread_priority_change.i: middleware/threadx/common/src/tx_thread_priority_change.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_priority_change.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_thread_priority_change.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_priority_change.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_priority_change.c.i
+
+middleware/threadx/common/src/tx_thread_priority_change.s: middleware/threadx/common/src/tx_thread_priority_change.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_priority_change.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_thread_priority_change.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_priority_change.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_priority_change.c.s
+
+middleware/threadx/common/src/tx_thread_relinquish.obj: middleware/threadx/common/src/tx_thread_relinquish.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_relinquish.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_thread_relinquish.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_relinquish.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_relinquish.c.obj
+
+middleware/threadx/common/src/tx_thread_relinquish.i: middleware/threadx/common/src/tx_thread_relinquish.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_relinquish.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_thread_relinquish.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_relinquish.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_relinquish.c.i
+
+middleware/threadx/common/src/tx_thread_relinquish.s: middleware/threadx/common/src/tx_thread_relinquish.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_relinquish.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_thread_relinquish.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_relinquish.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_relinquish.c.s
+
+middleware/threadx/common/src/tx_thread_reset.obj: middleware/threadx/common/src/tx_thread_reset.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_reset.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_thread_reset.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_reset.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_reset.c.obj
+
+middleware/threadx/common/src/tx_thread_reset.i: middleware/threadx/common/src/tx_thread_reset.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_reset.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_thread_reset.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_reset.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_reset.c.i
+
+middleware/threadx/common/src/tx_thread_reset.s: middleware/threadx/common/src/tx_thread_reset.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_reset.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_thread_reset.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_reset.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_reset.c.s
+
+middleware/threadx/common/src/tx_thread_resume.obj: middleware/threadx/common/src/tx_thread_resume.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_resume.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_thread_resume.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_resume.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_resume.c.obj
+
+middleware/threadx/common/src/tx_thread_resume.i: middleware/threadx/common/src/tx_thread_resume.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_resume.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_thread_resume.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_resume.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_resume.c.i
+
+middleware/threadx/common/src/tx_thread_resume.s: middleware/threadx/common/src/tx_thread_resume.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_resume.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_thread_resume.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_resume.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_resume.c.s
+
+middleware/threadx/common/src/tx_thread_shell_entry.obj: middleware/threadx/common/src/tx_thread_shell_entry.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_shell_entry.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_thread_shell_entry.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_shell_entry.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_shell_entry.c.obj
+
+middleware/threadx/common/src/tx_thread_shell_entry.i: middleware/threadx/common/src/tx_thread_shell_entry.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_shell_entry.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_thread_shell_entry.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_shell_entry.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_shell_entry.c.i
+
+middleware/threadx/common/src/tx_thread_shell_entry.s: middleware/threadx/common/src/tx_thread_shell_entry.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_shell_entry.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_thread_shell_entry.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_shell_entry.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_shell_entry.c.s
+
+middleware/threadx/common/src/tx_thread_sleep.obj: middleware/threadx/common/src/tx_thread_sleep.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_sleep.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_thread_sleep.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_sleep.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_sleep.c.obj
+
+middleware/threadx/common/src/tx_thread_sleep.i: middleware/threadx/common/src/tx_thread_sleep.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_sleep.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_thread_sleep.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_sleep.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_sleep.c.i
+
+middleware/threadx/common/src/tx_thread_sleep.s: middleware/threadx/common/src/tx_thread_sleep.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_sleep.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_thread_sleep.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_sleep.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_sleep.c.s
+
+middleware/threadx/common/src/tx_thread_stack_analyze.obj: middleware/threadx/common/src/tx_thread_stack_analyze.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_stack_analyze.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_thread_stack_analyze.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_analyze.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_stack_analyze.c.obj
+
+middleware/threadx/common/src/tx_thread_stack_analyze.i: middleware/threadx/common/src/tx_thread_stack_analyze.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_stack_analyze.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_thread_stack_analyze.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_analyze.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_stack_analyze.c.i
+
+middleware/threadx/common/src/tx_thread_stack_analyze.s: middleware/threadx/common/src/tx_thread_stack_analyze.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_stack_analyze.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_thread_stack_analyze.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_analyze.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_stack_analyze.c.s
+
+middleware/threadx/common/src/tx_thread_stack_error_handler.obj: middleware/threadx/common/src/tx_thread_stack_error_handler.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_stack_error_handler.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_thread_stack_error_handler.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_handler.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_stack_error_handler.c.obj
+
+middleware/threadx/common/src/tx_thread_stack_error_handler.i: middleware/threadx/common/src/tx_thread_stack_error_handler.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_stack_error_handler.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_thread_stack_error_handler.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_handler.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_stack_error_handler.c.i
+
+middleware/threadx/common/src/tx_thread_stack_error_handler.s: middleware/threadx/common/src/tx_thread_stack_error_handler.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_stack_error_handler.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_thread_stack_error_handler.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_handler.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_stack_error_handler.c.s
+
+middleware/threadx/common/src/tx_thread_stack_error_notify.obj: middleware/threadx/common/src/tx_thread_stack_error_notify.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_stack_error_notify.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_thread_stack_error_notify.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_notify.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_stack_error_notify.c.obj
+
+middleware/threadx/common/src/tx_thread_stack_error_notify.i: middleware/threadx/common/src/tx_thread_stack_error_notify.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_stack_error_notify.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_thread_stack_error_notify.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_notify.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_stack_error_notify.c.i
+
+middleware/threadx/common/src/tx_thread_stack_error_notify.s: middleware/threadx/common/src/tx_thread_stack_error_notify.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_stack_error_notify.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_thread_stack_error_notify.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_notify.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_stack_error_notify.c.s
+
+middleware/threadx/common/src/tx_thread_suspend.obj: middleware/threadx/common/src/tx_thread_suspend.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_suspend.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_thread_suspend.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_suspend.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_suspend.c.obj
+
+middleware/threadx/common/src/tx_thread_suspend.i: middleware/threadx/common/src/tx_thread_suspend.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_suspend.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_thread_suspend.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_suspend.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_suspend.c.i
+
+middleware/threadx/common/src/tx_thread_suspend.s: middleware/threadx/common/src/tx_thread_suspend.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_suspend.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_thread_suspend.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_suspend.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_suspend.c.s
+
+middleware/threadx/common/src/tx_thread_system_preempt_check.obj: middleware/threadx/common/src/tx_thread_system_preempt_check.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_system_preempt_check.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_thread_system_preempt_check.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_preempt_check.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_system_preempt_check.c.obj
+
+middleware/threadx/common/src/tx_thread_system_preempt_check.i: middleware/threadx/common/src/tx_thread_system_preempt_check.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_system_preempt_check.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_thread_system_preempt_check.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_preempt_check.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_system_preempt_check.c.i
+
+middleware/threadx/common/src/tx_thread_system_preempt_check.s: middleware/threadx/common/src/tx_thread_system_preempt_check.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_system_preempt_check.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_thread_system_preempt_check.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_preempt_check.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_system_preempt_check.c.s
+
+middleware/threadx/common/src/tx_thread_system_resume.obj: middleware/threadx/common/src/tx_thread_system_resume.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_system_resume.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_thread_system_resume.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_resume.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_system_resume.c.obj
+
+middleware/threadx/common/src/tx_thread_system_resume.i: middleware/threadx/common/src/tx_thread_system_resume.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_system_resume.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_thread_system_resume.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_resume.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_system_resume.c.i
+
+middleware/threadx/common/src/tx_thread_system_resume.s: middleware/threadx/common/src/tx_thread_system_resume.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_system_resume.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_thread_system_resume.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_resume.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_system_resume.c.s
+
+middleware/threadx/common/src/tx_thread_system_suspend.obj: middleware/threadx/common/src/tx_thread_system_suspend.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_system_suspend.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_thread_system_suspend.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_suspend.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_system_suspend.c.obj
+
+middleware/threadx/common/src/tx_thread_system_suspend.i: middleware/threadx/common/src/tx_thread_system_suspend.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_system_suspend.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_thread_system_suspend.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_suspend.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_system_suspend.c.i
+
+middleware/threadx/common/src/tx_thread_system_suspend.s: middleware/threadx/common/src/tx_thread_system_suspend.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_system_suspend.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_thread_system_suspend.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_suspend.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_system_suspend.c.s
+
+middleware/threadx/common/src/tx_thread_terminate.obj: middleware/threadx/common/src/tx_thread_terminate.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_terminate.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_thread_terminate.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_terminate.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_terminate.c.obj
+
+middleware/threadx/common/src/tx_thread_terminate.i: middleware/threadx/common/src/tx_thread_terminate.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_terminate.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_thread_terminate.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_terminate.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_terminate.c.i
+
+middleware/threadx/common/src/tx_thread_terminate.s: middleware/threadx/common/src/tx_thread_terminate.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_terminate.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_thread_terminate.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_terminate.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_terminate.c.s
+
+middleware/threadx/common/src/tx_thread_time_slice.obj: middleware/threadx/common/src/tx_thread_time_slice.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_time_slice.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_thread_time_slice.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_time_slice.c.obj
+
+middleware/threadx/common/src/tx_thread_time_slice.i: middleware/threadx/common/src/tx_thread_time_slice.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_time_slice.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_thread_time_slice.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_time_slice.c.i
+
+middleware/threadx/common/src/tx_thread_time_slice.s: middleware/threadx/common/src/tx_thread_time_slice.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_time_slice.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_thread_time_slice.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_time_slice.c.s
+
+middleware/threadx/common/src/tx_thread_time_slice_change.obj: middleware/threadx/common/src/tx_thread_time_slice_change.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_time_slice_change.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_thread_time_slice_change.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice_change.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_time_slice_change.c.obj
+
+middleware/threadx/common/src/tx_thread_time_slice_change.i: middleware/threadx/common/src/tx_thread_time_slice_change.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_time_slice_change.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_thread_time_slice_change.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice_change.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_time_slice_change.c.i
+
+middleware/threadx/common/src/tx_thread_time_slice_change.s: middleware/threadx/common/src/tx_thread_time_slice_change.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_time_slice_change.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_thread_time_slice_change.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice_change.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_time_slice_change.c.s
+
+middleware/threadx/common/src/tx_thread_timeout.obj: middleware/threadx/common/src/tx_thread_timeout.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_timeout.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_thread_timeout.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_timeout.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_timeout.c.obj
+
+middleware/threadx/common/src/tx_thread_timeout.i: middleware/threadx/common/src/tx_thread_timeout.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_timeout.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_thread_timeout.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_timeout.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_timeout.c.i
+
+middleware/threadx/common/src/tx_thread_timeout.s: middleware/threadx/common/src/tx_thread_timeout.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_timeout.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_thread_timeout.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_timeout.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_timeout.c.s
+
+middleware/threadx/common/src/tx_thread_wait_abort.obj: middleware/threadx/common/src/tx_thread_wait_abort.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_wait_abort.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_thread_wait_abort.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_wait_abort.c.obj
+.PHONY : middleware/threadx/common/src/tx_thread_wait_abort.c.obj
+
+middleware/threadx/common/src/tx_thread_wait_abort.i: middleware/threadx/common/src/tx_thread_wait_abort.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_wait_abort.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_thread_wait_abort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_wait_abort.c.i
+.PHONY : middleware/threadx/common/src/tx_thread_wait_abort.c.i
+
+middleware/threadx/common/src/tx_thread_wait_abort.s: middleware/threadx/common/src/tx_thread_wait_abort.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_wait_abort.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_thread_wait_abort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_wait_abort.c.s
+.PHONY : middleware/threadx/common/src/tx_thread_wait_abort.c.s
+
+middleware/threadx/common/src/tx_time_get.obj: middleware/threadx/common/src/tx_time_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_time_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_time_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_time_get.c.obj
+
+middleware/threadx/common/src/tx_time_get.i: middleware/threadx/common/src/tx_time_get.c.i
+.PHONY : middleware/threadx/common/src/tx_time_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_time_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_get.c.i
+.PHONY : middleware/threadx/common/src/tx_time_get.c.i
+
+middleware/threadx/common/src/tx_time_get.s: middleware/threadx/common/src/tx_time_get.c.s
+.PHONY : middleware/threadx/common/src/tx_time_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_time_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_get.c.s
+.PHONY : middleware/threadx/common/src/tx_time_get.c.s
+
+middleware/threadx/common/src/tx_time_set.obj: middleware/threadx/common/src/tx_time_set.c.obj
+.PHONY : middleware/threadx/common/src/tx_time_set.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_time_set.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_set.c.obj
+.PHONY : middleware/threadx/common/src/tx_time_set.c.obj
+
+middleware/threadx/common/src/tx_time_set.i: middleware/threadx/common/src/tx_time_set.c.i
+.PHONY : middleware/threadx/common/src/tx_time_set.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_time_set.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_set.c.i
+.PHONY : middleware/threadx/common/src/tx_time_set.c.i
+
+middleware/threadx/common/src/tx_time_set.s: middleware/threadx/common/src/tx_time_set.c.s
+.PHONY : middleware/threadx/common/src/tx_time_set.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_time_set.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_set.c.s
+.PHONY : middleware/threadx/common/src/tx_time_set.c.s
+
+middleware/threadx/common/src/tx_timer_activate.obj: middleware/threadx/common/src/tx_timer_activate.c.obj
+.PHONY : middleware/threadx/common/src/tx_timer_activate.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_timer_activate.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_activate.c.obj
+.PHONY : middleware/threadx/common/src/tx_timer_activate.c.obj
+
+middleware/threadx/common/src/tx_timer_activate.i: middleware/threadx/common/src/tx_timer_activate.c.i
+.PHONY : middleware/threadx/common/src/tx_timer_activate.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_timer_activate.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_activate.c.i
+.PHONY : middleware/threadx/common/src/tx_timer_activate.c.i
+
+middleware/threadx/common/src/tx_timer_activate.s: middleware/threadx/common/src/tx_timer_activate.c.s
+.PHONY : middleware/threadx/common/src/tx_timer_activate.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_timer_activate.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_activate.c.s
+.PHONY : middleware/threadx/common/src/tx_timer_activate.c.s
+
+middleware/threadx/common/src/tx_timer_change.obj: middleware/threadx/common/src/tx_timer_change.c.obj
+.PHONY : middleware/threadx/common/src/tx_timer_change.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_timer_change.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_change.c.obj
+.PHONY : middleware/threadx/common/src/tx_timer_change.c.obj
+
+middleware/threadx/common/src/tx_timer_change.i: middleware/threadx/common/src/tx_timer_change.c.i
+.PHONY : middleware/threadx/common/src/tx_timer_change.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_timer_change.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_change.c.i
+.PHONY : middleware/threadx/common/src/tx_timer_change.c.i
+
+middleware/threadx/common/src/tx_timer_change.s: middleware/threadx/common/src/tx_timer_change.c.s
+.PHONY : middleware/threadx/common/src/tx_timer_change.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_timer_change.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_change.c.s
+.PHONY : middleware/threadx/common/src/tx_timer_change.c.s
+
+middleware/threadx/common/src/tx_timer_create.obj: middleware/threadx/common/src/tx_timer_create.c.obj
+.PHONY : middleware/threadx/common/src/tx_timer_create.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_timer_create.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_create.c.obj
+.PHONY : middleware/threadx/common/src/tx_timer_create.c.obj
+
+middleware/threadx/common/src/tx_timer_create.i: middleware/threadx/common/src/tx_timer_create.c.i
+.PHONY : middleware/threadx/common/src/tx_timer_create.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_timer_create.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_create.c.i
+.PHONY : middleware/threadx/common/src/tx_timer_create.c.i
+
+middleware/threadx/common/src/tx_timer_create.s: middleware/threadx/common/src/tx_timer_create.c.s
+.PHONY : middleware/threadx/common/src/tx_timer_create.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_timer_create.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_create.c.s
+.PHONY : middleware/threadx/common/src/tx_timer_create.c.s
+
+middleware/threadx/common/src/tx_timer_deactivate.obj: middleware/threadx/common/src/tx_timer_deactivate.c.obj
+.PHONY : middleware/threadx/common/src/tx_timer_deactivate.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_timer_deactivate.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_deactivate.c.obj
+.PHONY : middleware/threadx/common/src/tx_timer_deactivate.c.obj
+
+middleware/threadx/common/src/tx_timer_deactivate.i: middleware/threadx/common/src/tx_timer_deactivate.c.i
+.PHONY : middleware/threadx/common/src/tx_timer_deactivate.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_timer_deactivate.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_deactivate.c.i
+.PHONY : middleware/threadx/common/src/tx_timer_deactivate.c.i
+
+middleware/threadx/common/src/tx_timer_deactivate.s: middleware/threadx/common/src/tx_timer_deactivate.c.s
+.PHONY : middleware/threadx/common/src/tx_timer_deactivate.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_timer_deactivate.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_deactivate.c.s
+.PHONY : middleware/threadx/common/src/tx_timer_deactivate.c.s
+
+middleware/threadx/common/src/tx_timer_delete.obj: middleware/threadx/common/src/tx_timer_delete.c.obj
+.PHONY : middleware/threadx/common/src/tx_timer_delete.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_timer_delete.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_delete.c.obj
+.PHONY : middleware/threadx/common/src/tx_timer_delete.c.obj
+
+middleware/threadx/common/src/tx_timer_delete.i: middleware/threadx/common/src/tx_timer_delete.c.i
+.PHONY : middleware/threadx/common/src/tx_timer_delete.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_timer_delete.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_delete.c.i
+.PHONY : middleware/threadx/common/src/tx_timer_delete.c.i
+
+middleware/threadx/common/src/tx_timer_delete.s: middleware/threadx/common/src/tx_timer_delete.c.s
+.PHONY : middleware/threadx/common/src/tx_timer_delete.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_timer_delete.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_delete.c.s
+.PHONY : middleware/threadx/common/src/tx_timer_delete.c.s
+
+middleware/threadx/common/src/tx_timer_expiration_process.obj: middleware/threadx/common/src/tx_timer_expiration_process.c.obj
+.PHONY : middleware/threadx/common/src/tx_timer_expiration_process.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_timer_expiration_process.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_expiration_process.c.obj
+.PHONY : middleware/threadx/common/src/tx_timer_expiration_process.c.obj
+
+middleware/threadx/common/src/tx_timer_expiration_process.i: middleware/threadx/common/src/tx_timer_expiration_process.c.i
+.PHONY : middleware/threadx/common/src/tx_timer_expiration_process.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_timer_expiration_process.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_expiration_process.c.i
+.PHONY : middleware/threadx/common/src/tx_timer_expiration_process.c.i
+
+middleware/threadx/common/src/tx_timer_expiration_process.s: middleware/threadx/common/src/tx_timer_expiration_process.c.s
+.PHONY : middleware/threadx/common/src/tx_timer_expiration_process.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_timer_expiration_process.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_expiration_process.c.s
+.PHONY : middleware/threadx/common/src/tx_timer_expiration_process.c.s
+
+middleware/threadx/common/src/tx_timer_info_get.obj: middleware/threadx/common/src/tx_timer_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_timer_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_timer_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_timer_info_get.c.obj
+
+middleware/threadx/common/src/tx_timer_info_get.i: middleware/threadx/common/src/tx_timer_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_timer_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_timer_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_timer_info_get.c.i
+
+middleware/threadx/common/src/tx_timer_info_get.s: middleware/threadx/common/src/tx_timer_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_timer_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_timer_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_timer_info_get.c.s
+
+middleware/threadx/common/src/tx_timer_initialize.obj: middleware/threadx/common/src/tx_timer_initialize.c.obj
+.PHONY : middleware/threadx/common/src/tx_timer_initialize.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_timer_initialize.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_initialize.c.obj
+.PHONY : middleware/threadx/common/src/tx_timer_initialize.c.obj
+
+middleware/threadx/common/src/tx_timer_initialize.i: middleware/threadx/common/src/tx_timer_initialize.c.i
+.PHONY : middleware/threadx/common/src/tx_timer_initialize.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_timer_initialize.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_initialize.c.i
+.PHONY : middleware/threadx/common/src/tx_timer_initialize.c.i
+
+middleware/threadx/common/src/tx_timer_initialize.s: middleware/threadx/common/src/tx_timer_initialize.c.s
+.PHONY : middleware/threadx/common/src/tx_timer_initialize.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_timer_initialize.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_initialize.c.s
+.PHONY : middleware/threadx/common/src/tx_timer_initialize.c.s
+
+middleware/threadx/common/src/tx_timer_performance_info_get.obj: middleware/threadx/common/src/tx_timer_performance_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_timer_performance_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_timer_performance_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_timer_performance_info_get.c.obj
+
+middleware/threadx/common/src/tx_timer_performance_info_get.i: middleware/threadx/common/src/tx_timer_performance_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_timer_performance_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_timer_performance_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_timer_performance_info_get.c.i
+
+middleware/threadx/common/src/tx_timer_performance_info_get.s: middleware/threadx/common/src/tx_timer_performance_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_timer_performance_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_timer_performance_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_timer_performance_info_get.c.s
+
+middleware/threadx/common/src/tx_timer_performance_system_info_get.obj: middleware/threadx/common/src/tx_timer_performance_system_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_timer_performance_system_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_timer_performance_system_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_system_info_get.c.obj
+.PHONY : middleware/threadx/common/src/tx_timer_performance_system_info_get.c.obj
+
+middleware/threadx/common/src/tx_timer_performance_system_info_get.i: middleware/threadx/common/src/tx_timer_performance_system_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_timer_performance_system_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_timer_performance_system_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_system_info_get.c.i
+.PHONY : middleware/threadx/common/src/tx_timer_performance_system_info_get.c.i
+
+middleware/threadx/common/src/tx_timer_performance_system_info_get.s: middleware/threadx/common/src/tx_timer_performance_system_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_timer_performance_system_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_timer_performance_system_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_system_info_get.c.s
+.PHONY : middleware/threadx/common/src/tx_timer_performance_system_info_get.c.s
+
+middleware/threadx/common/src/tx_timer_system_activate.obj: middleware/threadx/common/src/tx_timer_system_activate.c.obj
+.PHONY : middleware/threadx/common/src/tx_timer_system_activate.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_timer_system_activate.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_activate.c.obj
+.PHONY : middleware/threadx/common/src/tx_timer_system_activate.c.obj
+
+middleware/threadx/common/src/tx_timer_system_activate.i: middleware/threadx/common/src/tx_timer_system_activate.c.i
+.PHONY : middleware/threadx/common/src/tx_timer_system_activate.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_timer_system_activate.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_activate.c.i
+.PHONY : middleware/threadx/common/src/tx_timer_system_activate.c.i
+
+middleware/threadx/common/src/tx_timer_system_activate.s: middleware/threadx/common/src/tx_timer_system_activate.c.s
+.PHONY : middleware/threadx/common/src/tx_timer_system_activate.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_timer_system_activate.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_activate.c.s
+.PHONY : middleware/threadx/common/src/tx_timer_system_activate.c.s
+
+middleware/threadx/common/src/tx_timer_system_deactivate.obj: middleware/threadx/common/src/tx_timer_system_deactivate.c.obj
+.PHONY : middleware/threadx/common/src/tx_timer_system_deactivate.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_timer_system_deactivate.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_deactivate.c.obj
+.PHONY : middleware/threadx/common/src/tx_timer_system_deactivate.c.obj
+
+middleware/threadx/common/src/tx_timer_system_deactivate.i: middleware/threadx/common/src/tx_timer_system_deactivate.c.i
+.PHONY : middleware/threadx/common/src/tx_timer_system_deactivate.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_timer_system_deactivate.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_deactivate.c.i
+.PHONY : middleware/threadx/common/src/tx_timer_system_deactivate.c.i
+
+middleware/threadx/common/src/tx_timer_system_deactivate.s: middleware/threadx/common/src/tx_timer_system_deactivate.c.s
+.PHONY : middleware/threadx/common/src/tx_timer_system_deactivate.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_timer_system_deactivate.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_deactivate.c.s
+.PHONY : middleware/threadx/common/src/tx_timer_system_deactivate.c.s
+
+middleware/threadx/common/src/tx_timer_thread_entry.obj: middleware/threadx/common/src/tx_timer_thread_entry.c.obj
+.PHONY : middleware/threadx/common/src/tx_timer_thread_entry.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_timer_thread_entry.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_thread_entry.c.obj
+.PHONY : middleware/threadx/common/src/tx_timer_thread_entry.c.obj
+
+middleware/threadx/common/src/tx_timer_thread_entry.i: middleware/threadx/common/src/tx_timer_thread_entry.c.i
+.PHONY : middleware/threadx/common/src/tx_timer_thread_entry.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_timer_thread_entry.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_thread_entry.c.i
+.PHONY : middleware/threadx/common/src/tx_timer_thread_entry.c.i
+
+middleware/threadx/common/src/tx_timer_thread_entry.s: middleware/threadx/common/src/tx_timer_thread_entry.c.s
+.PHONY : middleware/threadx/common/src/tx_timer_thread_entry.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_timer_thread_entry.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_thread_entry.c.s
+.PHONY : middleware/threadx/common/src/tx_timer_thread_entry.c.s
+
+middleware/threadx/common/src/tx_trace_buffer_full_notify.obj: middleware/threadx/common/src/tx_trace_buffer_full_notify.c.obj
+.PHONY : middleware/threadx/common/src/tx_trace_buffer_full_notify.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_trace_buffer_full_notify.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_buffer_full_notify.c.obj
+.PHONY : middleware/threadx/common/src/tx_trace_buffer_full_notify.c.obj
+
+middleware/threadx/common/src/tx_trace_buffer_full_notify.i: middleware/threadx/common/src/tx_trace_buffer_full_notify.c.i
+.PHONY : middleware/threadx/common/src/tx_trace_buffer_full_notify.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_trace_buffer_full_notify.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_buffer_full_notify.c.i
+.PHONY : middleware/threadx/common/src/tx_trace_buffer_full_notify.c.i
+
+middleware/threadx/common/src/tx_trace_buffer_full_notify.s: middleware/threadx/common/src/tx_trace_buffer_full_notify.c.s
+.PHONY : middleware/threadx/common/src/tx_trace_buffer_full_notify.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_trace_buffer_full_notify.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_buffer_full_notify.c.s
+.PHONY : middleware/threadx/common/src/tx_trace_buffer_full_notify.c.s
+
+middleware/threadx/common/src/tx_trace_disable.obj: middleware/threadx/common/src/tx_trace_disable.c.obj
+.PHONY : middleware/threadx/common/src/tx_trace_disable.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_trace_disable.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_disable.c.obj
+.PHONY : middleware/threadx/common/src/tx_trace_disable.c.obj
+
+middleware/threadx/common/src/tx_trace_disable.i: middleware/threadx/common/src/tx_trace_disable.c.i
+.PHONY : middleware/threadx/common/src/tx_trace_disable.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_trace_disable.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_disable.c.i
+.PHONY : middleware/threadx/common/src/tx_trace_disable.c.i
+
+middleware/threadx/common/src/tx_trace_disable.s: middleware/threadx/common/src/tx_trace_disable.c.s
+.PHONY : middleware/threadx/common/src/tx_trace_disable.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_trace_disable.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_disable.c.s
+.PHONY : middleware/threadx/common/src/tx_trace_disable.c.s
+
+middleware/threadx/common/src/tx_trace_enable.obj: middleware/threadx/common/src/tx_trace_enable.c.obj
+.PHONY : middleware/threadx/common/src/tx_trace_enable.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_trace_enable.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_enable.c.obj
+.PHONY : middleware/threadx/common/src/tx_trace_enable.c.obj
+
+middleware/threadx/common/src/tx_trace_enable.i: middleware/threadx/common/src/tx_trace_enable.c.i
+.PHONY : middleware/threadx/common/src/tx_trace_enable.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_trace_enable.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_enable.c.i
+.PHONY : middleware/threadx/common/src/tx_trace_enable.c.i
+
+middleware/threadx/common/src/tx_trace_enable.s: middleware/threadx/common/src/tx_trace_enable.c.s
+.PHONY : middleware/threadx/common/src/tx_trace_enable.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_trace_enable.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_enable.c.s
+.PHONY : middleware/threadx/common/src/tx_trace_enable.c.s
+
+middleware/threadx/common/src/tx_trace_event_filter.obj: middleware/threadx/common/src/tx_trace_event_filter.c.obj
+.PHONY : middleware/threadx/common/src/tx_trace_event_filter.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_trace_event_filter.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_filter.c.obj
+.PHONY : middleware/threadx/common/src/tx_trace_event_filter.c.obj
+
+middleware/threadx/common/src/tx_trace_event_filter.i: middleware/threadx/common/src/tx_trace_event_filter.c.i
+.PHONY : middleware/threadx/common/src/tx_trace_event_filter.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_trace_event_filter.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_filter.c.i
+.PHONY : middleware/threadx/common/src/tx_trace_event_filter.c.i
+
+middleware/threadx/common/src/tx_trace_event_filter.s: middleware/threadx/common/src/tx_trace_event_filter.c.s
+.PHONY : middleware/threadx/common/src/tx_trace_event_filter.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_trace_event_filter.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_filter.c.s
+.PHONY : middleware/threadx/common/src/tx_trace_event_filter.c.s
+
+middleware/threadx/common/src/tx_trace_event_unfilter.obj: middleware/threadx/common/src/tx_trace_event_unfilter.c.obj
+.PHONY : middleware/threadx/common/src/tx_trace_event_unfilter.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_trace_event_unfilter.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_unfilter.c.obj
+.PHONY : middleware/threadx/common/src/tx_trace_event_unfilter.c.obj
+
+middleware/threadx/common/src/tx_trace_event_unfilter.i: middleware/threadx/common/src/tx_trace_event_unfilter.c.i
+.PHONY : middleware/threadx/common/src/tx_trace_event_unfilter.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_trace_event_unfilter.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_unfilter.c.i
+.PHONY : middleware/threadx/common/src/tx_trace_event_unfilter.c.i
+
+middleware/threadx/common/src/tx_trace_event_unfilter.s: middleware/threadx/common/src/tx_trace_event_unfilter.c.s
+.PHONY : middleware/threadx/common/src/tx_trace_event_unfilter.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_trace_event_unfilter.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_unfilter.c.s
+.PHONY : middleware/threadx/common/src/tx_trace_event_unfilter.c.s
+
+middleware/threadx/common/src/tx_trace_initialize.obj: middleware/threadx/common/src/tx_trace_initialize.c.obj
+.PHONY : middleware/threadx/common/src/tx_trace_initialize.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_trace_initialize.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_initialize.c.obj
+.PHONY : middleware/threadx/common/src/tx_trace_initialize.c.obj
+
+middleware/threadx/common/src/tx_trace_initialize.i: middleware/threadx/common/src/tx_trace_initialize.c.i
+.PHONY : middleware/threadx/common/src/tx_trace_initialize.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_trace_initialize.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_initialize.c.i
+.PHONY : middleware/threadx/common/src/tx_trace_initialize.c.i
+
+middleware/threadx/common/src/tx_trace_initialize.s: middleware/threadx/common/src/tx_trace_initialize.c.s
+.PHONY : middleware/threadx/common/src/tx_trace_initialize.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_trace_initialize.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_initialize.c.s
+.PHONY : middleware/threadx/common/src/tx_trace_initialize.c.s
+
+middleware/threadx/common/src/tx_trace_interrupt_control.obj: middleware/threadx/common/src/tx_trace_interrupt_control.c.obj
+.PHONY : middleware/threadx/common/src/tx_trace_interrupt_control.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_trace_interrupt_control.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_interrupt_control.c.obj
+.PHONY : middleware/threadx/common/src/tx_trace_interrupt_control.c.obj
+
+middleware/threadx/common/src/tx_trace_interrupt_control.i: middleware/threadx/common/src/tx_trace_interrupt_control.c.i
+.PHONY : middleware/threadx/common/src/tx_trace_interrupt_control.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_trace_interrupt_control.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_interrupt_control.c.i
+.PHONY : middleware/threadx/common/src/tx_trace_interrupt_control.c.i
+
+middleware/threadx/common/src/tx_trace_interrupt_control.s: middleware/threadx/common/src/tx_trace_interrupt_control.c.s
+.PHONY : middleware/threadx/common/src/tx_trace_interrupt_control.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_trace_interrupt_control.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_interrupt_control.c.s
+.PHONY : middleware/threadx/common/src/tx_trace_interrupt_control.c.s
+
+middleware/threadx/common/src/tx_trace_isr_enter_insert.obj: middleware/threadx/common/src/tx_trace_isr_enter_insert.c.obj
+.PHONY : middleware/threadx/common/src/tx_trace_isr_enter_insert.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_trace_isr_enter_insert.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_enter_insert.c.obj
+.PHONY : middleware/threadx/common/src/tx_trace_isr_enter_insert.c.obj
+
+middleware/threadx/common/src/tx_trace_isr_enter_insert.i: middleware/threadx/common/src/tx_trace_isr_enter_insert.c.i
+.PHONY : middleware/threadx/common/src/tx_trace_isr_enter_insert.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_trace_isr_enter_insert.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_enter_insert.c.i
+.PHONY : middleware/threadx/common/src/tx_trace_isr_enter_insert.c.i
+
+middleware/threadx/common/src/tx_trace_isr_enter_insert.s: middleware/threadx/common/src/tx_trace_isr_enter_insert.c.s
+.PHONY : middleware/threadx/common/src/tx_trace_isr_enter_insert.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_trace_isr_enter_insert.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_enter_insert.c.s
+.PHONY : middleware/threadx/common/src/tx_trace_isr_enter_insert.c.s
+
+middleware/threadx/common/src/tx_trace_isr_exit_insert.obj: middleware/threadx/common/src/tx_trace_isr_exit_insert.c.obj
+.PHONY : middleware/threadx/common/src/tx_trace_isr_exit_insert.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_trace_isr_exit_insert.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_exit_insert.c.obj
+.PHONY : middleware/threadx/common/src/tx_trace_isr_exit_insert.c.obj
+
+middleware/threadx/common/src/tx_trace_isr_exit_insert.i: middleware/threadx/common/src/tx_trace_isr_exit_insert.c.i
+.PHONY : middleware/threadx/common/src/tx_trace_isr_exit_insert.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_trace_isr_exit_insert.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_exit_insert.c.i
+.PHONY : middleware/threadx/common/src/tx_trace_isr_exit_insert.c.i
+
+middleware/threadx/common/src/tx_trace_isr_exit_insert.s: middleware/threadx/common/src/tx_trace_isr_exit_insert.c.s
+.PHONY : middleware/threadx/common/src/tx_trace_isr_exit_insert.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_trace_isr_exit_insert.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_exit_insert.c.s
+.PHONY : middleware/threadx/common/src/tx_trace_isr_exit_insert.c.s
+
+middleware/threadx/common/src/tx_trace_object_register.obj: middleware/threadx/common/src/tx_trace_object_register.c.obj
+.PHONY : middleware/threadx/common/src/tx_trace_object_register.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_trace_object_register.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_register.c.obj
+.PHONY : middleware/threadx/common/src/tx_trace_object_register.c.obj
+
+middleware/threadx/common/src/tx_trace_object_register.i: middleware/threadx/common/src/tx_trace_object_register.c.i
+.PHONY : middleware/threadx/common/src/tx_trace_object_register.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_trace_object_register.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_register.c.i
+.PHONY : middleware/threadx/common/src/tx_trace_object_register.c.i
+
+middleware/threadx/common/src/tx_trace_object_register.s: middleware/threadx/common/src/tx_trace_object_register.c.s
+.PHONY : middleware/threadx/common/src/tx_trace_object_register.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_trace_object_register.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_register.c.s
+.PHONY : middleware/threadx/common/src/tx_trace_object_register.c.s
+
+middleware/threadx/common/src/tx_trace_object_unregister.obj: middleware/threadx/common/src/tx_trace_object_unregister.c.obj
+.PHONY : middleware/threadx/common/src/tx_trace_object_unregister.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_trace_object_unregister.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_unregister.c.obj
+.PHONY : middleware/threadx/common/src/tx_trace_object_unregister.c.obj
+
+middleware/threadx/common/src/tx_trace_object_unregister.i: middleware/threadx/common/src/tx_trace_object_unregister.c.i
+.PHONY : middleware/threadx/common/src/tx_trace_object_unregister.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_trace_object_unregister.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_unregister.c.i
+.PHONY : middleware/threadx/common/src/tx_trace_object_unregister.c.i
+
+middleware/threadx/common/src/tx_trace_object_unregister.s: middleware/threadx/common/src/tx_trace_object_unregister.c.s
+.PHONY : middleware/threadx/common/src/tx_trace_object_unregister.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_trace_object_unregister.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_unregister.c.s
+.PHONY : middleware/threadx/common/src/tx_trace_object_unregister.c.s
+
+middleware/threadx/common/src/tx_trace_user_event_insert.obj: middleware/threadx/common/src/tx_trace_user_event_insert.c.obj
+.PHONY : middleware/threadx/common/src/tx_trace_user_event_insert.obj
+
+# target to build an object file
+middleware/threadx/common/src/tx_trace_user_event_insert.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_user_event_insert.c.obj
+.PHONY : middleware/threadx/common/src/tx_trace_user_event_insert.c.obj
+
+middleware/threadx/common/src/tx_trace_user_event_insert.i: middleware/threadx/common/src/tx_trace_user_event_insert.c.i
+.PHONY : middleware/threadx/common/src/tx_trace_user_event_insert.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/tx_trace_user_event_insert.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_user_event_insert.c.i
+.PHONY : middleware/threadx/common/src/tx_trace_user_event_insert.c.i
+
+middleware/threadx/common/src/tx_trace_user_event_insert.s: middleware/threadx/common/src/tx_trace_user_event_insert.c.s
+.PHONY : middleware/threadx/common/src/tx_trace_user_event_insert.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/tx_trace_user_event_insert.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_user_event_insert.c.s
+.PHONY : middleware/threadx/common/src/tx_trace_user_event_insert.c.s
+
+middleware/threadx/common/src/txe_block_allocate.obj: middleware/threadx/common/src/txe_block_allocate.c.obj
+.PHONY : middleware/threadx/common/src/txe_block_allocate.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_block_allocate.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_allocate.c.obj
+.PHONY : middleware/threadx/common/src/txe_block_allocate.c.obj
+
+middleware/threadx/common/src/txe_block_allocate.i: middleware/threadx/common/src/txe_block_allocate.c.i
+.PHONY : middleware/threadx/common/src/txe_block_allocate.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_block_allocate.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_allocate.c.i
+.PHONY : middleware/threadx/common/src/txe_block_allocate.c.i
+
+middleware/threadx/common/src/txe_block_allocate.s: middleware/threadx/common/src/txe_block_allocate.c.s
+.PHONY : middleware/threadx/common/src/txe_block_allocate.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_block_allocate.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_allocate.c.s
+.PHONY : middleware/threadx/common/src/txe_block_allocate.c.s
+
+middleware/threadx/common/src/txe_block_pool_create.obj: middleware/threadx/common/src/txe_block_pool_create.c.obj
+.PHONY : middleware/threadx/common/src/txe_block_pool_create.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_block_pool_create.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_create.c.obj
+.PHONY : middleware/threadx/common/src/txe_block_pool_create.c.obj
+
+middleware/threadx/common/src/txe_block_pool_create.i: middleware/threadx/common/src/txe_block_pool_create.c.i
+.PHONY : middleware/threadx/common/src/txe_block_pool_create.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_block_pool_create.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_create.c.i
+.PHONY : middleware/threadx/common/src/txe_block_pool_create.c.i
+
+middleware/threadx/common/src/txe_block_pool_create.s: middleware/threadx/common/src/txe_block_pool_create.c.s
+.PHONY : middleware/threadx/common/src/txe_block_pool_create.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_block_pool_create.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_create.c.s
+.PHONY : middleware/threadx/common/src/txe_block_pool_create.c.s
+
+middleware/threadx/common/src/txe_block_pool_delete.obj: middleware/threadx/common/src/txe_block_pool_delete.c.obj
+.PHONY : middleware/threadx/common/src/txe_block_pool_delete.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_block_pool_delete.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_delete.c.obj
+.PHONY : middleware/threadx/common/src/txe_block_pool_delete.c.obj
+
+middleware/threadx/common/src/txe_block_pool_delete.i: middleware/threadx/common/src/txe_block_pool_delete.c.i
+.PHONY : middleware/threadx/common/src/txe_block_pool_delete.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_block_pool_delete.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_delete.c.i
+.PHONY : middleware/threadx/common/src/txe_block_pool_delete.c.i
+
+middleware/threadx/common/src/txe_block_pool_delete.s: middleware/threadx/common/src/txe_block_pool_delete.c.s
+.PHONY : middleware/threadx/common/src/txe_block_pool_delete.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_block_pool_delete.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_delete.c.s
+.PHONY : middleware/threadx/common/src/txe_block_pool_delete.c.s
+
+middleware/threadx/common/src/txe_block_pool_info_get.obj: middleware/threadx/common/src/txe_block_pool_info_get.c.obj
+.PHONY : middleware/threadx/common/src/txe_block_pool_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_block_pool_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_info_get.c.obj
+.PHONY : middleware/threadx/common/src/txe_block_pool_info_get.c.obj
+
+middleware/threadx/common/src/txe_block_pool_info_get.i: middleware/threadx/common/src/txe_block_pool_info_get.c.i
+.PHONY : middleware/threadx/common/src/txe_block_pool_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_block_pool_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_info_get.c.i
+.PHONY : middleware/threadx/common/src/txe_block_pool_info_get.c.i
+
+middleware/threadx/common/src/txe_block_pool_info_get.s: middleware/threadx/common/src/txe_block_pool_info_get.c.s
+.PHONY : middleware/threadx/common/src/txe_block_pool_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_block_pool_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_info_get.c.s
+.PHONY : middleware/threadx/common/src/txe_block_pool_info_get.c.s
+
+middleware/threadx/common/src/txe_block_pool_prioritize.obj: middleware/threadx/common/src/txe_block_pool_prioritize.c.obj
+.PHONY : middleware/threadx/common/src/txe_block_pool_prioritize.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_block_pool_prioritize.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_prioritize.c.obj
+.PHONY : middleware/threadx/common/src/txe_block_pool_prioritize.c.obj
+
+middleware/threadx/common/src/txe_block_pool_prioritize.i: middleware/threadx/common/src/txe_block_pool_prioritize.c.i
+.PHONY : middleware/threadx/common/src/txe_block_pool_prioritize.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_block_pool_prioritize.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_prioritize.c.i
+.PHONY : middleware/threadx/common/src/txe_block_pool_prioritize.c.i
+
+middleware/threadx/common/src/txe_block_pool_prioritize.s: middleware/threadx/common/src/txe_block_pool_prioritize.c.s
+.PHONY : middleware/threadx/common/src/txe_block_pool_prioritize.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_block_pool_prioritize.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_prioritize.c.s
+.PHONY : middleware/threadx/common/src/txe_block_pool_prioritize.c.s
+
+middleware/threadx/common/src/txe_block_release.obj: middleware/threadx/common/src/txe_block_release.c.obj
+.PHONY : middleware/threadx/common/src/txe_block_release.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_block_release.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_release.c.obj
+.PHONY : middleware/threadx/common/src/txe_block_release.c.obj
+
+middleware/threadx/common/src/txe_block_release.i: middleware/threadx/common/src/txe_block_release.c.i
+.PHONY : middleware/threadx/common/src/txe_block_release.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_block_release.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_release.c.i
+.PHONY : middleware/threadx/common/src/txe_block_release.c.i
+
+middleware/threadx/common/src/txe_block_release.s: middleware/threadx/common/src/txe_block_release.c.s
+.PHONY : middleware/threadx/common/src/txe_block_release.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_block_release.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_release.c.s
+.PHONY : middleware/threadx/common/src/txe_block_release.c.s
+
+middleware/threadx/common/src/txe_byte_allocate.obj: middleware/threadx/common/src/txe_byte_allocate.c.obj
+.PHONY : middleware/threadx/common/src/txe_byte_allocate.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_byte_allocate.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_allocate.c.obj
+.PHONY : middleware/threadx/common/src/txe_byte_allocate.c.obj
+
+middleware/threadx/common/src/txe_byte_allocate.i: middleware/threadx/common/src/txe_byte_allocate.c.i
+.PHONY : middleware/threadx/common/src/txe_byte_allocate.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_byte_allocate.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_allocate.c.i
+.PHONY : middleware/threadx/common/src/txe_byte_allocate.c.i
+
+middleware/threadx/common/src/txe_byte_allocate.s: middleware/threadx/common/src/txe_byte_allocate.c.s
+.PHONY : middleware/threadx/common/src/txe_byte_allocate.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_byte_allocate.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_allocate.c.s
+.PHONY : middleware/threadx/common/src/txe_byte_allocate.c.s
+
+middleware/threadx/common/src/txe_byte_pool_create.obj: middleware/threadx/common/src/txe_byte_pool_create.c.obj
+.PHONY : middleware/threadx/common/src/txe_byte_pool_create.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_byte_pool_create.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_create.c.obj
+.PHONY : middleware/threadx/common/src/txe_byte_pool_create.c.obj
+
+middleware/threadx/common/src/txe_byte_pool_create.i: middleware/threadx/common/src/txe_byte_pool_create.c.i
+.PHONY : middleware/threadx/common/src/txe_byte_pool_create.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_byte_pool_create.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_create.c.i
+.PHONY : middleware/threadx/common/src/txe_byte_pool_create.c.i
+
+middleware/threadx/common/src/txe_byte_pool_create.s: middleware/threadx/common/src/txe_byte_pool_create.c.s
+.PHONY : middleware/threadx/common/src/txe_byte_pool_create.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_byte_pool_create.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_create.c.s
+.PHONY : middleware/threadx/common/src/txe_byte_pool_create.c.s
+
+middleware/threadx/common/src/txe_byte_pool_delete.obj: middleware/threadx/common/src/txe_byte_pool_delete.c.obj
+.PHONY : middleware/threadx/common/src/txe_byte_pool_delete.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_byte_pool_delete.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_delete.c.obj
+.PHONY : middleware/threadx/common/src/txe_byte_pool_delete.c.obj
+
+middleware/threadx/common/src/txe_byte_pool_delete.i: middleware/threadx/common/src/txe_byte_pool_delete.c.i
+.PHONY : middleware/threadx/common/src/txe_byte_pool_delete.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_byte_pool_delete.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_delete.c.i
+.PHONY : middleware/threadx/common/src/txe_byte_pool_delete.c.i
+
+middleware/threadx/common/src/txe_byte_pool_delete.s: middleware/threadx/common/src/txe_byte_pool_delete.c.s
+.PHONY : middleware/threadx/common/src/txe_byte_pool_delete.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_byte_pool_delete.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_delete.c.s
+.PHONY : middleware/threadx/common/src/txe_byte_pool_delete.c.s
+
+middleware/threadx/common/src/txe_byte_pool_info_get.obj: middleware/threadx/common/src/txe_byte_pool_info_get.c.obj
+.PHONY : middleware/threadx/common/src/txe_byte_pool_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_byte_pool_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_info_get.c.obj
+.PHONY : middleware/threadx/common/src/txe_byte_pool_info_get.c.obj
+
+middleware/threadx/common/src/txe_byte_pool_info_get.i: middleware/threadx/common/src/txe_byte_pool_info_get.c.i
+.PHONY : middleware/threadx/common/src/txe_byte_pool_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_byte_pool_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_info_get.c.i
+.PHONY : middleware/threadx/common/src/txe_byte_pool_info_get.c.i
+
+middleware/threadx/common/src/txe_byte_pool_info_get.s: middleware/threadx/common/src/txe_byte_pool_info_get.c.s
+.PHONY : middleware/threadx/common/src/txe_byte_pool_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_byte_pool_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_info_get.c.s
+.PHONY : middleware/threadx/common/src/txe_byte_pool_info_get.c.s
+
+middleware/threadx/common/src/txe_byte_pool_prioritize.obj: middleware/threadx/common/src/txe_byte_pool_prioritize.c.obj
+.PHONY : middleware/threadx/common/src/txe_byte_pool_prioritize.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_byte_pool_prioritize.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_prioritize.c.obj
+.PHONY : middleware/threadx/common/src/txe_byte_pool_prioritize.c.obj
+
+middleware/threadx/common/src/txe_byte_pool_prioritize.i: middleware/threadx/common/src/txe_byte_pool_prioritize.c.i
+.PHONY : middleware/threadx/common/src/txe_byte_pool_prioritize.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_byte_pool_prioritize.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_prioritize.c.i
+.PHONY : middleware/threadx/common/src/txe_byte_pool_prioritize.c.i
+
+middleware/threadx/common/src/txe_byte_pool_prioritize.s: middleware/threadx/common/src/txe_byte_pool_prioritize.c.s
+.PHONY : middleware/threadx/common/src/txe_byte_pool_prioritize.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_byte_pool_prioritize.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_prioritize.c.s
+.PHONY : middleware/threadx/common/src/txe_byte_pool_prioritize.c.s
+
+middleware/threadx/common/src/txe_byte_release.obj: middleware/threadx/common/src/txe_byte_release.c.obj
+.PHONY : middleware/threadx/common/src/txe_byte_release.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_byte_release.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_release.c.obj
+.PHONY : middleware/threadx/common/src/txe_byte_release.c.obj
+
+middleware/threadx/common/src/txe_byte_release.i: middleware/threadx/common/src/txe_byte_release.c.i
+.PHONY : middleware/threadx/common/src/txe_byte_release.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_byte_release.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_release.c.i
+.PHONY : middleware/threadx/common/src/txe_byte_release.c.i
+
+middleware/threadx/common/src/txe_byte_release.s: middleware/threadx/common/src/txe_byte_release.c.s
+.PHONY : middleware/threadx/common/src/txe_byte_release.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_byte_release.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_release.c.s
+.PHONY : middleware/threadx/common/src/txe_byte_release.c.s
+
+middleware/threadx/common/src/txe_event_flags_create.obj: middleware/threadx/common/src/txe_event_flags_create.c.obj
+.PHONY : middleware/threadx/common/src/txe_event_flags_create.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_event_flags_create.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_create.c.obj
+.PHONY : middleware/threadx/common/src/txe_event_flags_create.c.obj
+
+middleware/threadx/common/src/txe_event_flags_create.i: middleware/threadx/common/src/txe_event_flags_create.c.i
+.PHONY : middleware/threadx/common/src/txe_event_flags_create.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_event_flags_create.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_create.c.i
+.PHONY : middleware/threadx/common/src/txe_event_flags_create.c.i
+
+middleware/threadx/common/src/txe_event_flags_create.s: middleware/threadx/common/src/txe_event_flags_create.c.s
+.PHONY : middleware/threadx/common/src/txe_event_flags_create.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_event_flags_create.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_create.c.s
+.PHONY : middleware/threadx/common/src/txe_event_flags_create.c.s
+
+middleware/threadx/common/src/txe_event_flags_delete.obj: middleware/threadx/common/src/txe_event_flags_delete.c.obj
+.PHONY : middleware/threadx/common/src/txe_event_flags_delete.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_event_flags_delete.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_delete.c.obj
+.PHONY : middleware/threadx/common/src/txe_event_flags_delete.c.obj
+
+middleware/threadx/common/src/txe_event_flags_delete.i: middleware/threadx/common/src/txe_event_flags_delete.c.i
+.PHONY : middleware/threadx/common/src/txe_event_flags_delete.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_event_flags_delete.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_delete.c.i
+.PHONY : middleware/threadx/common/src/txe_event_flags_delete.c.i
+
+middleware/threadx/common/src/txe_event_flags_delete.s: middleware/threadx/common/src/txe_event_flags_delete.c.s
+.PHONY : middleware/threadx/common/src/txe_event_flags_delete.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_event_flags_delete.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_delete.c.s
+.PHONY : middleware/threadx/common/src/txe_event_flags_delete.c.s
+
+middleware/threadx/common/src/txe_event_flags_get.obj: middleware/threadx/common/src/txe_event_flags_get.c.obj
+.PHONY : middleware/threadx/common/src/txe_event_flags_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_event_flags_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_get.c.obj
+.PHONY : middleware/threadx/common/src/txe_event_flags_get.c.obj
+
+middleware/threadx/common/src/txe_event_flags_get.i: middleware/threadx/common/src/txe_event_flags_get.c.i
+.PHONY : middleware/threadx/common/src/txe_event_flags_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_event_flags_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_get.c.i
+.PHONY : middleware/threadx/common/src/txe_event_flags_get.c.i
+
+middleware/threadx/common/src/txe_event_flags_get.s: middleware/threadx/common/src/txe_event_flags_get.c.s
+.PHONY : middleware/threadx/common/src/txe_event_flags_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_event_flags_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_get.c.s
+.PHONY : middleware/threadx/common/src/txe_event_flags_get.c.s
+
+middleware/threadx/common/src/txe_event_flags_info_get.obj: middleware/threadx/common/src/txe_event_flags_info_get.c.obj
+.PHONY : middleware/threadx/common/src/txe_event_flags_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_event_flags_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_info_get.c.obj
+.PHONY : middleware/threadx/common/src/txe_event_flags_info_get.c.obj
+
+middleware/threadx/common/src/txe_event_flags_info_get.i: middleware/threadx/common/src/txe_event_flags_info_get.c.i
+.PHONY : middleware/threadx/common/src/txe_event_flags_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_event_flags_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_info_get.c.i
+.PHONY : middleware/threadx/common/src/txe_event_flags_info_get.c.i
+
+middleware/threadx/common/src/txe_event_flags_info_get.s: middleware/threadx/common/src/txe_event_flags_info_get.c.s
+.PHONY : middleware/threadx/common/src/txe_event_flags_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_event_flags_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_info_get.c.s
+.PHONY : middleware/threadx/common/src/txe_event_flags_info_get.c.s
+
+middleware/threadx/common/src/txe_event_flags_set.obj: middleware/threadx/common/src/txe_event_flags_set.c.obj
+.PHONY : middleware/threadx/common/src/txe_event_flags_set.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_event_flags_set.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set.c.obj
+.PHONY : middleware/threadx/common/src/txe_event_flags_set.c.obj
+
+middleware/threadx/common/src/txe_event_flags_set.i: middleware/threadx/common/src/txe_event_flags_set.c.i
+.PHONY : middleware/threadx/common/src/txe_event_flags_set.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_event_flags_set.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set.c.i
+.PHONY : middleware/threadx/common/src/txe_event_flags_set.c.i
+
+middleware/threadx/common/src/txe_event_flags_set.s: middleware/threadx/common/src/txe_event_flags_set.c.s
+.PHONY : middleware/threadx/common/src/txe_event_flags_set.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_event_flags_set.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set.c.s
+.PHONY : middleware/threadx/common/src/txe_event_flags_set.c.s
+
+middleware/threadx/common/src/txe_event_flags_set_notify.obj: middleware/threadx/common/src/txe_event_flags_set_notify.c.obj
+.PHONY : middleware/threadx/common/src/txe_event_flags_set_notify.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_event_flags_set_notify.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set_notify.c.obj
+.PHONY : middleware/threadx/common/src/txe_event_flags_set_notify.c.obj
+
+middleware/threadx/common/src/txe_event_flags_set_notify.i: middleware/threadx/common/src/txe_event_flags_set_notify.c.i
+.PHONY : middleware/threadx/common/src/txe_event_flags_set_notify.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_event_flags_set_notify.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set_notify.c.i
+.PHONY : middleware/threadx/common/src/txe_event_flags_set_notify.c.i
+
+middleware/threadx/common/src/txe_event_flags_set_notify.s: middleware/threadx/common/src/txe_event_flags_set_notify.c.s
+.PHONY : middleware/threadx/common/src/txe_event_flags_set_notify.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_event_flags_set_notify.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set_notify.c.s
+.PHONY : middleware/threadx/common/src/txe_event_flags_set_notify.c.s
+
+middleware/threadx/common/src/txe_mutex_create.obj: middleware/threadx/common/src/txe_mutex_create.c.obj
+.PHONY : middleware/threadx/common/src/txe_mutex_create.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_mutex_create.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_create.c.obj
+.PHONY : middleware/threadx/common/src/txe_mutex_create.c.obj
+
+middleware/threadx/common/src/txe_mutex_create.i: middleware/threadx/common/src/txe_mutex_create.c.i
+.PHONY : middleware/threadx/common/src/txe_mutex_create.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_mutex_create.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_create.c.i
+.PHONY : middleware/threadx/common/src/txe_mutex_create.c.i
+
+middleware/threadx/common/src/txe_mutex_create.s: middleware/threadx/common/src/txe_mutex_create.c.s
+.PHONY : middleware/threadx/common/src/txe_mutex_create.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_mutex_create.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_create.c.s
+.PHONY : middleware/threadx/common/src/txe_mutex_create.c.s
+
+middleware/threadx/common/src/txe_mutex_delete.obj: middleware/threadx/common/src/txe_mutex_delete.c.obj
+.PHONY : middleware/threadx/common/src/txe_mutex_delete.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_mutex_delete.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_delete.c.obj
+.PHONY : middleware/threadx/common/src/txe_mutex_delete.c.obj
+
+middleware/threadx/common/src/txe_mutex_delete.i: middleware/threadx/common/src/txe_mutex_delete.c.i
+.PHONY : middleware/threadx/common/src/txe_mutex_delete.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_mutex_delete.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_delete.c.i
+.PHONY : middleware/threadx/common/src/txe_mutex_delete.c.i
+
+middleware/threadx/common/src/txe_mutex_delete.s: middleware/threadx/common/src/txe_mutex_delete.c.s
+.PHONY : middleware/threadx/common/src/txe_mutex_delete.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_mutex_delete.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_delete.c.s
+.PHONY : middleware/threadx/common/src/txe_mutex_delete.c.s
+
+middleware/threadx/common/src/txe_mutex_get.obj: middleware/threadx/common/src/txe_mutex_get.c.obj
+.PHONY : middleware/threadx/common/src/txe_mutex_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_mutex_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_get.c.obj
+.PHONY : middleware/threadx/common/src/txe_mutex_get.c.obj
+
+middleware/threadx/common/src/txe_mutex_get.i: middleware/threadx/common/src/txe_mutex_get.c.i
+.PHONY : middleware/threadx/common/src/txe_mutex_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_mutex_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_get.c.i
+.PHONY : middleware/threadx/common/src/txe_mutex_get.c.i
+
+middleware/threadx/common/src/txe_mutex_get.s: middleware/threadx/common/src/txe_mutex_get.c.s
+.PHONY : middleware/threadx/common/src/txe_mutex_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_mutex_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_get.c.s
+.PHONY : middleware/threadx/common/src/txe_mutex_get.c.s
+
+middleware/threadx/common/src/txe_mutex_info_get.obj: middleware/threadx/common/src/txe_mutex_info_get.c.obj
+.PHONY : middleware/threadx/common/src/txe_mutex_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_mutex_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_info_get.c.obj
+.PHONY : middleware/threadx/common/src/txe_mutex_info_get.c.obj
+
+middleware/threadx/common/src/txe_mutex_info_get.i: middleware/threadx/common/src/txe_mutex_info_get.c.i
+.PHONY : middleware/threadx/common/src/txe_mutex_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_mutex_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_info_get.c.i
+.PHONY : middleware/threadx/common/src/txe_mutex_info_get.c.i
+
+middleware/threadx/common/src/txe_mutex_info_get.s: middleware/threadx/common/src/txe_mutex_info_get.c.s
+.PHONY : middleware/threadx/common/src/txe_mutex_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_mutex_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_info_get.c.s
+.PHONY : middleware/threadx/common/src/txe_mutex_info_get.c.s
+
+middleware/threadx/common/src/txe_mutex_prioritize.obj: middleware/threadx/common/src/txe_mutex_prioritize.c.obj
+.PHONY : middleware/threadx/common/src/txe_mutex_prioritize.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_mutex_prioritize.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_prioritize.c.obj
+.PHONY : middleware/threadx/common/src/txe_mutex_prioritize.c.obj
+
+middleware/threadx/common/src/txe_mutex_prioritize.i: middleware/threadx/common/src/txe_mutex_prioritize.c.i
+.PHONY : middleware/threadx/common/src/txe_mutex_prioritize.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_mutex_prioritize.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_prioritize.c.i
+.PHONY : middleware/threadx/common/src/txe_mutex_prioritize.c.i
+
+middleware/threadx/common/src/txe_mutex_prioritize.s: middleware/threadx/common/src/txe_mutex_prioritize.c.s
+.PHONY : middleware/threadx/common/src/txe_mutex_prioritize.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_mutex_prioritize.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_prioritize.c.s
+.PHONY : middleware/threadx/common/src/txe_mutex_prioritize.c.s
+
+middleware/threadx/common/src/txe_mutex_put.obj: middleware/threadx/common/src/txe_mutex_put.c.obj
+.PHONY : middleware/threadx/common/src/txe_mutex_put.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_mutex_put.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_put.c.obj
+.PHONY : middleware/threadx/common/src/txe_mutex_put.c.obj
+
+middleware/threadx/common/src/txe_mutex_put.i: middleware/threadx/common/src/txe_mutex_put.c.i
+.PHONY : middleware/threadx/common/src/txe_mutex_put.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_mutex_put.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_put.c.i
+.PHONY : middleware/threadx/common/src/txe_mutex_put.c.i
+
+middleware/threadx/common/src/txe_mutex_put.s: middleware/threadx/common/src/txe_mutex_put.c.s
+.PHONY : middleware/threadx/common/src/txe_mutex_put.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_mutex_put.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_put.c.s
+.PHONY : middleware/threadx/common/src/txe_mutex_put.c.s
+
+middleware/threadx/common/src/txe_queue_create.obj: middleware/threadx/common/src/txe_queue_create.c.obj
+.PHONY : middleware/threadx/common/src/txe_queue_create.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_queue_create.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_create.c.obj
+.PHONY : middleware/threadx/common/src/txe_queue_create.c.obj
+
+middleware/threadx/common/src/txe_queue_create.i: middleware/threadx/common/src/txe_queue_create.c.i
+.PHONY : middleware/threadx/common/src/txe_queue_create.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_queue_create.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_create.c.i
+.PHONY : middleware/threadx/common/src/txe_queue_create.c.i
+
+middleware/threadx/common/src/txe_queue_create.s: middleware/threadx/common/src/txe_queue_create.c.s
+.PHONY : middleware/threadx/common/src/txe_queue_create.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_queue_create.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_create.c.s
+.PHONY : middleware/threadx/common/src/txe_queue_create.c.s
+
+middleware/threadx/common/src/txe_queue_delete.obj: middleware/threadx/common/src/txe_queue_delete.c.obj
+.PHONY : middleware/threadx/common/src/txe_queue_delete.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_queue_delete.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_delete.c.obj
+.PHONY : middleware/threadx/common/src/txe_queue_delete.c.obj
+
+middleware/threadx/common/src/txe_queue_delete.i: middleware/threadx/common/src/txe_queue_delete.c.i
+.PHONY : middleware/threadx/common/src/txe_queue_delete.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_queue_delete.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_delete.c.i
+.PHONY : middleware/threadx/common/src/txe_queue_delete.c.i
+
+middleware/threadx/common/src/txe_queue_delete.s: middleware/threadx/common/src/txe_queue_delete.c.s
+.PHONY : middleware/threadx/common/src/txe_queue_delete.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_queue_delete.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_delete.c.s
+.PHONY : middleware/threadx/common/src/txe_queue_delete.c.s
+
+middleware/threadx/common/src/txe_queue_flush.obj: middleware/threadx/common/src/txe_queue_flush.c.obj
+.PHONY : middleware/threadx/common/src/txe_queue_flush.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_queue_flush.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_flush.c.obj
+.PHONY : middleware/threadx/common/src/txe_queue_flush.c.obj
+
+middleware/threadx/common/src/txe_queue_flush.i: middleware/threadx/common/src/txe_queue_flush.c.i
+.PHONY : middleware/threadx/common/src/txe_queue_flush.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_queue_flush.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_flush.c.i
+.PHONY : middleware/threadx/common/src/txe_queue_flush.c.i
+
+middleware/threadx/common/src/txe_queue_flush.s: middleware/threadx/common/src/txe_queue_flush.c.s
+.PHONY : middleware/threadx/common/src/txe_queue_flush.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_queue_flush.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_flush.c.s
+.PHONY : middleware/threadx/common/src/txe_queue_flush.c.s
+
+middleware/threadx/common/src/txe_queue_front_send.obj: middleware/threadx/common/src/txe_queue_front_send.c.obj
+.PHONY : middleware/threadx/common/src/txe_queue_front_send.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_queue_front_send.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_front_send.c.obj
+.PHONY : middleware/threadx/common/src/txe_queue_front_send.c.obj
+
+middleware/threadx/common/src/txe_queue_front_send.i: middleware/threadx/common/src/txe_queue_front_send.c.i
+.PHONY : middleware/threadx/common/src/txe_queue_front_send.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_queue_front_send.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_front_send.c.i
+.PHONY : middleware/threadx/common/src/txe_queue_front_send.c.i
+
+middleware/threadx/common/src/txe_queue_front_send.s: middleware/threadx/common/src/txe_queue_front_send.c.s
+.PHONY : middleware/threadx/common/src/txe_queue_front_send.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_queue_front_send.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_front_send.c.s
+.PHONY : middleware/threadx/common/src/txe_queue_front_send.c.s
+
+middleware/threadx/common/src/txe_queue_info_get.obj: middleware/threadx/common/src/txe_queue_info_get.c.obj
+.PHONY : middleware/threadx/common/src/txe_queue_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_queue_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_info_get.c.obj
+.PHONY : middleware/threadx/common/src/txe_queue_info_get.c.obj
+
+middleware/threadx/common/src/txe_queue_info_get.i: middleware/threadx/common/src/txe_queue_info_get.c.i
+.PHONY : middleware/threadx/common/src/txe_queue_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_queue_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_info_get.c.i
+.PHONY : middleware/threadx/common/src/txe_queue_info_get.c.i
+
+middleware/threadx/common/src/txe_queue_info_get.s: middleware/threadx/common/src/txe_queue_info_get.c.s
+.PHONY : middleware/threadx/common/src/txe_queue_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_queue_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_info_get.c.s
+.PHONY : middleware/threadx/common/src/txe_queue_info_get.c.s
+
+middleware/threadx/common/src/txe_queue_prioritize.obj: middleware/threadx/common/src/txe_queue_prioritize.c.obj
+.PHONY : middleware/threadx/common/src/txe_queue_prioritize.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_queue_prioritize.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_prioritize.c.obj
+.PHONY : middleware/threadx/common/src/txe_queue_prioritize.c.obj
+
+middleware/threadx/common/src/txe_queue_prioritize.i: middleware/threadx/common/src/txe_queue_prioritize.c.i
+.PHONY : middleware/threadx/common/src/txe_queue_prioritize.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_queue_prioritize.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_prioritize.c.i
+.PHONY : middleware/threadx/common/src/txe_queue_prioritize.c.i
+
+middleware/threadx/common/src/txe_queue_prioritize.s: middleware/threadx/common/src/txe_queue_prioritize.c.s
+.PHONY : middleware/threadx/common/src/txe_queue_prioritize.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_queue_prioritize.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_prioritize.c.s
+.PHONY : middleware/threadx/common/src/txe_queue_prioritize.c.s
+
+middleware/threadx/common/src/txe_queue_receive.obj: middleware/threadx/common/src/txe_queue_receive.c.obj
+.PHONY : middleware/threadx/common/src/txe_queue_receive.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_queue_receive.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_receive.c.obj
+.PHONY : middleware/threadx/common/src/txe_queue_receive.c.obj
+
+middleware/threadx/common/src/txe_queue_receive.i: middleware/threadx/common/src/txe_queue_receive.c.i
+.PHONY : middleware/threadx/common/src/txe_queue_receive.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_queue_receive.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_receive.c.i
+.PHONY : middleware/threadx/common/src/txe_queue_receive.c.i
+
+middleware/threadx/common/src/txe_queue_receive.s: middleware/threadx/common/src/txe_queue_receive.c.s
+.PHONY : middleware/threadx/common/src/txe_queue_receive.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_queue_receive.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_receive.c.s
+.PHONY : middleware/threadx/common/src/txe_queue_receive.c.s
+
+middleware/threadx/common/src/txe_queue_send.obj: middleware/threadx/common/src/txe_queue_send.c.obj
+.PHONY : middleware/threadx/common/src/txe_queue_send.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_queue_send.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send.c.obj
+.PHONY : middleware/threadx/common/src/txe_queue_send.c.obj
+
+middleware/threadx/common/src/txe_queue_send.i: middleware/threadx/common/src/txe_queue_send.c.i
+.PHONY : middleware/threadx/common/src/txe_queue_send.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_queue_send.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send.c.i
+.PHONY : middleware/threadx/common/src/txe_queue_send.c.i
+
+middleware/threadx/common/src/txe_queue_send.s: middleware/threadx/common/src/txe_queue_send.c.s
+.PHONY : middleware/threadx/common/src/txe_queue_send.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_queue_send.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send.c.s
+.PHONY : middleware/threadx/common/src/txe_queue_send.c.s
+
+middleware/threadx/common/src/txe_queue_send_notify.obj: middleware/threadx/common/src/txe_queue_send_notify.c.obj
+.PHONY : middleware/threadx/common/src/txe_queue_send_notify.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_queue_send_notify.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send_notify.c.obj
+.PHONY : middleware/threadx/common/src/txe_queue_send_notify.c.obj
+
+middleware/threadx/common/src/txe_queue_send_notify.i: middleware/threadx/common/src/txe_queue_send_notify.c.i
+.PHONY : middleware/threadx/common/src/txe_queue_send_notify.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_queue_send_notify.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send_notify.c.i
+.PHONY : middleware/threadx/common/src/txe_queue_send_notify.c.i
+
+middleware/threadx/common/src/txe_queue_send_notify.s: middleware/threadx/common/src/txe_queue_send_notify.c.s
+.PHONY : middleware/threadx/common/src/txe_queue_send_notify.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_queue_send_notify.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send_notify.c.s
+.PHONY : middleware/threadx/common/src/txe_queue_send_notify.c.s
+
+middleware/threadx/common/src/txe_semaphore_ceiling_put.obj: middleware/threadx/common/src/txe_semaphore_ceiling_put.c.obj
+.PHONY : middleware/threadx/common/src/txe_semaphore_ceiling_put.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_semaphore_ceiling_put.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_ceiling_put.c.obj
+.PHONY : middleware/threadx/common/src/txe_semaphore_ceiling_put.c.obj
+
+middleware/threadx/common/src/txe_semaphore_ceiling_put.i: middleware/threadx/common/src/txe_semaphore_ceiling_put.c.i
+.PHONY : middleware/threadx/common/src/txe_semaphore_ceiling_put.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_semaphore_ceiling_put.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_ceiling_put.c.i
+.PHONY : middleware/threadx/common/src/txe_semaphore_ceiling_put.c.i
+
+middleware/threadx/common/src/txe_semaphore_ceiling_put.s: middleware/threadx/common/src/txe_semaphore_ceiling_put.c.s
+.PHONY : middleware/threadx/common/src/txe_semaphore_ceiling_put.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_semaphore_ceiling_put.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_ceiling_put.c.s
+.PHONY : middleware/threadx/common/src/txe_semaphore_ceiling_put.c.s
+
+middleware/threadx/common/src/txe_semaphore_create.obj: middleware/threadx/common/src/txe_semaphore_create.c.obj
+.PHONY : middleware/threadx/common/src/txe_semaphore_create.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_semaphore_create.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_create.c.obj
+.PHONY : middleware/threadx/common/src/txe_semaphore_create.c.obj
+
+middleware/threadx/common/src/txe_semaphore_create.i: middleware/threadx/common/src/txe_semaphore_create.c.i
+.PHONY : middleware/threadx/common/src/txe_semaphore_create.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_semaphore_create.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_create.c.i
+.PHONY : middleware/threadx/common/src/txe_semaphore_create.c.i
+
+middleware/threadx/common/src/txe_semaphore_create.s: middleware/threadx/common/src/txe_semaphore_create.c.s
+.PHONY : middleware/threadx/common/src/txe_semaphore_create.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_semaphore_create.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_create.c.s
+.PHONY : middleware/threadx/common/src/txe_semaphore_create.c.s
+
+middleware/threadx/common/src/txe_semaphore_delete.obj: middleware/threadx/common/src/txe_semaphore_delete.c.obj
+.PHONY : middleware/threadx/common/src/txe_semaphore_delete.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_semaphore_delete.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_delete.c.obj
+.PHONY : middleware/threadx/common/src/txe_semaphore_delete.c.obj
+
+middleware/threadx/common/src/txe_semaphore_delete.i: middleware/threadx/common/src/txe_semaphore_delete.c.i
+.PHONY : middleware/threadx/common/src/txe_semaphore_delete.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_semaphore_delete.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_delete.c.i
+.PHONY : middleware/threadx/common/src/txe_semaphore_delete.c.i
+
+middleware/threadx/common/src/txe_semaphore_delete.s: middleware/threadx/common/src/txe_semaphore_delete.c.s
+.PHONY : middleware/threadx/common/src/txe_semaphore_delete.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_semaphore_delete.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_delete.c.s
+.PHONY : middleware/threadx/common/src/txe_semaphore_delete.c.s
+
+middleware/threadx/common/src/txe_semaphore_get.obj: middleware/threadx/common/src/txe_semaphore_get.c.obj
+.PHONY : middleware/threadx/common/src/txe_semaphore_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_semaphore_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_get.c.obj
+.PHONY : middleware/threadx/common/src/txe_semaphore_get.c.obj
+
+middleware/threadx/common/src/txe_semaphore_get.i: middleware/threadx/common/src/txe_semaphore_get.c.i
+.PHONY : middleware/threadx/common/src/txe_semaphore_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_semaphore_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_get.c.i
+.PHONY : middleware/threadx/common/src/txe_semaphore_get.c.i
+
+middleware/threadx/common/src/txe_semaphore_get.s: middleware/threadx/common/src/txe_semaphore_get.c.s
+.PHONY : middleware/threadx/common/src/txe_semaphore_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_semaphore_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_get.c.s
+.PHONY : middleware/threadx/common/src/txe_semaphore_get.c.s
+
+middleware/threadx/common/src/txe_semaphore_info_get.obj: middleware/threadx/common/src/txe_semaphore_info_get.c.obj
+.PHONY : middleware/threadx/common/src/txe_semaphore_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_semaphore_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_info_get.c.obj
+.PHONY : middleware/threadx/common/src/txe_semaphore_info_get.c.obj
+
+middleware/threadx/common/src/txe_semaphore_info_get.i: middleware/threadx/common/src/txe_semaphore_info_get.c.i
+.PHONY : middleware/threadx/common/src/txe_semaphore_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_semaphore_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_info_get.c.i
+.PHONY : middleware/threadx/common/src/txe_semaphore_info_get.c.i
+
+middleware/threadx/common/src/txe_semaphore_info_get.s: middleware/threadx/common/src/txe_semaphore_info_get.c.s
+.PHONY : middleware/threadx/common/src/txe_semaphore_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_semaphore_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_info_get.c.s
+.PHONY : middleware/threadx/common/src/txe_semaphore_info_get.c.s
+
+middleware/threadx/common/src/txe_semaphore_prioritize.obj: middleware/threadx/common/src/txe_semaphore_prioritize.c.obj
+.PHONY : middleware/threadx/common/src/txe_semaphore_prioritize.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_semaphore_prioritize.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_prioritize.c.obj
+.PHONY : middleware/threadx/common/src/txe_semaphore_prioritize.c.obj
+
+middleware/threadx/common/src/txe_semaphore_prioritize.i: middleware/threadx/common/src/txe_semaphore_prioritize.c.i
+.PHONY : middleware/threadx/common/src/txe_semaphore_prioritize.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_semaphore_prioritize.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_prioritize.c.i
+.PHONY : middleware/threadx/common/src/txe_semaphore_prioritize.c.i
+
+middleware/threadx/common/src/txe_semaphore_prioritize.s: middleware/threadx/common/src/txe_semaphore_prioritize.c.s
+.PHONY : middleware/threadx/common/src/txe_semaphore_prioritize.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_semaphore_prioritize.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_prioritize.c.s
+.PHONY : middleware/threadx/common/src/txe_semaphore_prioritize.c.s
+
+middleware/threadx/common/src/txe_semaphore_put.obj: middleware/threadx/common/src/txe_semaphore_put.c.obj
+.PHONY : middleware/threadx/common/src/txe_semaphore_put.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_semaphore_put.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put.c.obj
+.PHONY : middleware/threadx/common/src/txe_semaphore_put.c.obj
+
+middleware/threadx/common/src/txe_semaphore_put.i: middleware/threadx/common/src/txe_semaphore_put.c.i
+.PHONY : middleware/threadx/common/src/txe_semaphore_put.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_semaphore_put.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put.c.i
+.PHONY : middleware/threadx/common/src/txe_semaphore_put.c.i
+
+middleware/threadx/common/src/txe_semaphore_put.s: middleware/threadx/common/src/txe_semaphore_put.c.s
+.PHONY : middleware/threadx/common/src/txe_semaphore_put.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_semaphore_put.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put.c.s
+.PHONY : middleware/threadx/common/src/txe_semaphore_put.c.s
+
+middleware/threadx/common/src/txe_semaphore_put_notify.obj: middleware/threadx/common/src/txe_semaphore_put_notify.c.obj
+.PHONY : middleware/threadx/common/src/txe_semaphore_put_notify.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_semaphore_put_notify.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put_notify.c.obj
+.PHONY : middleware/threadx/common/src/txe_semaphore_put_notify.c.obj
+
+middleware/threadx/common/src/txe_semaphore_put_notify.i: middleware/threadx/common/src/txe_semaphore_put_notify.c.i
+.PHONY : middleware/threadx/common/src/txe_semaphore_put_notify.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_semaphore_put_notify.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put_notify.c.i
+.PHONY : middleware/threadx/common/src/txe_semaphore_put_notify.c.i
+
+middleware/threadx/common/src/txe_semaphore_put_notify.s: middleware/threadx/common/src/txe_semaphore_put_notify.c.s
+.PHONY : middleware/threadx/common/src/txe_semaphore_put_notify.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_semaphore_put_notify.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put_notify.c.s
+.PHONY : middleware/threadx/common/src/txe_semaphore_put_notify.c.s
+
+middleware/threadx/common/src/txe_thread_create.obj: middleware/threadx/common/src/txe_thread_create.c.obj
+.PHONY : middleware/threadx/common/src/txe_thread_create.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_thread_create.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_create.c.obj
+.PHONY : middleware/threadx/common/src/txe_thread_create.c.obj
+
+middleware/threadx/common/src/txe_thread_create.i: middleware/threadx/common/src/txe_thread_create.c.i
+.PHONY : middleware/threadx/common/src/txe_thread_create.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_thread_create.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_create.c.i
+.PHONY : middleware/threadx/common/src/txe_thread_create.c.i
+
+middleware/threadx/common/src/txe_thread_create.s: middleware/threadx/common/src/txe_thread_create.c.s
+.PHONY : middleware/threadx/common/src/txe_thread_create.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_thread_create.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_create.c.s
+.PHONY : middleware/threadx/common/src/txe_thread_create.c.s
+
+middleware/threadx/common/src/txe_thread_delete.obj: middleware/threadx/common/src/txe_thread_delete.c.obj
+.PHONY : middleware/threadx/common/src/txe_thread_delete.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_thread_delete.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_delete.c.obj
+.PHONY : middleware/threadx/common/src/txe_thread_delete.c.obj
+
+middleware/threadx/common/src/txe_thread_delete.i: middleware/threadx/common/src/txe_thread_delete.c.i
+.PHONY : middleware/threadx/common/src/txe_thread_delete.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_thread_delete.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_delete.c.i
+.PHONY : middleware/threadx/common/src/txe_thread_delete.c.i
+
+middleware/threadx/common/src/txe_thread_delete.s: middleware/threadx/common/src/txe_thread_delete.c.s
+.PHONY : middleware/threadx/common/src/txe_thread_delete.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_thread_delete.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_delete.c.s
+.PHONY : middleware/threadx/common/src/txe_thread_delete.c.s
+
+middleware/threadx/common/src/txe_thread_entry_exit_notify.obj: middleware/threadx/common/src/txe_thread_entry_exit_notify.c.obj
+.PHONY : middleware/threadx/common/src/txe_thread_entry_exit_notify.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_thread_entry_exit_notify.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_entry_exit_notify.c.obj
+.PHONY : middleware/threadx/common/src/txe_thread_entry_exit_notify.c.obj
+
+middleware/threadx/common/src/txe_thread_entry_exit_notify.i: middleware/threadx/common/src/txe_thread_entry_exit_notify.c.i
+.PHONY : middleware/threadx/common/src/txe_thread_entry_exit_notify.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_thread_entry_exit_notify.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_entry_exit_notify.c.i
+.PHONY : middleware/threadx/common/src/txe_thread_entry_exit_notify.c.i
+
+middleware/threadx/common/src/txe_thread_entry_exit_notify.s: middleware/threadx/common/src/txe_thread_entry_exit_notify.c.s
+.PHONY : middleware/threadx/common/src/txe_thread_entry_exit_notify.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_thread_entry_exit_notify.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_entry_exit_notify.c.s
+.PHONY : middleware/threadx/common/src/txe_thread_entry_exit_notify.c.s
+
+middleware/threadx/common/src/txe_thread_info_get.obj: middleware/threadx/common/src/txe_thread_info_get.c.obj
+.PHONY : middleware/threadx/common/src/txe_thread_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_thread_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_info_get.c.obj
+.PHONY : middleware/threadx/common/src/txe_thread_info_get.c.obj
+
+middleware/threadx/common/src/txe_thread_info_get.i: middleware/threadx/common/src/txe_thread_info_get.c.i
+.PHONY : middleware/threadx/common/src/txe_thread_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_thread_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_info_get.c.i
+.PHONY : middleware/threadx/common/src/txe_thread_info_get.c.i
+
+middleware/threadx/common/src/txe_thread_info_get.s: middleware/threadx/common/src/txe_thread_info_get.c.s
+.PHONY : middleware/threadx/common/src/txe_thread_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_thread_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_info_get.c.s
+.PHONY : middleware/threadx/common/src/txe_thread_info_get.c.s
+
+middleware/threadx/common/src/txe_thread_preemption_change.obj: middleware/threadx/common/src/txe_thread_preemption_change.c.obj
+.PHONY : middleware/threadx/common/src/txe_thread_preemption_change.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_thread_preemption_change.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_preemption_change.c.obj
+.PHONY : middleware/threadx/common/src/txe_thread_preemption_change.c.obj
+
+middleware/threadx/common/src/txe_thread_preemption_change.i: middleware/threadx/common/src/txe_thread_preemption_change.c.i
+.PHONY : middleware/threadx/common/src/txe_thread_preemption_change.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_thread_preemption_change.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_preemption_change.c.i
+.PHONY : middleware/threadx/common/src/txe_thread_preemption_change.c.i
+
+middleware/threadx/common/src/txe_thread_preemption_change.s: middleware/threadx/common/src/txe_thread_preemption_change.c.s
+.PHONY : middleware/threadx/common/src/txe_thread_preemption_change.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_thread_preemption_change.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_preemption_change.c.s
+.PHONY : middleware/threadx/common/src/txe_thread_preemption_change.c.s
+
+middleware/threadx/common/src/txe_thread_priority_change.obj: middleware/threadx/common/src/txe_thread_priority_change.c.obj
+.PHONY : middleware/threadx/common/src/txe_thread_priority_change.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_thread_priority_change.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_priority_change.c.obj
+.PHONY : middleware/threadx/common/src/txe_thread_priority_change.c.obj
+
+middleware/threadx/common/src/txe_thread_priority_change.i: middleware/threadx/common/src/txe_thread_priority_change.c.i
+.PHONY : middleware/threadx/common/src/txe_thread_priority_change.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_thread_priority_change.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_priority_change.c.i
+.PHONY : middleware/threadx/common/src/txe_thread_priority_change.c.i
+
+middleware/threadx/common/src/txe_thread_priority_change.s: middleware/threadx/common/src/txe_thread_priority_change.c.s
+.PHONY : middleware/threadx/common/src/txe_thread_priority_change.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_thread_priority_change.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_priority_change.c.s
+.PHONY : middleware/threadx/common/src/txe_thread_priority_change.c.s
+
+middleware/threadx/common/src/txe_thread_relinquish.obj: middleware/threadx/common/src/txe_thread_relinquish.c.obj
+.PHONY : middleware/threadx/common/src/txe_thread_relinquish.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_thread_relinquish.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_relinquish.c.obj
+.PHONY : middleware/threadx/common/src/txe_thread_relinquish.c.obj
+
+middleware/threadx/common/src/txe_thread_relinquish.i: middleware/threadx/common/src/txe_thread_relinquish.c.i
+.PHONY : middleware/threadx/common/src/txe_thread_relinquish.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_thread_relinquish.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_relinquish.c.i
+.PHONY : middleware/threadx/common/src/txe_thread_relinquish.c.i
+
+middleware/threadx/common/src/txe_thread_relinquish.s: middleware/threadx/common/src/txe_thread_relinquish.c.s
+.PHONY : middleware/threadx/common/src/txe_thread_relinquish.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_thread_relinquish.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_relinquish.c.s
+.PHONY : middleware/threadx/common/src/txe_thread_relinquish.c.s
+
+middleware/threadx/common/src/txe_thread_reset.obj: middleware/threadx/common/src/txe_thread_reset.c.obj
+.PHONY : middleware/threadx/common/src/txe_thread_reset.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_thread_reset.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_reset.c.obj
+.PHONY : middleware/threadx/common/src/txe_thread_reset.c.obj
+
+middleware/threadx/common/src/txe_thread_reset.i: middleware/threadx/common/src/txe_thread_reset.c.i
+.PHONY : middleware/threadx/common/src/txe_thread_reset.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_thread_reset.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_reset.c.i
+.PHONY : middleware/threadx/common/src/txe_thread_reset.c.i
+
+middleware/threadx/common/src/txe_thread_reset.s: middleware/threadx/common/src/txe_thread_reset.c.s
+.PHONY : middleware/threadx/common/src/txe_thread_reset.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_thread_reset.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_reset.c.s
+.PHONY : middleware/threadx/common/src/txe_thread_reset.c.s
+
+middleware/threadx/common/src/txe_thread_resume.obj: middleware/threadx/common/src/txe_thread_resume.c.obj
+.PHONY : middleware/threadx/common/src/txe_thread_resume.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_thread_resume.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_resume.c.obj
+.PHONY : middleware/threadx/common/src/txe_thread_resume.c.obj
+
+middleware/threadx/common/src/txe_thread_resume.i: middleware/threadx/common/src/txe_thread_resume.c.i
+.PHONY : middleware/threadx/common/src/txe_thread_resume.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_thread_resume.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_resume.c.i
+.PHONY : middleware/threadx/common/src/txe_thread_resume.c.i
+
+middleware/threadx/common/src/txe_thread_resume.s: middleware/threadx/common/src/txe_thread_resume.c.s
+.PHONY : middleware/threadx/common/src/txe_thread_resume.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_thread_resume.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_resume.c.s
+.PHONY : middleware/threadx/common/src/txe_thread_resume.c.s
+
+middleware/threadx/common/src/txe_thread_suspend.obj: middleware/threadx/common/src/txe_thread_suspend.c.obj
+.PHONY : middleware/threadx/common/src/txe_thread_suspend.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_thread_suspend.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_suspend.c.obj
+.PHONY : middleware/threadx/common/src/txe_thread_suspend.c.obj
+
+middleware/threadx/common/src/txe_thread_suspend.i: middleware/threadx/common/src/txe_thread_suspend.c.i
+.PHONY : middleware/threadx/common/src/txe_thread_suspend.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_thread_suspend.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_suspend.c.i
+.PHONY : middleware/threadx/common/src/txe_thread_suspend.c.i
+
+middleware/threadx/common/src/txe_thread_suspend.s: middleware/threadx/common/src/txe_thread_suspend.c.s
+.PHONY : middleware/threadx/common/src/txe_thread_suspend.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_thread_suspend.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_suspend.c.s
+.PHONY : middleware/threadx/common/src/txe_thread_suspend.c.s
+
+middleware/threadx/common/src/txe_thread_terminate.obj: middleware/threadx/common/src/txe_thread_terminate.c.obj
+.PHONY : middleware/threadx/common/src/txe_thread_terminate.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_thread_terminate.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_terminate.c.obj
+.PHONY : middleware/threadx/common/src/txe_thread_terminate.c.obj
+
+middleware/threadx/common/src/txe_thread_terminate.i: middleware/threadx/common/src/txe_thread_terminate.c.i
+.PHONY : middleware/threadx/common/src/txe_thread_terminate.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_thread_terminate.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_terminate.c.i
+.PHONY : middleware/threadx/common/src/txe_thread_terminate.c.i
+
+middleware/threadx/common/src/txe_thread_terminate.s: middleware/threadx/common/src/txe_thread_terminate.c.s
+.PHONY : middleware/threadx/common/src/txe_thread_terminate.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_thread_terminate.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_terminate.c.s
+.PHONY : middleware/threadx/common/src/txe_thread_terminate.c.s
+
+middleware/threadx/common/src/txe_thread_time_slice_change.obj: middleware/threadx/common/src/txe_thread_time_slice_change.c.obj
+.PHONY : middleware/threadx/common/src/txe_thread_time_slice_change.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_thread_time_slice_change.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_time_slice_change.c.obj
+.PHONY : middleware/threadx/common/src/txe_thread_time_slice_change.c.obj
+
+middleware/threadx/common/src/txe_thread_time_slice_change.i: middleware/threadx/common/src/txe_thread_time_slice_change.c.i
+.PHONY : middleware/threadx/common/src/txe_thread_time_slice_change.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_thread_time_slice_change.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_time_slice_change.c.i
+.PHONY : middleware/threadx/common/src/txe_thread_time_slice_change.c.i
+
+middleware/threadx/common/src/txe_thread_time_slice_change.s: middleware/threadx/common/src/txe_thread_time_slice_change.c.s
+.PHONY : middleware/threadx/common/src/txe_thread_time_slice_change.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_thread_time_slice_change.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_time_slice_change.c.s
+.PHONY : middleware/threadx/common/src/txe_thread_time_slice_change.c.s
+
+middleware/threadx/common/src/txe_thread_wait_abort.obj: middleware/threadx/common/src/txe_thread_wait_abort.c.obj
+.PHONY : middleware/threadx/common/src/txe_thread_wait_abort.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_thread_wait_abort.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_wait_abort.c.obj
+.PHONY : middleware/threadx/common/src/txe_thread_wait_abort.c.obj
+
+middleware/threadx/common/src/txe_thread_wait_abort.i: middleware/threadx/common/src/txe_thread_wait_abort.c.i
+.PHONY : middleware/threadx/common/src/txe_thread_wait_abort.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_thread_wait_abort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_wait_abort.c.i
+.PHONY : middleware/threadx/common/src/txe_thread_wait_abort.c.i
+
+middleware/threadx/common/src/txe_thread_wait_abort.s: middleware/threadx/common/src/txe_thread_wait_abort.c.s
+.PHONY : middleware/threadx/common/src/txe_thread_wait_abort.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_thread_wait_abort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_wait_abort.c.s
+.PHONY : middleware/threadx/common/src/txe_thread_wait_abort.c.s
+
+middleware/threadx/common/src/txe_timer_activate.obj: middleware/threadx/common/src/txe_timer_activate.c.obj
+.PHONY : middleware/threadx/common/src/txe_timer_activate.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_timer_activate.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_activate.c.obj
+.PHONY : middleware/threadx/common/src/txe_timer_activate.c.obj
+
+middleware/threadx/common/src/txe_timer_activate.i: middleware/threadx/common/src/txe_timer_activate.c.i
+.PHONY : middleware/threadx/common/src/txe_timer_activate.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_timer_activate.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_activate.c.i
+.PHONY : middleware/threadx/common/src/txe_timer_activate.c.i
+
+middleware/threadx/common/src/txe_timer_activate.s: middleware/threadx/common/src/txe_timer_activate.c.s
+.PHONY : middleware/threadx/common/src/txe_timer_activate.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_timer_activate.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_activate.c.s
+.PHONY : middleware/threadx/common/src/txe_timer_activate.c.s
+
+middleware/threadx/common/src/txe_timer_change.obj: middleware/threadx/common/src/txe_timer_change.c.obj
+.PHONY : middleware/threadx/common/src/txe_timer_change.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_timer_change.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_change.c.obj
+.PHONY : middleware/threadx/common/src/txe_timer_change.c.obj
+
+middleware/threadx/common/src/txe_timer_change.i: middleware/threadx/common/src/txe_timer_change.c.i
+.PHONY : middleware/threadx/common/src/txe_timer_change.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_timer_change.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_change.c.i
+.PHONY : middleware/threadx/common/src/txe_timer_change.c.i
+
+middleware/threadx/common/src/txe_timer_change.s: middleware/threadx/common/src/txe_timer_change.c.s
+.PHONY : middleware/threadx/common/src/txe_timer_change.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_timer_change.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_change.c.s
+.PHONY : middleware/threadx/common/src/txe_timer_change.c.s
+
+middleware/threadx/common/src/txe_timer_create.obj: middleware/threadx/common/src/txe_timer_create.c.obj
+.PHONY : middleware/threadx/common/src/txe_timer_create.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_timer_create.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_create.c.obj
+.PHONY : middleware/threadx/common/src/txe_timer_create.c.obj
+
+middleware/threadx/common/src/txe_timer_create.i: middleware/threadx/common/src/txe_timer_create.c.i
+.PHONY : middleware/threadx/common/src/txe_timer_create.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_timer_create.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_create.c.i
+.PHONY : middleware/threadx/common/src/txe_timer_create.c.i
+
+middleware/threadx/common/src/txe_timer_create.s: middleware/threadx/common/src/txe_timer_create.c.s
+.PHONY : middleware/threadx/common/src/txe_timer_create.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_timer_create.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_create.c.s
+.PHONY : middleware/threadx/common/src/txe_timer_create.c.s
+
+middleware/threadx/common/src/txe_timer_deactivate.obj: middleware/threadx/common/src/txe_timer_deactivate.c.obj
+.PHONY : middleware/threadx/common/src/txe_timer_deactivate.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_timer_deactivate.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_deactivate.c.obj
+.PHONY : middleware/threadx/common/src/txe_timer_deactivate.c.obj
+
+middleware/threadx/common/src/txe_timer_deactivate.i: middleware/threadx/common/src/txe_timer_deactivate.c.i
+.PHONY : middleware/threadx/common/src/txe_timer_deactivate.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_timer_deactivate.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_deactivate.c.i
+.PHONY : middleware/threadx/common/src/txe_timer_deactivate.c.i
+
+middleware/threadx/common/src/txe_timer_deactivate.s: middleware/threadx/common/src/txe_timer_deactivate.c.s
+.PHONY : middleware/threadx/common/src/txe_timer_deactivate.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_timer_deactivate.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_deactivate.c.s
+.PHONY : middleware/threadx/common/src/txe_timer_deactivate.c.s
+
+middleware/threadx/common/src/txe_timer_delete.obj: middleware/threadx/common/src/txe_timer_delete.c.obj
+.PHONY : middleware/threadx/common/src/txe_timer_delete.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_timer_delete.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_delete.c.obj
+.PHONY : middleware/threadx/common/src/txe_timer_delete.c.obj
+
+middleware/threadx/common/src/txe_timer_delete.i: middleware/threadx/common/src/txe_timer_delete.c.i
+.PHONY : middleware/threadx/common/src/txe_timer_delete.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_timer_delete.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_delete.c.i
+.PHONY : middleware/threadx/common/src/txe_timer_delete.c.i
+
+middleware/threadx/common/src/txe_timer_delete.s: middleware/threadx/common/src/txe_timer_delete.c.s
+.PHONY : middleware/threadx/common/src/txe_timer_delete.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_timer_delete.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_delete.c.s
+.PHONY : middleware/threadx/common/src/txe_timer_delete.c.s
+
+middleware/threadx/common/src/txe_timer_info_get.obj: middleware/threadx/common/src/txe_timer_info_get.c.obj
+.PHONY : middleware/threadx/common/src/txe_timer_info_get.obj
+
+# target to build an object file
+middleware/threadx/common/src/txe_timer_info_get.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_info_get.c.obj
+.PHONY : middleware/threadx/common/src/txe_timer_info_get.c.obj
+
+middleware/threadx/common/src/txe_timer_info_get.i: middleware/threadx/common/src/txe_timer_info_get.c.i
+.PHONY : middleware/threadx/common/src/txe_timer_info_get.i
+
+# target to preprocess a source file
+middleware/threadx/common/src/txe_timer_info_get.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_info_get.c.i
+.PHONY : middleware/threadx/common/src/txe_timer_info_get.c.i
+
+middleware/threadx/common/src/txe_timer_info_get.s: middleware/threadx/common/src/txe_timer_info_get.c.s
+.PHONY : middleware/threadx/common/src/txe_timer_info_get.s
+
+# target to generate assembly for a file
+middleware/threadx/common/src/txe_timer_info_get.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_info_get.c.s
+.PHONY : middleware/threadx/common/src/txe_timer_info_get.c.s
+
+middleware/threadx/ports/cortex_m4/gnu/src/tx_misra.obj: middleware/threadx/ports/cortex_m4/gnu/src/tx_misra.S.obj
+.PHONY : middleware/threadx/ports/cortex_m4/gnu/src/tx_misra.obj
+
+# target to build an object file
+middleware/threadx/ports/cortex_m4/gnu/src/tx_misra.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_misra.S.obj
+.PHONY : middleware/threadx/ports/cortex_m4/gnu/src/tx_misra.S.obj
+
+middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.obj: middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.S.obj
+.PHONY : middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.obj
+
+# target to build an object file
+middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.S.obj
+.PHONY : middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.S.obj
+
+middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.obj: middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.S.obj
+.PHONY : middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.obj
+
+# target to build an object file
+middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.S.obj
+.PHONY : middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.S.obj
+
+middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.obj: middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S.obj
+.PHONY : middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.obj
+
+# target to build an object file
+middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S.obj
+.PHONY : middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S.obj
+
+middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_disable.obj: middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_disable.S.obj
+.PHONY : middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_disable.obj
+
+# target to build an object file
+middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_disable.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_disable.S.obj
+.PHONY : middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_disable.S.obj
+
+middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_restore.obj: middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_restore.S.obj
+.PHONY : middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_restore.obj
+
+# target to build an object file
+middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_restore.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_restore.S.obj
+.PHONY : middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_restore.S.obj
+
+middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.obj: middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.S.obj
+.PHONY : middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.obj
+
+# target to build an object file
+middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.S.obj
+.PHONY : middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.S.obj
+
+middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.obj: middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.S.obj
+.PHONY : middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.obj
+
+# target to build an object file
+middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.S.obj
+.PHONY : middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.S.obj
+
+middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.obj: middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.S.obj
+.PHONY : middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.obj
+
+# target to build an object file
+middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.S.obj
+.PHONY : middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.S.obj
+
+middleware/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.obj: middleware/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.S.obj
+.PHONY : middleware/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.obj
+
+# target to build an object file
+middleware/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dst0x-app_bm1.0.dir/build.make CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.S.obj
+.PHONY : middleware/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.S.obj
+
 startup/startup_stm32f412retx.obj: startup/startup_stm32f412retx.s.obj
 .PHONY : startup/startup_stm32f412retx.obj
 
@@ -608,12 +5224,24 @@ help:
 	@echo "... bsp/src/bsp.obj"
 	@echo "... bsp/src/bsp.i"
 	@echo "... bsp/src/bsp.s"
+	@echo "... bsp/src/bsp_gpio.obj"
+	@echo "... bsp/src/bsp_gpio.i"
+	@echo "... bsp/src/bsp_gpio.s"
+	@echo "... bsp/src/bsp_usart.obj"
+	@echo "... bsp/src/bsp_usart.i"
+	@echo "... bsp/src/bsp_usart.s"
 	@echo "... bsp/src/system_stm32f4xx.obj"
 	@echo "... bsp/src/system_stm32f4xx.i"
 	@echo "... bsp/src/system_stm32f4xx.s"
+	@echo "... bsp/src/tx_initialize_low_level.obj"
+	@echo "... bsp/src/tx_initialize_low_level.i"
+	@echo "... bsp/src/tx_initialize_low_level.s"
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... middleware/log/log.obj"
+	@echo "... middleware/log/log.i"
+	@echo "... middleware/log/log.s"
 	@echo "... middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal.obj"
 	@echo "... middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal.i"
 	@echo "... middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal.s"
@@ -659,6 +5287,571 @@ help:
 	@echo "... middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_uart.obj"
 	@echo "... middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_uart.i"
 	@echo "... middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_uart.s"
+	@echo "... middleware/threadx/common/src/tx_block_allocate.obj"
+	@echo "... middleware/threadx/common/src/tx_block_allocate.i"
+	@echo "... middleware/threadx/common/src/tx_block_allocate.s"
+	@echo "... middleware/threadx/common/src/tx_block_pool_cleanup.obj"
+	@echo "... middleware/threadx/common/src/tx_block_pool_cleanup.i"
+	@echo "... middleware/threadx/common/src/tx_block_pool_cleanup.s"
+	@echo "... middleware/threadx/common/src/tx_block_pool_create.obj"
+	@echo "... middleware/threadx/common/src/tx_block_pool_create.i"
+	@echo "... middleware/threadx/common/src/tx_block_pool_create.s"
+	@echo "... middleware/threadx/common/src/tx_block_pool_delete.obj"
+	@echo "... middleware/threadx/common/src/tx_block_pool_delete.i"
+	@echo "... middleware/threadx/common/src/tx_block_pool_delete.s"
+	@echo "... middleware/threadx/common/src/tx_block_pool_info_get.obj"
+	@echo "... middleware/threadx/common/src/tx_block_pool_info_get.i"
+	@echo "... middleware/threadx/common/src/tx_block_pool_info_get.s"
+	@echo "... middleware/threadx/common/src/tx_block_pool_initialize.obj"
+	@echo "... middleware/threadx/common/src/tx_block_pool_initialize.i"
+	@echo "... middleware/threadx/common/src/tx_block_pool_initialize.s"
+	@echo "... middleware/threadx/common/src/tx_block_pool_performance_info_get.obj"
+	@echo "... middleware/threadx/common/src/tx_block_pool_performance_info_get.i"
+	@echo "... middleware/threadx/common/src/tx_block_pool_performance_info_get.s"
+	@echo "... middleware/threadx/common/src/tx_block_pool_performance_system_info_get.obj"
+	@echo "... middleware/threadx/common/src/tx_block_pool_performance_system_info_get.i"
+	@echo "... middleware/threadx/common/src/tx_block_pool_performance_system_info_get.s"
+	@echo "... middleware/threadx/common/src/tx_block_pool_prioritize.obj"
+	@echo "... middleware/threadx/common/src/tx_block_pool_prioritize.i"
+	@echo "... middleware/threadx/common/src/tx_block_pool_prioritize.s"
+	@echo "... middleware/threadx/common/src/tx_block_release.obj"
+	@echo "... middleware/threadx/common/src/tx_block_release.i"
+	@echo "... middleware/threadx/common/src/tx_block_release.s"
+	@echo "... middleware/threadx/common/src/tx_byte_allocate.obj"
+	@echo "... middleware/threadx/common/src/tx_byte_allocate.i"
+	@echo "... middleware/threadx/common/src/tx_byte_allocate.s"
+	@echo "... middleware/threadx/common/src/tx_byte_pool_cleanup.obj"
+	@echo "... middleware/threadx/common/src/tx_byte_pool_cleanup.i"
+	@echo "... middleware/threadx/common/src/tx_byte_pool_cleanup.s"
+	@echo "... middleware/threadx/common/src/tx_byte_pool_create.obj"
+	@echo "... middleware/threadx/common/src/tx_byte_pool_create.i"
+	@echo "... middleware/threadx/common/src/tx_byte_pool_create.s"
+	@echo "... middleware/threadx/common/src/tx_byte_pool_delete.obj"
+	@echo "... middleware/threadx/common/src/tx_byte_pool_delete.i"
+	@echo "... middleware/threadx/common/src/tx_byte_pool_delete.s"
+	@echo "... middleware/threadx/common/src/tx_byte_pool_info_get.obj"
+	@echo "... middleware/threadx/common/src/tx_byte_pool_info_get.i"
+	@echo "... middleware/threadx/common/src/tx_byte_pool_info_get.s"
+	@echo "... middleware/threadx/common/src/tx_byte_pool_initialize.obj"
+	@echo "... middleware/threadx/common/src/tx_byte_pool_initialize.i"
+	@echo "... middleware/threadx/common/src/tx_byte_pool_initialize.s"
+	@echo "... middleware/threadx/common/src/tx_byte_pool_performance_info_get.obj"
+	@echo "... middleware/threadx/common/src/tx_byte_pool_performance_info_get.i"
+	@echo "... middleware/threadx/common/src/tx_byte_pool_performance_info_get.s"
+	@echo "... middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.obj"
+	@echo "... middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.i"
+	@echo "... middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.s"
+	@echo "... middleware/threadx/common/src/tx_byte_pool_prioritize.obj"
+	@echo "... middleware/threadx/common/src/tx_byte_pool_prioritize.i"
+	@echo "... middleware/threadx/common/src/tx_byte_pool_prioritize.s"
+	@echo "... middleware/threadx/common/src/tx_byte_pool_search.obj"
+	@echo "... middleware/threadx/common/src/tx_byte_pool_search.i"
+	@echo "... middleware/threadx/common/src/tx_byte_pool_search.s"
+	@echo "... middleware/threadx/common/src/tx_byte_release.obj"
+	@echo "... middleware/threadx/common/src/tx_byte_release.i"
+	@echo "... middleware/threadx/common/src/tx_byte_release.s"
+	@echo "... middleware/threadx/common/src/tx_event_flags_cleanup.obj"
+	@echo "... middleware/threadx/common/src/tx_event_flags_cleanup.i"
+	@echo "... middleware/threadx/common/src/tx_event_flags_cleanup.s"
+	@echo "... middleware/threadx/common/src/tx_event_flags_create.obj"
+	@echo "... middleware/threadx/common/src/tx_event_flags_create.i"
+	@echo "... middleware/threadx/common/src/tx_event_flags_create.s"
+	@echo "... middleware/threadx/common/src/tx_event_flags_delete.obj"
+	@echo "... middleware/threadx/common/src/tx_event_flags_delete.i"
+	@echo "... middleware/threadx/common/src/tx_event_flags_delete.s"
+	@echo "... middleware/threadx/common/src/tx_event_flags_get.obj"
+	@echo "... middleware/threadx/common/src/tx_event_flags_get.i"
+	@echo "... middleware/threadx/common/src/tx_event_flags_get.s"
+	@echo "... middleware/threadx/common/src/tx_event_flags_info_get.obj"
+	@echo "... middleware/threadx/common/src/tx_event_flags_info_get.i"
+	@echo "... middleware/threadx/common/src/tx_event_flags_info_get.s"
+	@echo "... middleware/threadx/common/src/tx_event_flags_initialize.obj"
+	@echo "... middleware/threadx/common/src/tx_event_flags_initialize.i"
+	@echo "... middleware/threadx/common/src/tx_event_flags_initialize.s"
+	@echo "... middleware/threadx/common/src/tx_event_flags_performance_info_get.obj"
+	@echo "... middleware/threadx/common/src/tx_event_flags_performance_info_get.i"
+	@echo "... middleware/threadx/common/src/tx_event_flags_performance_info_get.s"
+	@echo "... middleware/threadx/common/src/tx_event_flags_performance_system_info_get.obj"
+	@echo "... middleware/threadx/common/src/tx_event_flags_performance_system_info_get.i"
+	@echo "... middleware/threadx/common/src/tx_event_flags_performance_system_info_get.s"
+	@echo "... middleware/threadx/common/src/tx_event_flags_set.obj"
+	@echo "... middleware/threadx/common/src/tx_event_flags_set.i"
+	@echo "... middleware/threadx/common/src/tx_event_flags_set.s"
+	@echo "... middleware/threadx/common/src/tx_event_flags_set_notify.obj"
+	@echo "... middleware/threadx/common/src/tx_event_flags_set_notify.i"
+	@echo "... middleware/threadx/common/src/tx_event_flags_set_notify.s"
+	@echo "... middleware/threadx/common/src/tx_initialize_high_level.obj"
+	@echo "... middleware/threadx/common/src/tx_initialize_high_level.i"
+	@echo "... middleware/threadx/common/src/tx_initialize_high_level.s"
+	@echo "... middleware/threadx/common/src/tx_initialize_kernel_enter.obj"
+	@echo "... middleware/threadx/common/src/tx_initialize_kernel_enter.i"
+	@echo "... middleware/threadx/common/src/tx_initialize_kernel_enter.s"
+	@echo "... middleware/threadx/common/src/tx_initialize_kernel_setup.obj"
+	@echo "... middleware/threadx/common/src/tx_initialize_kernel_setup.i"
+	@echo "... middleware/threadx/common/src/tx_initialize_kernel_setup.s"
+	@echo "... middleware/threadx/common/src/tx_misra.obj"
+	@echo "... middleware/threadx/common/src/tx_misra.i"
+	@echo "... middleware/threadx/common/src/tx_misra.s"
+	@echo "... middleware/threadx/common/src/tx_mutex_cleanup.obj"
+	@echo "... middleware/threadx/common/src/tx_mutex_cleanup.i"
+	@echo "... middleware/threadx/common/src/tx_mutex_cleanup.s"
+	@echo "... middleware/threadx/common/src/tx_mutex_create.obj"
+	@echo "... middleware/threadx/common/src/tx_mutex_create.i"
+	@echo "... middleware/threadx/common/src/tx_mutex_create.s"
+	@echo "... middleware/threadx/common/src/tx_mutex_delete.obj"
+	@echo "... middleware/threadx/common/src/tx_mutex_delete.i"
+	@echo "... middleware/threadx/common/src/tx_mutex_delete.s"
+	@echo "... middleware/threadx/common/src/tx_mutex_get.obj"
+	@echo "... middleware/threadx/common/src/tx_mutex_get.i"
+	@echo "... middleware/threadx/common/src/tx_mutex_get.s"
+	@echo "... middleware/threadx/common/src/tx_mutex_info_get.obj"
+	@echo "... middleware/threadx/common/src/tx_mutex_info_get.i"
+	@echo "... middleware/threadx/common/src/tx_mutex_info_get.s"
+	@echo "... middleware/threadx/common/src/tx_mutex_initialize.obj"
+	@echo "... middleware/threadx/common/src/tx_mutex_initialize.i"
+	@echo "... middleware/threadx/common/src/tx_mutex_initialize.s"
+	@echo "... middleware/threadx/common/src/tx_mutex_performance_info_get.obj"
+	@echo "... middleware/threadx/common/src/tx_mutex_performance_info_get.i"
+	@echo "... middleware/threadx/common/src/tx_mutex_performance_info_get.s"
+	@echo "... middleware/threadx/common/src/tx_mutex_performance_system_info_get.obj"
+	@echo "... middleware/threadx/common/src/tx_mutex_performance_system_info_get.i"
+	@echo "... middleware/threadx/common/src/tx_mutex_performance_system_info_get.s"
+	@echo "... middleware/threadx/common/src/tx_mutex_prioritize.obj"
+	@echo "... middleware/threadx/common/src/tx_mutex_prioritize.i"
+	@echo "... middleware/threadx/common/src/tx_mutex_prioritize.s"
+	@echo "... middleware/threadx/common/src/tx_mutex_priority_change.obj"
+	@echo "... middleware/threadx/common/src/tx_mutex_priority_change.i"
+	@echo "... middleware/threadx/common/src/tx_mutex_priority_change.s"
+	@echo "... middleware/threadx/common/src/tx_mutex_put.obj"
+	@echo "... middleware/threadx/common/src/tx_mutex_put.i"
+	@echo "... middleware/threadx/common/src/tx_mutex_put.s"
+	@echo "... middleware/threadx/common/src/tx_queue_cleanup.obj"
+	@echo "... middleware/threadx/common/src/tx_queue_cleanup.i"
+	@echo "... middleware/threadx/common/src/tx_queue_cleanup.s"
+	@echo "... middleware/threadx/common/src/tx_queue_create.obj"
+	@echo "... middleware/threadx/common/src/tx_queue_create.i"
+	@echo "... middleware/threadx/common/src/tx_queue_create.s"
+	@echo "... middleware/threadx/common/src/tx_queue_delete.obj"
+	@echo "... middleware/threadx/common/src/tx_queue_delete.i"
+	@echo "... middleware/threadx/common/src/tx_queue_delete.s"
+	@echo "... middleware/threadx/common/src/tx_queue_flush.obj"
+	@echo "... middleware/threadx/common/src/tx_queue_flush.i"
+	@echo "... middleware/threadx/common/src/tx_queue_flush.s"
+	@echo "... middleware/threadx/common/src/tx_queue_front_send.obj"
+	@echo "... middleware/threadx/common/src/tx_queue_front_send.i"
+	@echo "... middleware/threadx/common/src/tx_queue_front_send.s"
+	@echo "... middleware/threadx/common/src/tx_queue_info_get.obj"
+	@echo "... middleware/threadx/common/src/tx_queue_info_get.i"
+	@echo "... middleware/threadx/common/src/tx_queue_info_get.s"
+	@echo "... middleware/threadx/common/src/tx_queue_initialize.obj"
+	@echo "... middleware/threadx/common/src/tx_queue_initialize.i"
+	@echo "... middleware/threadx/common/src/tx_queue_initialize.s"
+	@echo "... middleware/threadx/common/src/tx_queue_performance_info_get.obj"
+	@echo "... middleware/threadx/common/src/tx_queue_performance_info_get.i"
+	@echo "... middleware/threadx/common/src/tx_queue_performance_info_get.s"
+	@echo "... middleware/threadx/common/src/tx_queue_performance_system_info_get.obj"
+	@echo "... middleware/threadx/common/src/tx_queue_performance_system_info_get.i"
+	@echo "... middleware/threadx/common/src/tx_queue_performance_system_info_get.s"
+	@echo "... middleware/threadx/common/src/tx_queue_prioritize.obj"
+	@echo "... middleware/threadx/common/src/tx_queue_prioritize.i"
+	@echo "... middleware/threadx/common/src/tx_queue_prioritize.s"
+	@echo "... middleware/threadx/common/src/tx_queue_receive.obj"
+	@echo "... middleware/threadx/common/src/tx_queue_receive.i"
+	@echo "... middleware/threadx/common/src/tx_queue_receive.s"
+	@echo "... middleware/threadx/common/src/tx_queue_send.obj"
+	@echo "... middleware/threadx/common/src/tx_queue_send.i"
+	@echo "... middleware/threadx/common/src/tx_queue_send.s"
+	@echo "... middleware/threadx/common/src/tx_queue_send_notify.obj"
+	@echo "... middleware/threadx/common/src/tx_queue_send_notify.i"
+	@echo "... middleware/threadx/common/src/tx_queue_send_notify.s"
+	@echo "... middleware/threadx/common/src/tx_semaphore_ceiling_put.obj"
+	@echo "... middleware/threadx/common/src/tx_semaphore_ceiling_put.i"
+	@echo "... middleware/threadx/common/src/tx_semaphore_ceiling_put.s"
+	@echo "... middleware/threadx/common/src/tx_semaphore_cleanup.obj"
+	@echo "... middleware/threadx/common/src/tx_semaphore_cleanup.i"
+	@echo "... middleware/threadx/common/src/tx_semaphore_cleanup.s"
+	@echo "... middleware/threadx/common/src/tx_semaphore_create.obj"
+	@echo "... middleware/threadx/common/src/tx_semaphore_create.i"
+	@echo "... middleware/threadx/common/src/tx_semaphore_create.s"
+	@echo "... middleware/threadx/common/src/tx_semaphore_delete.obj"
+	@echo "... middleware/threadx/common/src/tx_semaphore_delete.i"
+	@echo "... middleware/threadx/common/src/tx_semaphore_delete.s"
+	@echo "... middleware/threadx/common/src/tx_semaphore_get.obj"
+	@echo "... middleware/threadx/common/src/tx_semaphore_get.i"
+	@echo "... middleware/threadx/common/src/tx_semaphore_get.s"
+	@echo "... middleware/threadx/common/src/tx_semaphore_info_get.obj"
+	@echo "... middleware/threadx/common/src/tx_semaphore_info_get.i"
+	@echo "... middleware/threadx/common/src/tx_semaphore_info_get.s"
+	@echo "... middleware/threadx/common/src/tx_semaphore_initialize.obj"
+	@echo "... middleware/threadx/common/src/tx_semaphore_initialize.i"
+	@echo "... middleware/threadx/common/src/tx_semaphore_initialize.s"
+	@echo "... middleware/threadx/common/src/tx_semaphore_performance_info_get.obj"
+	@echo "... middleware/threadx/common/src/tx_semaphore_performance_info_get.i"
+	@echo "... middleware/threadx/common/src/tx_semaphore_performance_info_get.s"
+	@echo "... middleware/threadx/common/src/tx_semaphore_performance_system_info_get.obj"
+	@echo "... middleware/threadx/common/src/tx_semaphore_performance_system_info_get.i"
+	@echo "... middleware/threadx/common/src/tx_semaphore_performance_system_info_get.s"
+	@echo "... middleware/threadx/common/src/tx_semaphore_prioritize.obj"
+	@echo "... middleware/threadx/common/src/tx_semaphore_prioritize.i"
+	@echo "... middleware/threadx/common/src/tx_semaphore_prioritize.s"
+	@echo "... middleware/threadx/common/src/tx_semaphore_put.obj"
+	@echo "... middleware/threadx/common/src/tx_semaphore_put.i"
+	@echo "... middleware/threadx/common/src/tx_semaphore_put.s"
+	@echo "... middleware/threadx/common/src/tx_semaphore_put_notify.obj"
+	@echo "... middleware/threadx/common/src/tx_semaphore_put_notify.i"
+	@echo "... middleware/threadx/common/src/tx_semaphore_put_notify.s"
+	@echo "... middleware/threadx/common/src/tx_thread_create.obj"
+	@echo "... middleware/threadx/common/src/tx_thread_create.i"
+	@echo "... middleware/threadx/common/src/tx_thread_create.s"
+	@echo "... middleware/threadx/common/src/tx_thread_delete.obj"
+	@echo "... middleware/threadx/common/src/tx_thread_delete.i"
+	@echo "... middleware/threadx/common/src/tx_thread_delete.s"
+	@echo "... middleware/threadx/common/src/tx_thread_entry_exit_notify.obj"
+	@echo "... middleware/threadx/common/src/tx_thread_entry_exit_notify.i"
+	@echo "... middleware/threadx/common/src/tx_thread_entry_exit_notify.s"
+	@echo "... middleware/threadx/common/src/tx_thread_identify.obj"
+	@echo "... middleware/threadx/common/src/tx_thread_identify.i"
+	@echo "... middleware/threadx/common/src/tx_thread_identify.s"
+	@echo "... middleware/threadx/common/src/tx_thread_info_get.obj"
+	@echo "... middleware/threadx/common/src/tx_thread_info_get.i"
+	@echo "... middleware/threadx/common/src/tx_thread_info_get.s"
+	@echo "... middleware/threadx/common/src/tx_thread_initialize.obj"
+	@echo "... middleware/threadx/common/src/tx_thread_initialize.i"
+	@echo "... middleware/threadx/common/src/tx_thread_initialize.s"
+	@echo "... middleware/threadx/common/src/tx_thread_performance_info_get.obj"
+	@echo "... middleware/threadx/common/src/tx_thread_performance_info_get.i"
+	@echo "... middleware/threadx/common/src/tx_thread_performance_info_get.s"
+	@echo "... middleware/threadx/common/src/tx_thread_performance_system_info_get.obj"
+	@echo "... middleware/threadx/common/src/tx_thread_performance_system_info_get.i"
+	@echo "... middleware/threadx/common/src/tx_thread_performance_system_info_get.s"
+	@echo "... middleware/threadx/common/src/tx_thread_preemption_change.obj"
+	@echo "... middleware/threadx/common/src/tx_thread_preemption_change.i"
+	@echo "... middleware/threadx/common/src/tx_thread_preemption_change.s"
+	@echo "... middleware/threadx/common/src/tx_thread_priority_change.obj"
+	@echo "... middleware/threadx/common/src/tx_thread_priority_change.i"
+	@echo "... middleware/threadx/common/src/tx_thread_priority_change.s"
+	@echo "... middleware/threadx/common/src/tx_thread_relinquish.obj"
+	@echo "... middleware/threadx/common/src/tx_thread_relinquish.i"
+	@echo "... middleware/threadx/common/src/tx_thread_relinquish.s"
+	@echo "... middleware/threadx/common/src/tx_thread_reset.obj"
+	@echo "... middleware/threadx/common/src/tx_thread_reset.i"
+	@echo "... middleware/threadx/common/src/tx_thread_reset.s"
+	@echo "... middleware/threadx/common/src/tx_thread_resume.obj"
+	@echo "... middleware/threadx/common/src/tx_thread_resume.i"
+	@echo "... middleware/threadx/common/src/tx_thread_resume.s"
+	@echo "... middleware/threadx/common/src/tx_thread_shell_entry.obj"
+	@echo "... middleware/threadx/common/src/tx_thread_shell_entry.i"
+	@echo "... middleware/threadx/common/src/tx_thread_shell_entry.s"
+	@echo "... middleware/threadx/common/src/tx_thread_sleep.obj"
+	@echo "... middleware/threadx/common/src/tx_thread_sleep.i"
+	@echo "... middleware/threadx/common/src/tx_thread_sleep.s"
+	@echo "... middleware/threadx/common/src/tx_thread_stack_analyze.obj"
+	@echo "... middleware/threadx/common/src/tx_thread_stack_analyze.i"
+	@echo "... middleware/threadx/common/src/tx_thread_stack_analyze.s"
+	@echo "... middleware/threadx/common/src/tx_thread_stack_error_handler.obj"
+	@echo "... middleware/threadx/common/src/tx_thread_stack_error_handler.i"
+	@echo "... middleware/threadx/common/src/tx_thread_stack_error_handler.s"
+	@echo "... middleware/threadx/common/src/tx_thread_stack_error_notify.obj"
+	@echo "... middleware/threadx/common/src/tx_thread_stack_error_notify.i"
+	@echo "... middleware/threadx/common/src/tx_thread_stack_error_notify.s"
+	@echo "... middleware/threadx/common/src/tx_thread_suspend.obj"
+	@echo "... middleware/threadx/common/src/tx_thread_suspend.i"
+	@echo "... middleware/threadx/common/src/tx_thread_suspend.s"
+	@echo "... middleware/threadx/common/src/tx_thread_system_preempt_check.obj"
+	@echo "... middleware/threadx/common/src/tx_thread_system_preempt_check.i"
+	@echo "... middleware/threadx/common/src/tx_thread_system_preempt_check.s"
+	@echo "... middleware/threadx/common/src/tx_thread_system_resume.obj"
+	@echo "... middleware/threadx/common/src/tx_thread_system_resume.i"
+	@echo "... middleware/threadx/common/src/tx_thread_system_resume.s"
+	@echo "... middleware/threadx/common/src/tx_thread_system_suspend.obj"
+	@echo "... middleware/threadx/common/src/tx_thread_system_suspend.i"
+	@echo "... middleware/threadx/common/src/tx_thread_system_suspend.s"
+	@echo "... middleware/threadx/common/src/tx_thread_terminate.obj"
+	@echo "... middleware/threadx/common/src/tx_thread_terminate.i"
+	@echo "... middleware/threadx/common/src/tx_thread_terminate.s"
+	@echo "... middleware/threadx/common/src/tx_thread_time_slice.obj"
+	@echo "... middleware/threadx/common/src/tx_thread_time_slice.i"
+	@echo "... middleware/threadx/common/src/tx_thread_time_slice.s"
+	@echo "... middleware/threadx/common/src/tx_thread_time_slice_change.obj"
+	@echo "... middleware/threadx/common/src/tx_thread_time_slice_change.i"
+	@echo "... middleware/threadx/common/src/tx_thread_time_slice_change.s"
+	@echo "... middleware/threadx/common/src/tx_thread_timeout.obj"
+	@echo "... middleware/threadx/common/src/tx_thread_timeout.i"
+	@echo "... middleware/threadx/common/src/tx_thread_timeout.s"
+	@echo "... middleware/threadx/common/src/tx_thread_wait_abort.obj"
+	@echo "... middleware/threadx/common/src/tx_thread_wait_abort.i"
+	@echo "... middleware/threadx/common/src/tx_thread_wait_abort.s"
+	@echo "... middleware/threadx/common/src/tx_time_get.obj"
+	@echo "... middleware/threadx/common/src/tx_time_get.i"
+	@echo "... middleware/threadx/common/src/tx_time_get.s"
+	@echo "... middleware/threadx/common/src/tx_time_set.obj"
+	@echo "... middleware/threadx/common/src/tx_time_set.i"
+	@echo "... middleware/threadx/common/src/tx_time_set.s"
+	@echo "... middleware/threadx/common/src/tx_timer_activate.obj"
+	@echo "... middleware/threadx/common/src/tx_timer_activate.i"
+	@echo "... middleware/threadx/common/src/tx_timer_activate.s"
+	@echo "... middleware/threadx/common/src/tx_timer_change.obj"
+	@echo "... middleware/threadx/common/src/tx_timer_change.i"
+	@echo "... middleware/threadx/common/src/tx_timer_change.s"
+	@echo "... middleware/threadx/common/src/tx_timer_create.obj"
+	@echo "... middleware/threadx/common/src/tx_timer_create.i"
+	@echo "... middleware/threadx/common/src/tx_timer_create.s"
+	@echo "... middleware/threadx/common/src/tx_timer_deactivate.obj"
+	@echo "... middleware/threadx/common/src/tx_timer_deactivate.i"
+	@echo "... middleware/threadx/common/src/tx_timer_deactivate.s"
+	@echo "... middleware/threadx/common/src/tx_timer_delete.obj"
+	@echo "... middleware/threadx/common/src/tx_timer_delete.i"
+	@echo "... middleware/threadx/common/src/tx_timer_delete.s"
+	@echo "... middleware/threadx/common/src/tx_timer_expiration_process.obj"
+	@echo "... middleware/threadx/common/src/tx_timer_expiration_process.i"
+	@echo "... middleware/threadx/common/src/tx_timer_expiration_process.s"
+	@echo "... middleware/threadx/common/src/tx_timer_info_get.obj"
+	@echo "... middleware/threadx/common/src/tx_timer_info_get.i"
+	@echo "... middleware/threadx/common/src/tx_timer_info_get.s"
+	@echo "... middleware/threadx/common/src/tx_timer_initialize.obj"
+	@echo "... middleware/threadx/common/src/tx_timer_initialize.i"
+	@echo "... middleware/threadx/common/src/tx_timer_initialize.s"
+	@echo "... middleware/threadx/common/src/tx_timer_performance_info_get.obj"
+	@echo "... middleware/threadx/common/src/tx_timer_performance_info_get.i"
+	@echo "... middleware/threadx/common/src/tx_timer_performance_info_get.s"
+	@echo "... middleware/threadx/common/src/tx_timer_performance_system_info_get.obj"
+	@echo "... middleware/threadx/common/src/tx_timer_performance_system_info_get.i"
+	@echo "... middleware/threadx/common/src/tx_timer_performance_system_info_get.s"
+	@echo "... middleware/threadx/common/src/tx_timer_system_activate.obj"
+	@echo "... middleware/threadx/common/src/tx_timer_system_activate.i"
+	@echo "... middleware/threadx/common/src/tx_timer_system_activate.s"
+	@echo "... middleware/threadx/common/src/tx_timer_system_deactivate.obj"
+	@echo "... middleware/threadx/common/src/tx_timer_system_deactivate.i"
+	@echo "... middleware/threadx/common/src/tx_timer_system_deactivate.s"
+	@echo "... middleware/threadx/common/src/tx_timer_thread_entry.obj"
+	@echo "... middleware/threadx/common/src/tx_timer_thread_entry.i"
+	@echo "... middleware/threadx/common/src/tx_timer_thread_entry.s"
+	@echo "... middleware/threadx/common/src/tx_trace_buffer_full_notify.obj"
+	@echo "... middleware/threadx/common/src/tx_trace_buffer_full_notify.i"
+	@echo "... middleware/threadx/common/src/tx_trace_buffer_full_notify.s"
+	@echo "... middleware/threadx/common/src/tx_trace_disable.obj"
+	@echo "... middleware/threadx/common/src/tx_trace_disable.i"
+	@echo "... middleware/threadx/common/src/tx_trace_disable.s"
+	@echo "... middleware/threadx/common/src/tx_trace_enable.obj"
+	@echo "... middleware/threadx/common/src/tx_trace_enable.i"
+	@echo "... middleware/threadx/common/src/tx_trace_enable.s"
+	@echo "... middleware/threadx/common/src/tx_trace_event_filter.obj"
+	@echo "... middleware/threadx/common/src/tx_trace_event_filter.i"
+	@echo "... middleware/threadx/common/src/tx_trace_event_filter.s"
+	@echo "... middleware/threadx/common/src/tx_trace_event_unfilter.obj"
+	@echo "... middleware/threadx/common/src/tx_trace_event_unfilter.i"
+	@echo "... middleware/threadx/common/src/tx_trace_event_unfilter.s"
+	@echo "... middleware/threadx/common/src/tx_trace_initialize.obj"
+	@echo "... middleware/threadx/common/src/tx_trace_initialize.i"
+	@echo "... middleware/threadx/common/src/tx_trace_initialize.s"
+	@echo "... middleware/threadx/common/src/tx_trace_interrupt_control.obj"
+	@echo "... middleware/threadx/common/src/tx_trace_interrupt_control.i"
+	@echo "... middleware/threadx/common/src/tx_trace_interrupt_control.s"
+	@echo "... middleware/threadx/common/src/tx_trace_isr_enter_insert.obj"
+	@echo "... middleware/threadx/common/src/tx_trace_isr_enter_insert.i"
+	@echo "... middleware/threadx/common/src/tx_trace_isr_enter_insert.s"
+	@echo "... middleware/threadx/common/src/tx_trace_isr_exit_insert.obj"
+	@echo "... middleware/threadx/common/src/tx_trace_isr_exit_insert.i"
+	@echo "... middleware/threadx/common/src/tx_trace_isr_exit_insert.s"
+	@echo "... middleware/threadx/common/src/tx_trace_object_register.obj"
+	@echo "... middleware/threadx/common/src/tx_trace_object_register.i"
+	@echo "... middleware/threadx/common/src/tx_trace_object_register.s"
+	@echo "... middleware/threadx/common/src/tx_trace_object_unregister.obj"
+	@echo "... middleware/threadx/common/src/tx_trace_object_unregister.i"
+	@echo "... middleware/threadx/common/src/tx_trace_object_unregister.s"
+	@echo "... middleware/threadx/common/src/tx_trace_user_event_insert.obj"
+	@echo "... middleware/threadx/common/src/tx_trace_user_event_insert.i"
+	@echo "... middleware/threadx/common/src/tx_trace_user_event_insert.s"
+	@echo "... middleware/threadx/common/src/txe_block_allocate.obj"
+	@echo "... middleware/threadx/common/src/txe_block_allocate.i"
+	@echo "... middleware/threadx/common/src/txe_block_allocate.s"
+	@echo "... middleware/threadx/common/src/txe_block_pool_create.obj"
+	@echo "... middleware/threadx/common/src/txe_block_pool_create.i"
+	@echo "... middleware/threadx/common/src/txe_block_pool_create.s"
+	@echo "... middleware/threadx/common/src/txe_block_pool_delete.obj"
+	@echo "... middleware/threadx/common/src/txe_block_pool_delete.i"
+	@echo "... middleware/threadx/common/src/txe_block_pool_delete.s"
+	@echo "... middleware/threadx/common/src/txe_block_pool_info_get.obj"
+	@echo "... middleware/threadx/common/src/txe_block_pool_info_get.i"
+	@echo "... middleware/threadx/common/src/txe_block_pool_info_get.s"
+	@echo "... middleware/threadx/common/src/txe_block_pool_prioritize.obj"
+	@echo "... middleware/threadx/common/src/txe_block_pool_prioritize.i"
+	@echo "... middleware/threadx/common/src/txe_block_pool_prioritize.s"
+	@echo "... middleware/threadx/common/src/txe_block_release.obj"
+	@echo "... middleware/threadx/common/src/txe_block_release.i"
+	@echo "... middleware/threadx/common/src/txe_block_release.s"
+	@echo "... middleware/threadx/common/src/txe_byte_allocate.obj"
+	@echo "... middleware/threadx/common/src/txe_byte_allocate.i"
+	@echo "... middleware/threadx/common/src/txe_byte_allocate.s"
+	@echo "... middleware/threadx/common/src/txe_byte_pool_create.obj"
+	@echo "... middleware/threadx/common/src/txe_byte_pool_create.i"
+	@echo "... middleware/threadx/common/src/txe_byte_pool_create.s"
+	@echo "... middleware/threadx/common/src/txe_byte_pool_delete.obj"
+	@echo "... middleware/threadx/common/src/txe_byte_pool_delete.i"
+	@echo "... middleware/threadx/common/src/txe_byte_pool_delete.s"
+	@echo "... middleware/threadx/common/src/txe_byte_pool_info_get.obj"
+	@echo "... middleware/threadx/common/src/txe_byte_pool_info_get.i"
+	@echo "... middleware/threadx/common/src/txe_byte_pool_info_get.s"
+	@echo "... middleware/threadx/common/src/txe_byte_pool_prioritize.obj"
+	@echo "... middleware/threadx/common/src/txe_byte_pool_prioritize.i"
+	@echo "... middleware/threadx/common/src/txe_byte_pool_prioritize.s"
+	@echo "... middleware/threadx/common/src/txe_byte_release.obj"
+	@echo "... middleware/threadx/common/src/txe_byte_release.i"
+	@echo "... middleware/threadx/common/src/txe_byte_release.s"
+	@echo "... middleware/threadx/common/src/txe_event_flags_create.obj"
+	@echo "... middleware/threadx/common/src/txe_event_flags_create.i"
+	@echo "... middleware/threadx/common/src/txe_event_flags_create.s"
+	@echo "... middleware/threadx/common/src/txe_event_flags_delete.obj"
+	@echo "... middleware/threadx/common/src/txe_event_flags_delete.i"
+	@echo "... middleware/threadx/common/src/txe_event_flags_delete.s"
+	@echo "... middleware/threadx/common/src/txe_event_flags_get.obj"
+	@echo "... middleware/threadx/common/src/txe_event_flags_get.i"
+	@echo "... middleware/threadx/common/src/txe_event_flags_get.s"
+	@echo "... middleware/threadx/common/src/txe_event_flags_info_get.obj"
+	@echo "... middleware/threadx/common/src/txe_event_flags_info_get.i"
+	@echo "... middleware/threadx/common/src/txe_event_flags_info_get.s"
+	@echo "... middleware/threadx/common/src/txe_event_flags_set.obj"
+	@echo "... middleware/threadx/common/src/txe_event_flags_set.i"
+	@echo "... middleware/threadx/common/src/txe_event_flags_set.s"
+	@echo "... middleware/threadx/common/src/txe_event_flags_set_notify.obj"
+	@echo "... middleware/threadx/common/src/txe_event_flags_set_notify.i"
+	@echo "... middleware/threadx/common/src/txe_event_flags_set_notify.s"
+	@echo "... middleware/threadx/common/src/txe_mutex_create.obj"
+	@echo "... middleware/threadx/common/src/txe_mutex_create.i"
+	@echo "... middleware/threadx/common/src/txe_mutex_create.s"
+	@echo "... middleware/threadx/common/src/txe_mutex_delete.obj"
+	@echo "... middleware/threadx/common/src/txe_mutex_delete.i"
+	@echo "... middleware/threadx/common/src/txe_mutex_delete.s"
+	@echo "... middleware/threadx/common/src/txe_mutex_get.obj"
+	@echo "... middleware/threadx/common/src/txe_mutex_get.i"
+	@echo "... middleware/threadx/common/src/txe_mutex_get.s"
+	@echo "... middleware/threadx/common/src/txe_mutex_info_get.obj"
+	@echo "... middleware/threadx/common/src/txe_mutex_info_get.i"
+	@echo "... middleware/threadx/common/src/txe_mutex_info_get.s"
+	@echo "... middleware/threadx/common/src/txe_mutex_prioritize.obj"
+	@echo "... middleware/threadx/common/src/txe_mutex_prioritize.i"
+	@echo "... middleware/threadx/common/src/txe_mutex_prioritize.s"
+	@echo "... middleware/threadx/common/src/txe_mutex_put.obj"
+	@echo "... middleware/threadx/common/src/txe_mutex_put.i"
+	@echo "... middleware/threadx/common/src/txe_mutex_put.s"
+	@echo "... middleware/threadx/common/src/txe_queue_create.obj"
+	@echo "... middleware/threadx/common/src/txe_queue_create.i"
+	@echo "... middleware/threadx/common/src/txe_queue_create.s"
+	@echo "... middleware/threadx/common/src/txe_queue_delete.obj"
+	@echo "... middleware/threadx/common/src/txe_queue_delete.i"
+	@echo "... middleware/threadx/common/src/txe_queue_delete.s"
+	@echo "... middleware/threadx/common/src/txe_queue_flush.obj"
+	@echo "... middleware/threadx/common/src/txe_queue_flush.i"
+	@echo "... middleware/threadx/common/src/txe_queue_flush.s"
+	@echo "... middleware/threadx/common/src/txe_queue_front_send.obj"
+	@echo "... middleware/threadx/common/src/txe_queue_front_send.i"
+	@echo "... middleware/threadx/common/src/txe_queue_front_send.s"
+	@echo "... middleware/threadx/common/src/txe_queue_info_get.obj"
+	@echo "... middleware/threadx/common/src/txe_queue_info_get.i"
+	@echo "... middleware/threadx/common/src/txe_queue_info_get.s"
+	@echo "... middleware/threadx/common/src/txe_queue_prioritize.obj"
+	@echo "... middleware/threadx/common/src/txe_queue_prioritize.i"
+	@echo "... middleware/threadx/common/src/txe_queue_prioritize.s"
+	@echo "... middleware/threadx/common/src/txe_queue_receive.obj"
+	@echo "... middleware/threadx/common/src/txe_queue_receive.i"
+	@echo "... middleware/threadx/common/src/txe_queue_receive.s"
+	@echo "... middleware/threadx/common/src/txe_queue_send.obj"
+	@echo "... middleware/threadx/common/src/txe_queue_send.i"
+	@echo "... middleware/threadx/common/src/txe_queue_send.s"
+	@echo "... middleware/threadx/common/src/txe_queue_send_notify.obj"
+	@echo "... middleware/threadx/common/src/txe_queue_send_notify.i"
+	@echo "... middleware/threadx/common/src/txe_queue_send_notify.s"
+	@echo "... middleware/threadx/common/src/txe_semaphore_ceiling_put.obj"
+	@echo "... middleware/threadx/common/src/txe_semaphore_ceiling_put.i"
+	@echo "... middleware/threadx/common/src/txe_semaphore_ceiling_put.s"
+	@echo "... middleware/threadx/common/src/txe_semaphore_create.obj"
+	@echo "... middleware/threadx/common/src/txe_semaphore_create.i"
+	@echo "... middleware/threadx/common/src/txe_semaphore_create.s"
+	@echo "... middleware/threadx/common/src/txe_semaphore_delete.obj"
+	@echo "... middleware/threadx/common/src/txe_semaphore_delete.i"
+	@echo "... middleware/threadx/common/src/txe_semaphore_delete.s"
+	@echo "... middleware/threadx/common/src/txe_semaphore_get.obj"
+	@echo "... middleware/threadx/common/src/txe_semaphore_get.i"
+	@echo "... middleware/threadx/common/src/txe_semaphore_get.s"
+	@echo "... middleware/threadx/common/src/txe_semaphore_info_get.obj"
+	@echo "... middleware/threadx/common/src/txe_semaphore_info_get.i"
+	@echo "... middleware/threadx/common/src/txe_semaphore_info_get.s"
+	@echo "... middleware/threadx/common/src/txe_semaphore_prioritize.obj"
+	@echo "... middleware/threadx/common/src/txe_semaphore_prioritize.i"
+	@echo "... middleware/threadx/common/src/txe_semaphore_prioritize.s"
+	@echo "... middleware/threadx/common/src/txe_semaphore_put.obj"
+	@echo "... middleware/threadx/common/src/txe_semaphore_put.i"
+	@echo "... middleware/threadx/common/src/txe_semaphore_put.s"
+	@echo "... middleware/threadx/common/src/txe_semaphore_put_notify.obj"
+	@echo "... middleware/threadx/common/src/txe_semaphore_put_notify.i"
+	@echo "... middleware/threadx/common/src/txe_semaphore_put_notify.s"
+	@echo "... middleware/threadx/common/src/txe_thread_create.obj"
+	@echo "... middleware/threadx/common/src/txe_thread_create.i"
+	@echo "... middleware/threadx/common/src/txe_thread_create.s"
+	@echo "... middleware/threadx/common/src/txe_thread_delete.obj"
+	@echo "... middleware/threadx/common/src/txe_thread_delete.i"
+	@echo "... middleware/threadx/common/src/txe_thread_delete.s"
+	@echo "... middleware/threadx/common/src/txe_thread_entry_exit_notify.obj"
+	@echo "... middleware/threadx/common/src/txe_thread_entry_exit_notify.i"
+	@echo "... middleware/threadx/common/src/txe_thread_entry_exit_notify.s"
+	@echo "... middleware/threadx/common/src/txe_thread_info_get.obj"
+	@echo "... middleware/threadx/common/src/txe_thread_info_get.i"
+	@echo "... middleware/threadx/common/src/txe_thread_info_get.s"
+	@echo "... middleware/threadx/common/src/txe_thread_preemption_change.obj"
+	@echo "... middleware/threadx/common/src/txe_thread_preemption_change.i"
+	@echo "... middleware/threadx/common/src/txe_thread_preemption_change.s"
+	@echo "... middleware/threadx/common/src/txe_thread_priority_change.obj"
+	@echo "... middleware/threadx/common/src/txe_thread_priority_change.i"
+	@echo "... middleware/threadx/common/src/txe_thread_priority_change.s"
+	@echo "... middleware/threadx/common/src/txe_thread_relinquish.obj"
+	@echo "... middleware/threadx/common/src/txe_thread_relinquish.i"
+	@echo "... middleware/threadx/common/src/txe_thread_relinquish.s"
+	@echo "... middleware/threadx/common/src/txe_thread_reset.obj"
+	@echo "... middleware/threadx/common/src/txe_thread_reset.i"
+	@echo "... middleware/threadx/common/src/txe_thread_reset.s"
+	@echo "... middleware/threadx/common/src/txe_thread_resume.obj"
+	@echo "... middleware/threadx/common/src/txe_thread_resume.i"
+	@echo "... middleware/threadx/common/src/txe_thread_resume.s"
+	@echo "... middleware/threadx/common/src/txe_thread_suspend.obj"
+	@echo "... middleware/threadx/common/src/txe_thread_suspend.i"
+	@echo "... middleware/threadx/common/src/txe_thread_suspend.s"
+	@echo "... middleware/threadx/common/src/txe_thread_terminate.obj"
+	@echo "... middleware/threadx/common/src/txe_thread_terminate.i"
+	@echo "... middleware/threadx/common/src/txe_thread_terminate.s"
+	@echo "... middleware/threadx/common/src/txe_thread_time_slice_change.obj"
+	@echo "... middleware/threadx/common/src/txe_thread_time_slice_change.i"
+	@echo "... middleware/threadx/common/src/txe_thread_time_slice_change.s"
+	@echo "... middleware/threadx/common/src/txe_thread_wait_abort.obj"
+	@echo "... middleware/threadx/common/src/txe_thread_wait_abort.i"
+	@echo "... middleware/threadx/common/src/txe_thread_wait_abort.s"
+	@echo "... middleware/threadx/common/src/txe_timer_activate.obj"
+	@echo "... middleware/threadx/common/src/txe_timer_activate.i"
+	@echo "... middleware/threadx/common/src/txe_timer_activate.s"
+	@echo "... middleware/threadx/common/src/txe_timer_change.obj"
+	@echo "... middleware/threadx/common/src/txe_timer_change.i"
+	@echo "... middleware/threadx/common/src/txe_timer_change.s"
+	@echo "... middleware/threadx/common/src/txe_timer_create.obj"
+	@echo "... middleware/threadx/common/src/txe_timer_create.i"
+	@echo "... middleware/threadx/common/src/txe_timer_create.s"
+	@echo "... middleware/threadx/common/src/txe_timer_deactivate.obj"
+	@echo "... middleware/threadx/common/src/txe_timer_deactivate.i"
+	@echo "... middleware/threadx/common/src/txe_timer_deactivate.s"
+	@echo "... middleware/threadx/common/src/txe_timer_delete.obj"
+	@echo "... middleware/threadx/common/src/txe_timer_delete.i"
+	@echo "... middleware/threadx/common/src/txe_timer_delete.s"
+	@echo "... middleware/threadx/common/src/txe_timer_info_get.obj"
+	@echo "... middleware/threadx/common/src/txe_timer_info_get.i"
+	@echo "... middleware/threadx/common/src/txe_timer_info_get.s"
+	@echo "... middleware/threadx/ports/cortex_m4/gnu/src/tx_misra.obj"
+	@echo "... middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.obj"
+	@echo "... middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.obj"
+	@echo "... middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.obj"
+	@echo "... middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_disable.obj"
+	@echo "... middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_restore.obj"
+	@echo "... middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.obj"
+	@echo "... middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.obj"
+	@echo "... middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.obj"
+	@echo "... middleware/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.obj"
 	@echo "... startup/startup_stm32f412retx.obj"
 .PHONY : help
 

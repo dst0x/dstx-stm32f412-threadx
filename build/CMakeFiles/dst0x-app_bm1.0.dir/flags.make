@@ -3,15 +3,15 @@
 
 # compile ASM with /usr/bin/arm-none-eabi-gcc
 # compile C with /usr/bin/arm-none-eabi-gcc
-ASM_DEFINES = -DSTM32F412Rx -DUSE_HAL_DRIVER
+ASM_DEFINES = -DSTM32F412Rx -DTX_INCLUDE_USER_DEFINE_FILE -DUSE_HAL_DRIVER
 
-ASM_INCLUDES = -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/drivers/Device/ST/STM32F4xx/Include -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/drivers/Include -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Inc -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/include -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/bsp/inc -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/app/inc
+ASM_INCLUDES = -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/drivers/Device/ST/STM32F4xx/Include -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/drivers/Include -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Inc -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/include -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/bsp/inc -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/app/inc -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/log -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/inc -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/inc
 
 ASM_FLAGS = -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -x assembler-with-cpp -g
 
-C_DEFINES = -DSTM32F412Rx -DUSE_HAL_DRIVER
+C_DEFINES = -DSTM32F412Rx -DTX_INCLUDE_USER_DEFINE_FILE -DUSE_HAL_DRIVER
 
-C_INCLUDES = -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/drivers/Device/ST/STM32F4xx/Include -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/drivers/Include -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Inc -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/include -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/bsp/inc -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/app/inc
+C_INCLUDES = -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/drivers/Device/ST/STM32F4xx/Include -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/drivers/Include -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Inc -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/include -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/bsp/inc -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/app/inc -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/log -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/inc -I/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/inc
 
 C_FLAGS = -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -fdata-sections -ffunction-sections -g -std=gnu11
 

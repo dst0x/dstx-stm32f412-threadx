@@ -127,10 +127,52 @@ CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/bsp/src/bsp.c -o CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp.c.s
 
+CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_gpio.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_gpio.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/bsp/src/bsp_gpio.c
+CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_gpio.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_gpio.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_gpio.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_gpio.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_gpio.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/bsp/src/bsp_gpio.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_gpio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_gpio.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/bsp/src/bsp_gpio.c > CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_gpio.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_gpio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_gpio.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/bsp/src/bsp_gpio.c -o CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_gpio.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_usart.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_usart.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/bsp/src/bsp_usart.c
+CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_usart.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_usart.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_usart.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_usart.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_usart.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/bsp/src/bsp_usart.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_usart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_usart.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/bsp/src/bsp_usart.c > CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_usart.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_usart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_usart.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/bsp/src/bsp_usart.c -o CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_usart.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/tx_initialize_low_level.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/tx_initialize_low_level.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/bsp/src/tx_initialize_low_level.c
+CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/tx_initialize_low_level.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/tx_initialize_low_level.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/tx_initialize_low_level.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/tx_initialize_low_level.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/tx_initialize_low_level.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/bsp/src/tx_initialize_low_level.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/tx_initialize_low_level.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/tx_initialize_low_level.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/bsp/src/tx_initialize_low_level.c > CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/tx_initialize_low_level.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/tx_initialize_low_level.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/tx_initialize_low_level.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/bsp/src/tx_initialize_low_level.c -o CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/tx_initialize_low_level.c.s
+
 CMakeFiles/dst0x-app_bm1.0.dir/app/src/app.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
 CMakeFiles/dst0x-app_bm1.0.dir/app/src/app.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/app/src/app.c
 CMakeFiles/dst0x-app_bm1.0.dir/app/src/app.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/app/src/app.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/app/src/app.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/app/src/app.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/app/src/app.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/app/src/app.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/app/src/app.c
 
 CMakeFiles/dst0x-app_bm1.0.dir/app/src/app.c.i: cmake_force
@@ -141,10 +183,24 @@ CMakeFiles/dst0x-app_bm1.0.dir/app/src/app.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/app/src/app.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/app/src/app.c -o CMakeFiles/dst0x-app_bm1.0.dir/app/src/app.c.s
 
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/log/log.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/log/log.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/log/log.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/log/log.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/log/log.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/log/log.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/log/log.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/log/log.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/log/log.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/log/log.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/log/log.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/log/log.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/log/log.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/log/log.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/log/log.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/log/log.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/log/log.c.s
+
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal.c
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal.c
 
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -158,7 +214,7 @@ CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_cortex.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_cortex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_cortex.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_cortex.c
 
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -172,7 +228,7 @@ CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_dma.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_dma.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_dma.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_dma.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_dma.c
 
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -186,7 +242,7 @@ CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_dma_ex.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_dma_ex.c
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_dma_ex.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -200,7 +256,7 @@ CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash.c
 
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -214,7 +270,7 @@ CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash_ex.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash_ex.c
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash_ex.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -228,7 +284,7 @@ CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash_ramfunc.c
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -242,7 +298,7 @@ CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_gpio.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_gpio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_gpio.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_gpio.c
 
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -256,7 +312,7 @@ CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_pwr.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_pwr.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_pwr.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_pwr.c
 
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -270,7 +326,7 @@ CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_pwr_ex.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_pwr_ex.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -284,7 +340,7 @@ CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_rcc.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_rcc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_rcc.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_rcc.c
 
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -298,7 +354,7 @@ CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_rcc_ex.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_rcc_ex.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -312,7 +368,7 @@ CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim.c
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim.c
 
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -326,7 +382,7 @@ CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim_ex.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim_ex.c
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim_ex.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -340,7 +396,7 @@ CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_uart.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_uart.c
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_uart.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_uart.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_uart.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_uart.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_uart.c
 
 CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
@@ -351,13 +407,2737 @@ CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_uart.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_uart.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_uart.c.s
 
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_allocate.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_allocate.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_allocate.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_allocate.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_allocate.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_allocate.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_allocate.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_allocate.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_allocate.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_allocate.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_allocate.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_allocate.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_allocate.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_allocate.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_allocate.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_allocate.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_allocate.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_cleanup.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_cleanup.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_cleanup.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_cleanup.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_cleanup.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_cleanup.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_cleanup.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_cleanup.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_cleanup.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_cleanup.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_cleanup.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_cleanup.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_cleanup.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_cleanup.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_cleanup.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_cleanup.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_cleanup.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_create.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_create.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_create.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_create.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_create.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_create.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_create.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_create.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_create.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_create.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_create.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_create.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_create.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_create.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_create.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_delete.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_delete.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_delete.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_delete.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_delete.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_delete.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_delete.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_delete.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_delete.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_delete.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_delete.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_delete.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_delete.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_delete.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_delete.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_initialize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_initialize.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_initialize.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_initialize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_initialize.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_initialize.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_initialize.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_initialize.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_initialize.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_initialize.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_initialize.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_initialize.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_initialize.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_initialize.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_initialize.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_initialize.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_initialize.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_performance_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_performance_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_performance_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_performance_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_prioritize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_prioritize.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_prioritize.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_prioritize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_prioritize.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_prioritize.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_prioritize.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_prioritize.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_prioritize.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_prioritize.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_prioritize.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_prioritize.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_prioritize.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_prioritize.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_prioritize.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_pool_prioritize.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_prioritize.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_release.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_release.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_release.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_release.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_release.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_release.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_release.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_release.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_release.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_release.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_release.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_release.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_release.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_release.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_release.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_block_release.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_release.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_allocate.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_allocate.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_allocate.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_allocate.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_allocate.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_allocate.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_allocate.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_allocate.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_allocate.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_allocate.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_allocate.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_allocate.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_allocate.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_allocate.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_allocate.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_allocate.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_allocate.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_cleanup.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_cleanup.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_cleanup.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_cleanup.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_cleanup.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_cleanup.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_cleanup.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_cleanup.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_cleanup.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_cleanup.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_cleanup.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_cleanup.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_cleanup.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_cleanup.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_cleanup.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_cleanup.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_cleanup.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_create.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_create.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_create.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_create.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_create.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_create.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_create.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_create.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_create.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_create.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_create.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_create.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_create.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_create.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_create.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_delete.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_delete.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_delete.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_delete.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_delete.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_delete.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_delete.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_delete.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_delete.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_delete.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_delete.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_delete.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_delete.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_delete.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_delete.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_initialize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_initialize.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_initialize.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_initialize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_initialize.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_initialize.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_initialize.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_initialize.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_initialize.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_initialize.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_initialize.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_initialize.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_initialize.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_initialize.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_initialize.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_initialize.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_initialize.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_performance_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_performance_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_performance_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_performance_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_prioritize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_prioritize.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_prioritize.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_prioritize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_prioritize.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_prioritize.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_prioritize.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_prioritize.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_prioritize.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_prioritize.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_prioritize.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_prioritize.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_prioritize.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_prioritize.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_prioritize.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_prioritize.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_prioritize.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_search.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_search.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_search.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_search.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_search.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_search.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_search.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_search.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_search.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_search.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_search.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_search.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_search.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_search.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_search.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_pool_search.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_search.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_release.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_release.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_release.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_release.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_release.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_release.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_release.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_release.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_release.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_release.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_release.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_release.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_release.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_release.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_release.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_byte_release.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_release.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_cleanup.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_cleanup.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_cleanup.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_cleanup.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_cleanup.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_cleanup.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_cleanup.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_cleanup.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_cleanup.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_cleanup.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_cleanup.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_cleanup.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_cleanup.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_cleanup.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_cleanup.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_cleanup.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_cleanup.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_create.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_create.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_create.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_create.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_create.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_create.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_create.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_create.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_create.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_create.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_create.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_create.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_create.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_create.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_create.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_delete.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_delete.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_delete.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_delete.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_delete.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_delete.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_delete.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_delete.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_delete.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_delete.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_delete.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_delete.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_delete.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_delete.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_delete.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_initialize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_initialize.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_initialize.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_initialize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_initialize.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_initialize.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_initialize.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_initialize.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_initialize.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_initialize.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_initialize.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_initialize.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_initialize.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_initialize.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_initialize.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_initialize.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_initialize.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_performance_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_performance_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_performance_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_performance_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_set.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_set.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_set.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_set.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set_notify.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set_notify.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_set_notify.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set_notify.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set_notify.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set_notify.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set_notify.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set_notify.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_set_notify.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set_notify.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set_notify.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_set_notify.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set_notify.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set_notify.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set_notify.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_event_flags_set_notify.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set_notify.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_high_level.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_high_level.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_initialize_high_level.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_high_level.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_high_level.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_high_level.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_high_level.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_high_level.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_initialize_high_level.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_high_level.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_high_level.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_initialize_high_level.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_high_level.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_high_level.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_high_level.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_initialize_high_level.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_high_level.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_enter.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_enter.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_initialize_kernel_enter.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_enter.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_enter.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_enter.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_enter.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_enter.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_initialize_kernel_enter.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_enter.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_enter.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_initialize_kernel_enter.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_enter.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_enter.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_enter.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_initialize_kernel_enter.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_enter.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_setup.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_setup.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_initialize_kernel_setup.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_setup.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_setup.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_setup.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_setup.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_setup.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_initialize_kernel_setup.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_setup.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_setup.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_initialize_kernel_setup.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_setup.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_setup.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_setup.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_initialize_kernel_setup.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_setup.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_misra.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_misra.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_misra.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_misra.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_misra.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_misra.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_misra.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_misra.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_misra.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_misra.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_misra.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_misra.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_misra.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_misra.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_misra.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_misra.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_misra.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_cleanup.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_cleanup.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_cleanup.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_cleanup.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_cleanup.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_cleanup.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_cleanup.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_cleanup.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_cleanup.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_cleanup.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_cleanup.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_cleanup.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_cleanup.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_cleanup.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_cleanup.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_cleanup.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_cleanup.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_create.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_create.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_create.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_create.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_create.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_create.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_create.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_create.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_create.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_create.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_create.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_create.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_create.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_create.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_create.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_delete.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_delete.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_delete.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_delete.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_delete.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_delete.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_delete.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_delete.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_delete.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_delete.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_delete.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_delete.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_delete.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_delete.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_delete.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_initialize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_initialize.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_initialize.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_initialize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_initialize.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_initialize.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_initialize.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_initialize.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_initialize.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_initialize.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_initialize.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_initialize.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_initialize.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_initialize.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_initialize.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_initialize.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_initialize.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_performance_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_performance_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_performance_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_performance_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_system_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_system_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_performance_system_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_system_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_system_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_system_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_system_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_system_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_performance_system_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_system_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_system_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_performance_system_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_system_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_system_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_system_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_performance_system_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_system_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_prioritize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_prioritize.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_prioritize.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_prioritize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_prioritize.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_prioritize.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_prioritize.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_prioritize.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_prioritize.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_prioritize.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_prioritize.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_prioritize.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_prioritize.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_prioritize.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_prioritize.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_prioritize.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_prioritize.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_priority_change.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_priority_change.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_priority_change.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_priority_change.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_priority_change.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_priority_change.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_priority_change.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_priority_change.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_priority_change.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_priority_change.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_priority_change.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_priority_change.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_priority_change.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_priority_change.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_priority_change.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_priority_change.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_priority_change.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_put.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_put.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_put.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_put.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_put.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_put.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_put.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_put.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_put.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_put.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_put.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_put.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_put.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_put.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_put.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_mutex_put.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_put.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_cleanup.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_cleanup.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_cleanup.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_cleanup.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_cleanup.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_cleanup.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_cleanup.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_cleanup.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_cleanup.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_cleanup.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_cleanup.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_cleanup.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_cleanup.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_cleanup.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_cleanup.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_cleanup.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_cleanup.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_create.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_create.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_create.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_create.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_create.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_create.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_create.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_create.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_create.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_create.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_create.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_create.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_create.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_create.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_create.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_delete.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_delete.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_delete.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_delete.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_delete.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_delete.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_delete.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_delete.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_delete.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_delete.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_delete.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_delete.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_delete.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_delete.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_delete.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_flush.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_flush.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_flush.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_flush.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_flush.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_flush.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_flush.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_flush.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_flush.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_flush.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_flush.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_flush.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_flush.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_flush.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_flush.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_flush.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_flush.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_front_send.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_front_send.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_front_send.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_front_send.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_front_send.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_front_send.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_front_send.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_front_send.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_front_send.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_front_send.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_front_send.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_front_send.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_front_send.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_front_send.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_front_send.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_front_send.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_front_send.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_initialize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_initialize.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_initialize.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_initialize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_initialize.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_initialize.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_initialize.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_initialize.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_initialize.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_initialize.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_initialize.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_initialize.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_initialize.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_initialize.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_initialize.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_initialize.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_initialize.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_performance_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_performance_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_performance_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_performance_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_system_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_system_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_performance_system_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_system_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_system_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_system_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_system_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_system_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_performance_system_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_system_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_system_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_performance_system_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_system_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_system_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_system_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_performance_system_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_system_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_prioritize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_prioritize.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_prioritize.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_prioritize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_prioritize.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_prioritize.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_prioritize.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_prioritize.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_prioritize.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_prioritize.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_prioritize.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_prioritize.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_prioritize.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_prioritize.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_prioritize.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_prioritize.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_prioritize.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_receive.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_receive.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_receive.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_receive.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_receive.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_receive.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_receive.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_receive.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_receive.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_receive.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_receive.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_receive.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_receive.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_receive.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_receive.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_receive.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_receive.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_send.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_send.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_send.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_send.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send_notify.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send_notify.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_send_notify.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send_notify.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send_notify.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send_notify.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send_notify.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send_notify.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_send_notify.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send_notify.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send_notify.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_send_notify.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send_notify.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send_notify.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send_notify.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_queue_send_notify.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send_notify.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_ceiling_put.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_ceiling_put.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_ceiling_put.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_ceiling_put.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_ceiling_put.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_ceiling_put.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_ceiling_put.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_ceiling_put.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_ceiling_put.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_ceiling_put.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_ceiling_put.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_ceiling_put.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_ceiling_put.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_ceiling_put.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_ceiling_put.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_ceiling_put.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_ceiling_put.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_cleanup.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_cleanup.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_cleanup.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_cleanup.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_cleanup.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_cleanup.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_cleanup.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_cleanup.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_cleanup.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_cleanup.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_cleanup.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_cleanup.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_cleanup.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_cleanup.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_cleanup.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_cleanup.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_cleanup.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_create.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_create.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_create.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_create.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_create.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_create.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_create.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_create.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_create.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_create.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_create.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_create.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_create.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_create.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_create.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_delete.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_delete.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_delete.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_delete.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_delete.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_delete.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_delete.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_delete.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_delete.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_delete.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_delete.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_delete.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_delete.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_delete.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_delete.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_initialize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_initialize.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_initialize.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_initialize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_initialize.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_initialize.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_initialize.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_initialize.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_initialize.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_initialize.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_initialize.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_initialize.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_initialize.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_initialize.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_initialize.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_initialize.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_initialize.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_performance_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_performance_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_performance_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_performance_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_prioritize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_prioritize.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_prioritize.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_prioritize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_prioritize.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_prioritize.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_prioritize.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_prioritize.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_prioritize.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_prioritize.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_prioritize.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_prioritize.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_prioritize.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_prioritize.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_prioritize.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_prioritize.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_prioritize.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_put.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_put.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_put.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_put.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put_notify.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put_notify.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_put_notify.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put_notify.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put_notify.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put_notify.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put_notify.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put_notify.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_put_notify.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put_notify.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put_notify.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_put_notify.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put_notify.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put_notify.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put_notify.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_semaphore_put_notify.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put_notify.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_create.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_create.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_create.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_create.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_create.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_create.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_create.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_create.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_create.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_create.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_create.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_create.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_create.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_create.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_create.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_delete.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_delete.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_delete.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_delete.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_delete.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_delete.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_delete.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_delete.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_delete.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_delete.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_delete.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_delete.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_delete.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_delete.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_delete.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_entry_exit_notify.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_entry_exit_notify.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_entry_exit_notify.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_entry_exit_notify.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_entry_exit_notify.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_entry_exit_notify.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_entry_exit_notify.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_entry_exit_notify.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_entry_exit_notify.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_entry_exit_notify.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_entry_exit_notify.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_entry_exit_notify.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_entry_exit_notify.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_entry_exit_notify.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_entry_exit_notify.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_entry_exit_notify.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_entry_exit_notify.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_identify.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_identify.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_identify.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_identify.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_identify.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_identify.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_identify.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_identify.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_identify.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_identify.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_identify.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_identify.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_identify.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_identify.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_identify.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_identify.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_identify.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_initialize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_initialize.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_initialize.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_initialize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_initialize.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_initialize.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_initialize.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_initialize.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_initialize.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_initialize.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_initialize.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_initialize.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_initialize.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_initialize.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_initialize.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_initialize.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_initialize.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_performance_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_performance_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_performance_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_performance_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_system_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_system_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_performance_system_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_system_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_system_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_system_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_system_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_system_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_performance_system_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_system_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_system_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_performance_system_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_system_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_system_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_system_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_performance_system_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_system_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_preemption_change.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_preemption_change.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_preemption_change.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_preemption_change.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_preemption_change.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_preemption_change.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_preemption_change.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_preemption_change.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_preemption_change.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_preemption_change.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_preemption_change.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_preemption_change.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_preemption_change.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_preemption_change.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_preemption_change.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_preemption_change.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_preemption_change.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_priority_change.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_priority_change.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_priority_change.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_priority_change.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_priority_change.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_priority_change.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_priority_change.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_priority_change.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_priority_change.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_priority_change.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_priority_change.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_priority_change.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_priority_change.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_priority_change.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_priority_change.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_priority_change.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_priority_change.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_relinquish.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_relinquish.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_relinquish.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_relinquish.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_relinquish.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_relinquish.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_relinquish.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_relinquish.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_relinquish.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_relinquish.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_relinquish.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_relinquish.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_relinquish.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_relinquish.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_relinquish.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_relinquish.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_relinquish.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_reset.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_reset.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_reset.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_reset.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_reset.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_reset.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_reset.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_reset.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_reset.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_reset.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_reset.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_reset.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_reset.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_reset.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_reset.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_reset.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_reset.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_resume.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_resume.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_resume.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_resume.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_resume.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_resume.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_resume.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_resume.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_resume.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_resume.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_resume.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_resume.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_resume.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_resume.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_resume.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_resume.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_resume.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_shell_entry.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_shell_entry.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_shell_entry.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_shell_entry.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_shell_entry.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_shell_entry.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_shell_entry.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_shell_entry.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_shell_entry.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_shell_entry.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_shell_entry.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_shell_entry.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_shell_entry.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_shell_entry.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_shell_entry.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_shell_entry.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_shell_entry.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_sleep.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_sleep.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_sleep.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_sleep.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_sleep.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_sleep.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_sleep.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_sleep.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_sleep.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_sleep.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_sleep.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_sleep.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_sleep.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_sleep.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_sleep.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_sleep.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_sleep.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_analyze.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_analyze.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_stack_analyze.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_analyze.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_analyze.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_analyze.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_analyze.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_analyze.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_stack_analyze.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_analyze.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_analyze.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_stack_analyze.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_analyze.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_analyze.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_analyze.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_stack_analyze.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_analyze.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_handler.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_handler.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_stack_error_handler.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_handler.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_handler.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_handler.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_handler.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_handler.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_stack_error_handler.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_handler.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_handler.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_stack_error_handler.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_handler.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_handler.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_handler.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_stack_error_handler.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_handler.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_notify.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_notify.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_stack_error_notify.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_notify.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_notify.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_notify.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_notify.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_notify.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_stack_error_notify.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_notify.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_notify.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_stack_error_notify.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_notify.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_notify.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_notify.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_stack_error_notify.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_notify.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_suspend.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_suspend.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_suspend.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_suspend.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_suspend.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_suspend.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_suspend.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_suspend.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_suspend.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_suspend.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_suspend.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_suspend.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_suspend.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_suspend.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_suspend.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_suspend.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_suspend.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_preempt_check.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_preempt_check.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_system_preempt_check.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_preempt_check.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_preempt_check.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_preempt_check.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_preempt_check.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_preempt_check.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_system_preempt_check.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_preempt_check.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_preempt_check.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_system_preempt_check.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_preempt_check.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_preempt_check.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_preempt_check.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_system_preempt_check.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_preempt_check.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_resume.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_resume.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_system_resume.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_resume.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_resume.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_resume.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_resume.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_resume.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_system_resume.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_resume.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_resume.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_system_resume.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_resume.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_resume.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_resume.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_system_resume.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_resume.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_suspend.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_suspend.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_system_suspend.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_suspend.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_suspend.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_suspend.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_suspend.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_suspend.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_system_suspend.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_suspend.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_suspend.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_system_suspend.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_suspend.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_suspend.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_suspend.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_system_suspend.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_suspend.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_terminate.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_terminate.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_terminate.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_terminate.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_terminate.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_terminate.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_terminate.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_terminate.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_terminate.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_terminate.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_terminate.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_terminate.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_terminate.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_terminate.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_terminate.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_terminate.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_terminate.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_time_slice.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_time_slice.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_time_slice.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_time_slice.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice_change.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice_change.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_time_slice_change.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice_change.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice_change.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice_change.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice_change.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice_change.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_time_slice_change.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice_change.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice_change.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_time_slice_change.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice_change.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice_change.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice_change.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_time_slice_change.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice_change.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_timeout.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_timeout.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_timeout.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_timeout.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_timeout.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_timeout.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_timeout.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_timeout.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_timeout.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_timeout.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_timeout.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_timeout.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_timeout.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_timeout.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_timeout.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_timeout.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_timeout.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_wait_abort.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_wait_abort.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_wait_abort.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_wait_abort.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_wait_abort.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_wait_abort.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_wait_abort.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_wait_abort.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_wait_abort.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_wait_abort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_wait_abort.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_wait_abort.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_wait_abort.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_wait_abort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_wait_abort.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_thread_wait_abort.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_wait_abort.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_time_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_time_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_time_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_time_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_set.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_set.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_time_set.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_set.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_set.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_set.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_set.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_set.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_time_set.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_set.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_set.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_time_set.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_set.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_set.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_set.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_time_set.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_set.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_activate.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_activate.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_activate.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_activate.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_activate.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_activate.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_activate.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_activate.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_activate.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_activate.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_activate.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_activate.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_activate.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_activate.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_activate.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_activate.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_activate.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_change.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_change.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_change.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_change.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_change.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_change.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_change.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_change.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_change.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_change.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_change.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_change.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_change.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_change.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_change.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_change.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_change.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_create.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_create.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_create.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_create.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_create.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_create.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_create.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_create.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_create.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_create.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_create.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_create.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_create.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_create.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_create.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_deactivate.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_deactivate.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_deactivate.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_deactivate.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_deactivate.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_deactivate.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_deactivate.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_deactivate.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_deactivate.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_deactivate.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_deactivate.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_deactivate.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_deactivate.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_deactivate.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_deactivate.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_deactivate.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_deactivate.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_delete.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_delete.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_delete.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_delete.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_delete.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_delete.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_delete.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_delete.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_delete.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_delete.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_delete.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_delete.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_delete.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_delete.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_delete.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_expiration_process.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_expiration_process.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_expiration_process.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_expiration_process.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_expiration_process.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_expiration_process.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_expiration_process.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_expiration_process.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_expiration_process.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_expiration_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_expiration_process.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_expiration_process.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_expiration_process.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_expiration_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_expiration_process.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_expiration_process.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_expiration_process.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_initialize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_initialize.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_initialize.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_initialize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_initialize.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_initialize.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_initialize.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_initialize.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_initialize.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_initialize.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_initialize.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_initialize.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_initialize.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_initialize.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_initialize.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_initialize.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_initialize.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_performance_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_performance_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_performance_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_performance_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_system_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_system_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_performance_system_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_system_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_system_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_system_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_system_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_system_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_performance_system_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_system_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_system_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_performance_system_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_system_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_system_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_system_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_performance_system_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_system_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_activate.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_activate.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_system_activate.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_activate.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_activate.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_activate.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_activate.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_activate.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_system_activate.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_activate.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_activate.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_system_activate.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_activate.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_activate.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_activate.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_system_activate.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_activate.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_deactivate.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_deactivate.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_system_deactivate.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_deactivate.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_deactivate.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_deactivate.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_deactivate.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_deactivate.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_system_deactivate.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_deactivate.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_deactivate.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_system_deactivate.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_deactivate.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_deactivate.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_deactivate.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_system_deactivate.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_deactivate.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_thread_entry.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_thread_entry.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_thread_entry.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_thread_entry.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_thread_entry.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_thread_entry.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_thread_entry.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_thread_entry.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_thread_entry.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_thread_entry.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_thread_entry.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_thread_entry.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_thread_entry.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_thread_entry.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_thread_entry.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_timer_thread_entry.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_thread_entry.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_buffer_full_notify.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_buffer_full_notify.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_buffer_full_notify.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_buffer_full_notify.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_buffer_full_notify.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_buffer_full_notify.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_buffer_full_notify.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_buffer_full_notify.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_buffer_full_notify.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_buffer_full_notify.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_buffer_full_notify.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_buffer_full_notify.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_buffer_full_notify.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_buffer_full_notify.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_buffer_full_notify.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_buffer_full_notify.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_buffer_full_notify.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_disable.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_disable.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_disable.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_disable.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_disable.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_disable.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_disable.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_disable.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_disable.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_disable.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_disable.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_disable.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_disable.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_disable.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_disable.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_disable.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_disable.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_enable.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_enable.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_enable.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_enable.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_enable.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_enable.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_enable.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_enable.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_enable.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_enable.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_enable.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_enable.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_enable.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_enable.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_enable.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_enable.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_enable.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_filter.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_filter.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_event_filter.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_filter.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_filter.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_filter.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_filter.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_filter.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_event_filter.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_filter.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_filter.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_event_filter.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_filter.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_filter.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_filter.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_event_filter.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_filter.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_unfilter.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_unfilter.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_event_unfilter.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_unfilter.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_unfilter.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_unfilter.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_unfilter.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_unfilter.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_event_unfilter.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_unfilter.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_unfilter.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_event_unfilter.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_unfilter.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_unfilter.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_unfilter.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_event_unfilter.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_unfilter.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_initialize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_initialize.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_initialize.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_initialize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_initialize.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_initialize.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_initialize.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_initialize.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_initialize.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_initialize.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_initialize.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_initialize.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_initialize.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_initialize.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_initialize.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_initialize.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_initialize.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_interrupt_control.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_interrupt_control.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_interrupt_control.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_interrupt_control.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_interrupt_control.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_interrupt_control.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_interrupt_control.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_interrupt_control.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_interrupt_control.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_interrupt_control.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_interrupt_control.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_interrupt_control.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_interrupt_control.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_interrupt_control.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_interrupt_control.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_interrupt_control.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_interrupt_control.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_enter_insert.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_enter_insert.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_isr_enter_insert.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_enter_insert.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_enter_insert.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_enter_insert.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_enter_insert.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_enter_insert.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_isr_enter_insert.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_enter_insert.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_enter_insert.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_isr_enter_insert.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_enter_insert.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_enter_insert.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_enter_insert.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_isr_enter_insert.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_enter_insert.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_exit_insert.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_exit_insert.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_isr_exit_insert.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_exit_insert.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_exit_insert.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_exit_insert.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_exit_insert.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_exit_insert.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_isr_exit_insert.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_exit_insert.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_exit_insert.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_isr_exit_insert.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_exit_insert.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_exit_insert.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_exit_insert.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_isr_exit_insert.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_exit_insert.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_register.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_register.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_object_register.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_register.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_register.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_register.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_register.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_register.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_object_register.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_register.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_register.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_object_register.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_register.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_register.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_register.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_object_register.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_register.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_unregister.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_unregister.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_object_unregister.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_unregister.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_unregister.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_unregister.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_unregister.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_unregister.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_object_unregister.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_unregister.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_unregister.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_object_unregister.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_unregister.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_unregister.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_unregister.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_object_unregister.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_unregister.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_user_event_insert.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_user_event_insert.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_user_event_insert.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_user_event_insert.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_user_event_insert.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_user_event_insert.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_user_event_insert.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_user_event_insert.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_user_event_insert.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_user_event_insert.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_user_event_insert.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_user_event_insert.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_user_event_insert.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_user_event_insert.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_user_event_insert.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/tx_trace_user_event_insert.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_user_event_insert.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_allocate.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_allocate.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_block_allocate.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_allocate.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_allocate.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_allocate.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_allocate.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_allocate.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_block_allocate.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_allocate.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_allocate.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_block_allocate.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_allocate.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_allocate.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_allocate.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_block_allocate.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_allocate.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_create.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_block_pool_create.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_create.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_create.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_create.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_create.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_block_pool_create.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_create.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_create.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_block_pool_create.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_create.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_create.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_create.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_block_pool_create.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_create.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_delete.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_block_pool_delete.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_delete.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_delete.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_delete.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_delete.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_block_pool_delete.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_delete.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_delete.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_block_pool_delete.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_delete.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_delete.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_delete.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_block_pool_delete.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_delete.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_block_pool_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_block_pool_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_block_pool_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_block_pool_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_prioritize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_prioritize.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_block_pool_prioritize.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_prioritize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_prioritize.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_prioritize.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_prioritize.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_prioritize.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_block_pool_prioritize.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_prioritize.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_prioritize.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_block_pool_prioritize.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_prioritize.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_prioritize.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_prioritize.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_block_pool_prioritize.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_prioritize.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_release.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_release.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_block_release.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_release.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_release.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_release.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_release.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_release.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_block_release.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_release.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_release.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_block_release.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_release.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_release.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_release.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_block_release.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_release.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_allocate.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_allocate.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_byte_allocate.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_allocate.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_allocate.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_allocate.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_allocate.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_allocate.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_byte_allocate.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_allocate.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_allocate.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_byte_allocate.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_allocate.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_allocate.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_allocate.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_byte_allocate.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_allocate.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_create.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_byte_pool_create.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_create.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_create.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_create.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_create.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_byte_pool_create.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_create.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_create.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_byte_pool_create.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_create.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_create.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_create.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_byte_pool_create.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_create.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_delete.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_byte_pool_delete.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_delete.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_delete.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_delete.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_delete.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_byte_pool_delete.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_delete.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_delete.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_byte_pool_delete.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_delete.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_delete.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_delete.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_byte_pool_delete.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_delete.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_byte_pool_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_byte_pool_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_byte_pool_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_byte_pool_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_prioritize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_prioritize.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_byte_pool_prioritize.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_prioritize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_prioritize.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_prioritize.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_prioritize.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_prioritize.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_byte_pool_prioritize.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_prioritize.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_prioritize.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_byte_pool_prioritize.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_prioritize.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_prioritize.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_prioritize.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_byte_pool_prioritize.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_prioritize.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_release.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_release.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_byte_release.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_release.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_release.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_release.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_release.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_release.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_byte_release.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_release.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_release.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_byte_release.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_release.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_release.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_release.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_byte_release.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_release.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_create.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_event_flags_create.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_create.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_create.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_create.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_create.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_event_flags_create.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_create.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_create.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_event_flags_create.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_create.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_create.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_create.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_event_flags_create.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_create.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_delete.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_event_flags_delete.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_delete.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_delete.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_delete.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_delete.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_event_flags_delete.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_delete.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_delete.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_event_flags_delete.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_delete.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_delete.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_delete.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_event_flags_delete.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_delete.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_event_flags_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_event_flags_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_event_flags_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_event_flags_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_event_flags_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_event_flags_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_event_flags_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_event_flags_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_event_flags_set.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_event_flags_set.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_event_flags_set.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_event_flags_set.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set_notify.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set_notify.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_event_flags_set_notify.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set_notify.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set_notify.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set_notify.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set_notify.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set_notify.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_event_flags_set_notify.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set_notify.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set_notify.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_event_flags_set_notify.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set_notify.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set_notify.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set_notify.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_event_flags_set_notify.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set_notify.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_create.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_mutex_create.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_create.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_create.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_create.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_create.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_mutex_create.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_create.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_create.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_mutex_create.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_create.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_create.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_create.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_mutex_create.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_create.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_delete.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_mutex_delete.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_delete.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_delete.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_delete.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_delete.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_mutex_delete.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_delete.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_delete.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_mutex_delete.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_delete.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_delete.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_delete.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_mutex_delete.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_delete.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_mutex_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_mutex_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_mutex_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_mutex_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_mutex_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_mutex_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_mutex_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_mutex_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_prioritize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_prioritize.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_mutex_prioritize.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_prioritize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_prioritize.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_prioritize.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_prioritize.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_prioritize.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_mutex_prioritize.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_prioritize.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_prioritize.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_mutex_prioritize.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_prioritize.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_prioritize.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_prioritize.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_mutex_prioritize.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_prioritize.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_put.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_put.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_mutex_put.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_put.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_put.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_put.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_put.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_put.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_mutex_put.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_put.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_put.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_mutex_put.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_put.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_put.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_put.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_mutex_put.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_put.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_create.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_create.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_create.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_create.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_create.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_create.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_create.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_create.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_create.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_create.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_create.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_create.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_create.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_create.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_create.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_delete.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_delete.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_delete.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_delete.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_delete.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_delete.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_delete.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_delete.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_delete.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_delete.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_delete.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_delete.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_delete.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_delete.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_delete.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_flush.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_flush.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_flush.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_flush.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_flush.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_flush.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_flush.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_flush.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_flush.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_flush.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_flush.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_flush.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_flush.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_flush.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_flush.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_flush.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_flush.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_front_send.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_front_send.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_front_send.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_front_send.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_front_send.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_front_send.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_front_send.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_front_send.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_front_send.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_front_send.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_front_send.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_front_send.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_front_send.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_front_send.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_front_send.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_front_send.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_front_send.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_prioritize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_prioritize.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_prioritize.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_prioritize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_prioritize.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_prioritize.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_prioritize.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_prioritize.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_prioritize.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_prioritize.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_prioritize.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_prioritize.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_prioritize.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_prioritize.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_prioritize.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_prioritize.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_prioritize.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_receive.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_receive.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_receive.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_receive.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_receive.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_receive.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_receive.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_receive.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_receive.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_receive.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_receive.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_receive.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_receive.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_receive.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_receive.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_receive.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_receive.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_send.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_send.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_send.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_send.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send_notify.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send_notify.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_send_notify.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send_notify.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send_notify.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send_notify.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send_notify.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send_notify.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_send_notify.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send_notify.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send_notify.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_send_notify.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send_notify.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send_notify.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send_notify.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_queue_send_notify.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send_notify.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_ceiling_put.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_ceiling_put.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_ceiling_put.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_ceiling_put.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_ceiling_put.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_ceiling_put.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_ceiling_put.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_ceiling_put.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_ceiling_put.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_ceiling_put.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_ceiling_put.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_ceiling_put.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_ceiling_put.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_ceiling_put.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_ceiling_put.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_ceiling_put.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_ceiling_put.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_create.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_create.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_create.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_create.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_create.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_create.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_create.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_create.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_create.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_create.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_create.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_create.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_create.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_create.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_create.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_delete.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_delete.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_delete.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_delete.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_delete.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_delete.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_delete.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_delete.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_delete.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_delete.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_delete.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_delete.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_delete.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_delete.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_delete.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_prioritize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_prioritize.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_prioritize.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_prioritize.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_prioritize.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_prioritize.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_prioritize.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_prioritize.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_prioritize.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_prioritize.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_prioritize.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_prioritize.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_prioritize.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_prioritize.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_prioritize.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_prioritize.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_prioritize.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_put.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_put.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_put.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_put.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put_notify.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put_notify.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_put_notify.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put_notify.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put_notify.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put_notify.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put_notify.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put_notify.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_put_notify.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put_notify.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put_notify.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_put_notify.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put_notify.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put_notify.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put_notify.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_semaphore_put_notify.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put_notify.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_create.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_create.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_create.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_create.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_create.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_create.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_create.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_create.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_create.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_create.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_create.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_create.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_create.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_create.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_create.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_delete.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_delete.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_delete.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_delete.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_delete.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_delete.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_delete.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_delete.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_delete.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_delete.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_delete.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_delete.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_delete.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_delete.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_delete.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_entry_exit_notify.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_entry_exit_notify.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_entry_exit_notify.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_entry_exit_notify.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_entry_exit_notify.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_entry_exit_notify.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_entry_exit_notify.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_entry_exit_notify.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_entry_exit_notify.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_entry_exit_notify.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_entry_exit_notify.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_entry_exit_notify.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_entry_exit_notify.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_entry_exit_notify.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_entry_exit_notify.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_entry_exit_notify.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_entry_exit_notify.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_preemption_change.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_preemption_change.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_preemption_change.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_preemption_change.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_preemption_change.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_preemption_change.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_preemption_change.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_preemption_change.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_preemption_change.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_preemption_change.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_preemption_change.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_preemption_change.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_preemption_change.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_preemption_change.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_preemption_change.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_preemption_change.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_preemption_change.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_priority_change.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_priority_change.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_priority_change.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_priority_change.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_priority_change.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_priority_change.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_priority_change.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_priority_change.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_priority_change.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_priority_change.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_priority_change.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_priority_change.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_priority_change.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_priority_change.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_priority_change.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_priority_change.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_priority_change.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_relinquish.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_relinquish.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_relinquish.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_relinquish.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_relinquish.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_relinquish.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_relinquish.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_relinquish.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_relinquish.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_relinquish.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_relinquish.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_relinquish.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_relinquish.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_relinquish.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_relinquish.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_relinquish.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_relinquish.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_reset.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_reset.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_reset.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_reset.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_reset.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_reset.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_reset.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_reset.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_reset.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_reset.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_reset.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_reset.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_reset.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_reset.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_reset.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_reset.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_reset.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_resume.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_resume.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_resume.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_resume.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_resume.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_resume.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_resume.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_resume.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_resume.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_resume.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_resume.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_resume.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_resume.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_resume.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_resume.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_resume.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_resume.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_suspend.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_suspend.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_suspend.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_suspend.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_suspend.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_suspend.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_suspend.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_suspend.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_suspend.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_suspend.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_suspend.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_suspend.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_suspend.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_suspend.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_suspend.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_suspend.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_suspend.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_terminate.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_terminate.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_terminate.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_terminate.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_terminate.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_terminate.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_terminate.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_terminate.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_terminate.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_terminate.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_terminate.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_terminate.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_terminate.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_terminate.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_terminate.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_terminate.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_terminate.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_time_slice_change.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_time_slice_change.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_time_slice_change.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_time_slice_change.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_time_slice_change.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_time_slice_change.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_time_slice_change.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_time_slice_change.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_time_slice_change.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_time_slice_change.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_time_slice_change.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_time_slice_change.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_time_slice_change.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_time_slice_change.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_time_slice_change.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_time_slice_change.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_time_slice_change.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_wait_abort.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_wait_abort.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_wait_abort.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_wait_abort.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_wait_abort.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_wait_abort.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_wait_abort.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_wait_abort.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_wait_abort.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_wait_abort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_wait_abort.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_wait_abort.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_wait_abort.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_wait_abort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_wait_abort.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_thread_wait_abort.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_wait_abort.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_activate.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_activate.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_timer_activate.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_activate.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_activate.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_activate.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_activate.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_activate.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_timer_activate.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_activate.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_activate.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_timer_activate.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_activate.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_activate.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_activate.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_timer_activate.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_activate.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_change.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_change.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_timer_change.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_change.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_change.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_change.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_change.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_change.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_timer_change.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_change.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_change.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_timer_change.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_change.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_change.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_change.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_timer_change.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_change.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_create.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_timer_create.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_create.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_create.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_create.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_create.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_create.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_timer_create.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_create.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_create.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_timer_create.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_create.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_create.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_create.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_timer_create.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_create.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_deactivate.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_deactivate.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_timer_deactivate.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_deactivate.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_deactivate.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_deactivate.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_deactivate.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_deactivate.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_timer_deactivate.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_deactivate.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_deactivate.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_timer_deactivate.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_deactivate.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_deactivate.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_deactivate.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_timer_deactivate.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_deactivate.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_delete.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_timer_delete.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_delete.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_delete.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_delete.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_delete.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_delete.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_timer_delete.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_delete.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_delete.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_timer_delete.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_delete.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_delete.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_delete.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_timer_delete.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_delete.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_info_get.c.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_timer_info_get.c
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_info_get.c.obj: CMakeFiles/dst0x-app_bm1.0.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_info_get.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_info_get.c.obj -MF CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_info_get.c.obj.d -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_info_get.c.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_timer_info_get.c
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_info_get.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_info_get.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_timer_info_get.c > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_info_get.c.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_info_get.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_info_get.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/common/src/txe_timer_info_get.c -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_info_get.c.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_misra.S.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_misra.S.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_misra.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building ASM object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_misra.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_misra.S.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_misra.S
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_misra.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_misra.S.i"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_misra.S > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_misra.S.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_misra.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_misra.S.s"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_misra.S -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_misra.S.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.S.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.S.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building ASM object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.S.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.S
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.S.i"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.S > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.S.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.S.s"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.S -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.S.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.S.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.S.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building ASM object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.S.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.S
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.S.i"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.S > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.S.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.S.s"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.S -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.S.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building ASM object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S.i"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S.s"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_disable.S.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_disable.S.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_disable.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building ASM object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_disable.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_disable.S.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_disable.S
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_disable.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_disable.S.i"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_disable.S > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_disable.S.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_disable.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_disable.S.s"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_disable.S -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_disable.S.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_restore.S.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_restore.S.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_restore.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building ASM object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_restore.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_restore.S.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_restore.S
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_restore.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_restore.S.i"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_restore.S > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_restore.S.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_restore.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_restore.S.s"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_restore.S -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_restore.S.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.S.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.S.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building ASM object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.S.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.S
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.S.i"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.S > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.S.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.S.s"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.S -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.S.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.S.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.S.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building ASM object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.S.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.S
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.S.i"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.S > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.S.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.S.s"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.S -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.S.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.S.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.S.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building ASM object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.S.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.S
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.S.i"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.S > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.S.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.S.s"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.S -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.S.s
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.S.obj: CMakeFiles/dst0x-app_bm1.0.dir/flags.make
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.S.obj: /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building ASM object CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.S.obj -c /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.S
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.S.i"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.S > CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.S.i
+
+CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.S.s"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.S -o CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.S.s
+
 # Object files for target dst0x-app_bm1.0
 dst0x__app_bm1_0_OBJECTS = \
 "CMakeFiles/dst0x-app_bm1.0.dir/main.c.obj" \
 "CMakeFiles/dst0x-app_bm1.0.dir/startup/startup_stm32f412retx.s.obj" \
 "CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/system_stm32f4xx.c.obj" \
 "CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_gpio.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_usart.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/tx_initialize_low_level.c.obj" \
 "CMakeFiles/dst0x-app_bm1.0.dir/app/src/app.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/log/log.c.obj" \
 "CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal.c.obj" \
 "CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_cortex.c.obj" \
 "CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_dma.c.obj" \
@@ -372,7 +3152,202 @@ dst0x__app_bm1_0_OBJECTS = \
 "CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_rcc_ex.c.obj" \
 "CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim.c.obj" \
 "CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim_ex.c.obj" \
-"CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_uart.c.obj"
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_uart.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_allocate.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_cleanup.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_create.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_delete.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_initialize.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_prioritize.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_release.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_allocate.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_cleanup.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_create.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_delete.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_initialize.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_prioritize.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_search.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_release.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_cleanup.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_create.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_delete.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_initialize.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set_notify.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_high_level.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_enter.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_setup.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_misra.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_cleanup.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_create.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_delete.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_initialize.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_system_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_prioritize.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_priority_change.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_put.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_cleanup.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_create.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_delete.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_flush.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_front_send.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_initialize.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_system_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_prioritize.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_receive.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send_notify.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_ceiling_put.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_cleanup.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_create.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_delete.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_initialize.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_prioritize.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put_notify.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_create.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_delete.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_entry_exit_notify.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_identify.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_initialize.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_system_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_preemption_change.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_priority_change.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_relinquish.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_reset.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_resume.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_shell_entry.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_sleep.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_analyze.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_handler.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_notify.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_suspend.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_preempt_check.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_resume.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_suspend.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_terminate.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice_change.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_timeout.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_wait_abort.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_set.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_activate.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_change.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_create.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_deactivate.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_delete.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_expiration_process.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_initialize.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_system_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_activate.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_deactivate.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_thread_entry.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_buffer_full_notify.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_disable.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_enable.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_filter.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_unfilter.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_initialize.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_interrupt_control.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_enter_insert.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_exit_insert.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_register.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_unregister.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_user_event_insert.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_allocate.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_create.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_delete.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_prioritize.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_release.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_allocate.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_create.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_delete.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_prioritize.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_release.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_create.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_delete.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set_notify.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_create.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_delete.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_prioritize.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_put.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_create.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_delete.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_flush.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_front_send.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_prioritize.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_receive.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send_notify.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_ceiling_put.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_create.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_delete.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_prioritize.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put_notify.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_create.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_delete.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_entry_exit_notify.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_preemption_change.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_priority_change.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_relinquish.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_reset.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_resume.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_suspend.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_terminate.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_time_slice_change.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_wait_abort.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_activate.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_change.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_create.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_deactivate.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_delete.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_info_get.c.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_misra.S.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.S.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.S.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_disable.S.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_restore.S.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.S.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.S.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.S.obj" \
+"CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.S.obj"
 
 # External object files for target dst0x-app_bm1.0
 dst0x__app_bm1_0_EXTERNAL_OBJECTS =
@@ -381,7 +3356,11 @@ dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/main.c.obj
 dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/startup/startup_stm32f412retx.s.obj
 dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/system_stm32f4xx.c.obj
 dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_gpio.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp_usart.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/tx_initialize_low_level.c.obj
 dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/app/src/app.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/log/log.c.obj
 dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal.c.obj
 dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_cortex.c.obj
 dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_dma.c.obj
@@ -397,9 +3376,204 @@ dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_dri
 dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim.c.obj
 dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim_ex.c.obj
 dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_uart.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_allocate.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_cleanup.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_create.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_delete.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_initialize.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_performance_system_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_pool_prioritize.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_block_release.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_allocate.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_cleanup.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_create.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_delete.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_initialize.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_performance_system_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_prioritize.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_pool_search.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_byte_release.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_cleanup.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_create.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_delete.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_initialize.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_performance_system_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_event_flags_set_notify.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_high_level.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_enter.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_initialize_kernel_setup.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_misra.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_cleanup.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_create.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_delete.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_initialize.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_performance_system_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_prioritize.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_priority_change.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_mutex_put.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_cleanup.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_create.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_delete.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_flush.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_front_send.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_initialize.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_performance_system_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_prioritize.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_receive.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_queue_send_notify.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_ceiling_put.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_cleanup.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_create.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_delete.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_initialize.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_performance_system_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_prioritize.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_semaphore_put_notify.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_create.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_delete.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_entry_exit_notify.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_identify.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_initialize.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_performance_system_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_preemption_change.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_priority_change.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_relinquish.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_reset.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_resume.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_shell_entry.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_sleep.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_analyze.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_handler.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_stack_error_notify.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_suspend.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_preempt_check.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_resume.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_system_suspend.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_terminate.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_time_slice_change.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_timeout.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_thread_wait_abort.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_time_set.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_activate.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_change.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_create.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_deactivate.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_delete.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_expiration_process.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_initialize.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_performance_system_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_activate.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_system_deactivate.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_timer_thread_entry.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_buffer_full_notify.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_disable.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_enable.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_filter.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_event_unfilter.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_initialize.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_interrupt_control.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_enter_insert.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_isr_exit_insert.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_register.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_object_unregister.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/tx_trace_user_event_insert.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_allocate.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_create.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_delete.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_pool_prioritize.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_block_release.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_allocate.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_create.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_delete.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_pool_prioritize.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_byte_release.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_create.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_delete.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_event_flags_set_notify.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_create.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_delete.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_prioritize.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_mutex_put.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_create.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_delete.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_flush.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_front_send.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_prioritize.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_receive.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_queue_send_notify.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_ceiling_put.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_create.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_delete.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_prioritize.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_semaphore_put_notify.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_create.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_delete.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_entry_exit_notify.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_preemption_change.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_priority_change.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_relinquish.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_reset.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_resume.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_suspend.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_terminate.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_time_slice_change.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_thread_wait_abort.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_activate.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_change.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_create.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_deactivate.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_delete.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/common/src/txe_timer_info_get.c.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_misra.S.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.S.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.S.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_disable.S.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_restore.S.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.S.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.S.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.S.obj
+dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/middleware/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.S.obj
 dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/build.make
 dst0x-app_bm1.0.elf: CMakeFiles/dst0x-app_bm1.0.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking C executable dst0x-app_bm1.0.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Linking C executable dst0x-app_bm1.0.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dst0x-app_bm1.0.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Generating dst0x-app_bm1.0.bin"
 	arm-none-eabi-objcopy -O binary /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/dst0x-app_bm1.0.elf /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/dst0x-app_bm1.0.bin

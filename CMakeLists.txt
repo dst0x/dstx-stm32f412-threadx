@@ -29,6 +29,8 @@ set(PROJECT_INC       ${CMAKE_SOURCE_DIR}/include)
 set(BSP_INC           ${CMAKE_SOURCE_DIR}/bsp/inc)
 set(APP_INC           ${CMAKE_SOURCE_DIR}/app/inc)
 set(LOG_INC           ${CMAKE_SOURCE_DIR}/middleware/log)
+set(THREADX_INC       ${CMAKE_SOURCE_DIR}/middleware/threadx/common/inc)
+set(THREADX_PORT_INC  ${CMAKE_SOURCE_DIR}/middleware/threadx/ports/cortex_m4/gnu/inc)
 
 # ── HAL driver sources ────────────────────────────────────────────────────────
 file(GLOB HAL_SOURCES
@@ -49,15 +51,38 @@ file(GLOB HAL_SOURCES
     ${CMAKE_SOURCE_DIR}/middleware/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim_ex.c
 )
 
+# ── ThreadX sources ───────────────────────────────────────────────────────────
+file(GLOB THREADX_COMMON_SOURCES
+    ${CMAKE_SOURCE_DIR}/middleware/threadx/common/src/*.c
+)
+
+set(THREADX_PORT_SOURCES
+    ${CMAKE_SOURCE_DIR}/middleware/threadx/ports/cortex_m4/gnu/src/tx_misra.S
+    ${CMAKE_SOURCE_DIR}/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.S
+    ${CMAKE_SOURCE_DIR}/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.S
+    ${CMAKE_SOURCE_DIR}/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S
+    ${CMAKE_SOURCE_DIR}/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_disable.S
+    ${CMAKE_SOURCE_DIR}/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_restore.S
+    ${CMAKE_SOURCE_DIR}/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.S
+    ${CMAKE_SOURCE_DIR}/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.S
+    ${CMAKE_SOURCE_DIR}/middleware/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.S
+    ${CMAKE_SOURCE_DIR}/middleware/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.S
+)
+
 # ── Project sources ───────────────────────────────────────────────────────────
 set(SOURCES
     ${CMAKE_SOURCE_DIR}/main.c
     ${CMAKE_SOURCE_DIR}/startup/startup_stm32f412retx.s
     ${CMAKE_SOURCE_DIR}/bsp/src/system_stm32f4xx.c
     ${CMAKE_SOURCE_DIR}/bsp/src/bsp.c
+    ${CMAKE_SOURCE_DIR}/bsp/src/bsp_gpio.c
+    ${CMAKE_SOURCE_DIR}/bsp/src/bsp_usart.c
+    ${CMAKE_SOURCE_DIR}/bsp/src/tx_initialize_low_level.c
     ${CMAKE_SOURCE_DIR}/app/src/app.c
     ${CMAKE_SOURCE_DIR}/middleware/log/log.c
     ${HAL_SOURCES}
+    ${THREADX_COMMON_SOURCES}
+    ${THREADX_PORT_SOURCES}
 )
 
 # ── Executable ────────────────────────────────────────────────────────────────
@@ -70,11 +95,15 @@ target_include_directories(${PROJECT_NAME} PRIVATE
     ${PROJECT_INC}
     ${BSP_INC}
     ${APP_INC}
+    ${LOG_INC}
+    ${THREADX_INC}
+    ${THREADX_PORT_INC}
 )
 
 target_compile_definitions(${PROJECT_NAME} PRIVATE
     STM32F412Rx
     USE_HAL_DRIVER
+    TX_INCLUDE_USER_DEFINE_FILE
 )
 
 # ── Post-build: generate .bin and print size ──────────────────────────────────
