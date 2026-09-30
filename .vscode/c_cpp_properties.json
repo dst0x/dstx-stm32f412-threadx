@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "STM32F412RETx",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/drivers/Device/ST/STM32F4xx/Include",
+                "${workspaceFolder}/drivers/Include",
+                "${workspaceFolder}/middleware/stm32f4xx_hal_driver/Inc",
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/bsp/inc",
+                "${workspaceFolder}/app/inc"
+            ],
+            "defines": [
+                "STM32F412Rx",
+                "USE_HAL_DRIVER"
+            ],
+            "compilerPath": "/usr/bin/arm-none-eabi-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-arm",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Write(/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/README.md)",
+      "Edit(/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/README.md)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "agent",
+            "prompt": "A file was just changed in the dst0x-app_bm1.0 STM32F412RETx bare-metal firmware project. The changed file is: $ARGUMENTS\n\nYour job: create or update README.md at the project root (/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/README.md) to reflect the current state of the project.\n\nThe README must cover:\n1. Project overview — STM32F412RETx bare-metal firmware, VS Code + CMake toolchain\n2. Hardware — target MCU, LED on PB2\n3. Project structure — directory layout with one-line purpose for each entry\n4. Prerequisites — arm-none-eabi-gcc, cmake, openocd\n5. Build instructions — cmake configure + build commands\n6. Flash instructions — OpenOCD ST-Link task\n7. Debug — cortex-debug launch config\n8. Layer architecture — BSP / App / main layering\n\nRead the key source files (CMakeLists.txt, main.c, bsp/inc/bsp.h, app/src/app.c) to ensure the README accurately reflects the actual code. Keep it concise and factual.",
+            "timeout": 120
+          }
+        ]
+      }
+    ]
+  }
+}

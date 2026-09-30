@@ -1,0 +1,3 @@
+/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles/dst0x-app_bm1.0.dir
+/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles/edit_cache.dir
+/home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/build/CMakeFiles/rebuild_cache.dir

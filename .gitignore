@@ -1,0 +1,23 @@
+# Build
+build/
+cmake-build-*/
+
+# VSCode local state
+.vscode/
+
+# Claude/local AI tooling
+.claude/
+
+# Generated binaries
+*.elf
+*.bin
+*.hex
+*.map
+
+# Object files
+*.o
+*.d
+
+# OS files
+.DS_Store
+Thumbs.db

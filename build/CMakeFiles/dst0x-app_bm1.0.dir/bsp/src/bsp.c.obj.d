@@ -1,0 +1,32 @@
+CMakeFiles/dst0x-app_bm1.0.dir/bsp/src/bsp.c.obj: \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/bsp/src/bsp.c \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/bsp/inc/bsp.h \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Inc/stm32f4xx_hal.h \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/include/stm32f4xx_hal_conf.h \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Inc/stm32f4xx_hal_rcc.h \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Inc/stm32f4xx_hal_def.h \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/drivers/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/drivers/Device/ST/STM32F4xx/Include/stm32f412rx.h \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/drivers/Include/core_cm4.h \
+ /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/drivers/Include/cmsis_version.h \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/drivers/Include/cmsis_compiler.h \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/drivers/Include/cmsis_gcc.h \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/drivers/Include/mpu_armv7.h \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/drivers/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Inc/Legacy/stm32_hal_legacy.h \
+ /usr/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Inc/stm32f4xx_hal_rcc_ex.h \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Inc/stm32f4xx_hal_gpio.h \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Inc/stm32f4xx_hal_gpio_ex.h \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Inc/stm32f4xx_hal_dma.h \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Inc/stm32f4xx_hal_dma_ex.h \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Inc/stm32f4xx_hal_cortex.h \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Inc/stm32f4xx_hal_flash.h \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Inc/stm32f4xx_hal_flash_ex.h \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Inc/stm32f4xx_hal_pwr.h \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Inc/stm32f4xx_hal_pwr_ex.h \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Inc/stm32f4xx_hal_uart.h \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Inc/stm32f4xx_hal_tim.h \
+ /home/dst0x/Documents/Dani/STM32/dst0x-app_bm1.0/middleware/stm32f4xx_hal_driver/Inc/stm32f4xx_hal_tim_ex.h
